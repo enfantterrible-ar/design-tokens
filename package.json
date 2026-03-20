@@ -1,0 +1,9 @@
+{
+  "name": "@enfantterrible-ar/design-tokens",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "tokens": "node bin/merge.js",
+    "tokens:watch": "node --watch --watch-path=src bin/merge.js"
+  }
+}
