@@ -5,5 +5,8 @@
   "scripts": {
     "tokens": "node bin/merge.js",
     "tokens:watch": "node --watch --watch-path=src bin/merge.js"
+  },
+  "devDependencies": {
+    "@pwrs/asimonim": "^0.2.1"
   }
 }

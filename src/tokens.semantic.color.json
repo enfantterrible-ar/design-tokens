@@ -1,0 +1,246 @@
+{
+  "Semantics": {
+    "color": {
+
+      "palette": {
+        "brand": {
+          "100": { "$type": "color", "$value": "{Primitives.color.coral.50}" },
+          "200": { "$type": "color", "$value": "{Primitives.color.coral.200}" },
+          "300": { "$type": "color", "$value": "{Primitives.color.coral.500}", "$description": "Brand identity color. Non-interactive — visual collision with danger." },
+          "400": { "$type": "color", "$value": "{Primitives.color.coral.700}" },
+          "500": { "$type": "color", "$value": "{Primitives.color.coral.900}" }
+        },
+        "primary": {
+          "100": { "$type": "color", "$value": "{Primitives.color.cyan.50}" },
+          "200": { "$type": "color", "$value": "{Primitives.color.cyan.200}" },
+          "300": { "$type": "color", "$value": "{Primitives.color.cyan.500}", "$description": "Action and interactive primary. CTA color. Distinct from brand." },
+          "400": { "$type": "color", "$value": "{Primitives.color.cyan.700}" },
+          "500": { "$type": "color", "$value": "{Primitives.color.cyan.900}" }
+        },
+        "accent": {
+          "100": { "$type": "color", "$value": "{Primitives.color.violet.50}" },
+          "200": { "$type": "color", "$value": "{Primitives.color.violet.200}" },
+          "300": { "$type": "color", "$value": "{Primitives.color.violet.500}", "$description": "Decorative accent. Emphasis, illustration, data visualization." },
+          "400": { "$type": "color", "$value": "{Primitives.color.violet.700}" },
+          "500": { "$type": "color", "$value": "{Primitives.color.violet.900}" }
+        },
+        "neutral": {
+          "100": { "$type": "color", "$value": "{Primitives.color.stone.50}" },
+          "200": { "$type": "color", "$value": "{Primitives.color.stone.200}" },
+          "300": { "$type": "color", "$value": "{Primitives.color.stone.500}" },
+          "400": { "$type": "color", "$value": "{Primitives.color.stone.700}" },
+          "500": { "$type": "color", "$value": "{Primitives.color.stone.900}" }
+        },
+        "success": {
+          "100": { "$type": "color", "$value": "{Primitives.color.emerald.50}" },
+          "200": { "$type": "color", "$value": "{Primitives.color.emerald.200}" },
+          "300": { "$type": "color", "$value": "{Primitives.color.emerald.500}" },
+          "400": { "$type": "color", "$value": "{Primitives.color.emerald.700}" },
+          "500": { "$type": "color", "$value": "{Primitives.color.emerald.900}" }
+        },
+        "warning": {
+          "100": { "$type": "color", "$value": "{Primitives.color.amber.50}" },
+          "200": { "$type": "color", "$value": "{Primitives.color.amber.200}" },
+          "300": { "$type": "color", "$value": "{Primitives.color.amber.500}" },
+          "400": { "$type": "color", "$value": "{Primitives.color.amber.700}" },
+          "500": { "$type": "color", "$value": "{Primitives.color.amber.900}" }
+        },
+        "danger": {
+          "100": { "$type": "color", "$value": "{Primitives.color.crimson.50}" },
+          "200": { "$type": "color", "$value": "{Primitives.color.crimson.200}" },
+          "300": { "$type": "color", "$value": "{Primitives.color.crimson.500}" },
+          "400": { "$type": "color", "$value": "{Primitives.color.crimson.700}" },
+          "500": { "$type": "color", "$value": "{Primitives.color.crimson.900}" }
+        },
+        "info": {
+          "100": { "$type": "color", "$value": "{Primitives.color.amethyst.50}" },
+          "200": { "$type": "color", "$value": "{Primitives.color.amethyst.200}" },
+          "300": { "$type": "color", "$value": "{Primitives.color.amethyst.500}", "$description": "Default for links and focus ring." },
+          "400": { "$type": "color", "$value": "{Primitives.color.amethyst.700}" },
+          "500": { "$type": "color", "$value": "{Primitives.color.amethyst.900}" }
+        }
+      },
+
+      "surface": {
+        "base":    { "$type": "color", "$value": "{Semantics.color.palette.neutral.50}", "$description": "Default application background." },
+        "subtle":  { "$type": "color", "$value": "{Semantics.color.palette.neutral.200}", "$description": "Subtle background for grouped or nested sections." },
+        "raised":  { "$type": "color", "$value": "{Primitives.color.palette.neutral.100}",              "$description": "Foreground containers: cards, modals, dropdowns." },
+        "overlay": { "$type": "color", "$value": "{Semantics.color.palette.neutral.500}", "$description": "Backdrop scrim for modals and overlays." },
+        "inverse": { "$type": "color", "$value": "{Semantics.color.palette.neutral.500}", "$description": "Inverse surface for dark sections." },
+        "brand":   { "$type": "color", "$value": "{Semantics.color.palette.brand.300}",   "$description": "Brand identity surface. Layout-level only. Pair with text.on.solid.brand." }
+      },
+
+      "background": {
+        "solid": {
+          "primary": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.primary.300}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.primary.400}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.primary.500}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.200}" }
+          },
+          "success": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.success.300}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.success.400}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.success.500}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.200}" }
+          },
+          "warning": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.warning.300}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.warning.400}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.warning.500}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.200}" }
+          },
+          "danger": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.danger.300}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.danger.400}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.danger.500}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.200}" }
+          },
+          "info": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.info.300}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.info.400}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.info.500}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.200}" }
+          }
+        },
+        "subtle": {
+          "primary": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.primary.100}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.primary.200}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.primary.300}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" }
+          },
+          "success": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.success.100}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.success.200}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.success.300}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" }
+          },
+          "warning": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.warning.100}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.warning.200}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.warning.300}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" }
+          },
+          "danger": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.danger.100}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.danger.200}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.danger.300}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" }
+          },
+          "info": {
+            "default":  { "$type": "color", "$value": "{Semantics.color.palette.info.100}" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.info.200}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.info.300}" },
+            "disabled": { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" }
+          }
+        },
+        "ghost": {
+          "primary": {
+            "default":  { "$type": "color", "$value": "rgba(0,0,0,0)" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.primary.100}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.primary.200}" },
+            "disabled": { "$type": "color", "$value": "rgba(0,0,0,0)" }
+          },
+          "success": {
+            "default":  { "$type": "color", "$value": "rgba(0,0,0,0)" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.success.100}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.success.200}" },
+            "disabled": { "$type": "color", "$value": "rgba(0,0,0,0)" }
+          },
+          "warning": {
+            "default":  { "$type": "color", "$value": "rgba(0,0,0,0)" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.warning.100}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.warning.200}" },
+            "disabled": { "$type": "color", "$value": "rgba(0,0,0,0)" }
+          },
+          "danger": {
+            "default":  { "$type": "color", "$value": "rgba(0,0,0,0)" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.danger.100}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.danger.200}" },
+            "disabled": { "$type": "color", "$value": "rgba(0,0,0,0)" }
+          },
+          "info": {
+            "default":  { "$type": "color", "$value": "rgba(0,0,0,0)" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.info.100}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.info.200}" },
+            "disabled": { "$type": "color", "$value": "rgba(0,0,0,0)" }
+          },
+          "neutral": {
+            "default":  { "$type": "color", "$value": "rgba(0,0,0,0)" },
+            "hover":    { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" },
+            "active":   { "$type": "color", "$value": "{Semantics.color.palette.neutral.200}" },
+            "disabled": { "$type": "color", "$value": "rgba(0,0,0,0)" }
+          }
+        }
+      },
+
+      "text": {
+        "primary":   { "$type": "color", "$value": "{Semantics.color.palette.neutral.500}" },
+        "secondary": { "$type": "color", "$value": "{Semantics.color.palette.neutral.400}" },
+        "tertiary":  { "$type": "color", "$value": "{Semantics.color.palette.neutral.300}" },
+        "disabled":  { "$type": "color", "$value": "{Semantics.color.palette.neutral.200}" },
+        "icon":      { "$type": "color", "$value": "{Semantics.color.palette.neutral.300}", "$description": "Default icon fill. Separate slot to allow independent icon theming." },
+
+        "on": {
+          "solid": {
+            "brand":   { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}", "$description": "Paired with surface.brand." },
+            "primary": { "$type": "color", "$value": "{Semantics.color.palette.neutral.500}", "$description": "Verify contrast against resolved cyan value." },
+            "success": { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" },
+            "warning": { "$type": "color", "$value": "{Semantics.color.palette.neutral.500}" },
+            "danger":  { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" },
+            "info":    { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" },
+            "inverse": { "$type": "color", "$value": "{Semantics.color.palette.neutral.100}" }
+          },
+          "subtle": {
+            "primary": { "$type": "color", "$value": "{Semantics.color.palette.primary.400}" },
+            "success": { "$type": "color", "$value": "{Semantics.color.palette.success.400}" },
+            "warning": { "$type": "color", "$value": "{Semantics.color.palette.warning.400}" },
+            "danger":  { "$type": "color", "$value": "{Semantics.color.palette.danger.400}" },
+            "info":    { "$type": "color", "$value": "{Semantics.color.palette.info.400}" }
+          }
+        },
+
+        "status": {
+          "success": { "$type": "color", "$value": "{Semantics.color.palette.success.400}" },
+          "warning": { "$type": "color", "$value": "{Semantics.color.palette.warning.400}" },
+          "danger":  { "$type": "color", "$value": "{Semantics.color.palette.danger.400}" },
+          "info":    { "$type": "color", "$value": "{Semantics.color.palette.info.400}" }
+        },
+
+        "link": {
+          "default": { "$type": "color", "$value": "{Semantics.color.palette.info.300}" },
+          "hover":   { "$type": "color", "$value": "{Semantics.color.palette.info.400}" },
+          "visited": { "$type": "color", "$value": "{Semantics.color.palette.accent.300}" }
+        }
+      },
+
+      "border": {
+        "neutral": {
+          "subtle": { "$type": "color", "$value": "{Semantics.color.palette.neutral.200}" },
+          "strong": { "$type": "color", "$value": "{Semantics.color.palette.neutral.300}" }
+        },
+        "intent": {
+          "primary": { "$type": "color", "$value": "{Semantics.color.palette.primary.300}" },
+          "success": { "$type": "color", "$value": "{Semantics.color.palette.success.300}" },
+          "warning": { "$type": "color", "$value": "{Semantics.color.palette.warning.300}" },
+          "danger":  { "$type": "color", "$value": "{Semantics.color.palette.danger.300}" },
+          "info":    { "$type": "color", "$value": "{Semantics.color.palette.info.300}" }
+        },
+        "brand": { "$type": "color", "$value": "{Semantics.color.palette.brand.300}", "$description": "Decorative brand border. Not a semantic signal." }
+      }
+
+    },
+
+    "interaction": {
+      "focus": {
+        "ring": {
+          "color":  { "$type": "color",     "$value": "{Semantics.color.palette.info.300}" },
+          "width":  { "$type": "dimension",  "$value": "2px" },
+          "offset": { "$type": "dimension",  "$value": "2px" }
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"Semantics": {
+		"interaction": {
+			"focus": {
+				"ring": {
+					"color": {
+						"$type": "color",
+						"$value": "{Semantics.color.palette.info.300}"
+					},
+					"width": {
+						"$type": "dimension",
+						"$value": "2px"
+					},
+					"offset": {
+						"$type": "dimension",
+						"$value": "2px"
+					}
+				}
+			}
+		}
+	}
+}
