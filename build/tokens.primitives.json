@@ -1,0 +1,6229 @@
+{
+  "primitives": {
+    "angle": {
+      "0": {
+        "$description": "Angle 0",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "number",
+        "$value": 0
+      },
+      "15": {
+        "$description": "Angle 15",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "number",
+        "$value": 15
+      },
+      "30": {
+        "$description": "Angle 30",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "number",
+        "$value": 30
+      },
+      "45": {
+        "$description": "Angle 45",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "number",
+        "$value": 45
+      },
+      "60": {
+        "$description": "Angle 60",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "number",
+        "$value": 60
+      },
+      "75": {
+        "$description": "Angle 75",
+        "$extensions": {
+          "org.enfantterrible.order": 5
+        },
+        "$type": "number",
+        "$value": 75
+      },
+      "90": {
+        "$description": "Angle 90",
+        "$extensions": {
+          "org.enfantterrible.order": 6
+        },
+        "$type": "number",
+        "$value": 90
+      },
+      "105": {
+        "$description": "Angle 105",
+        "$extensions": {
+          "org.enfantterrible.order": 7
+        },
+        "$type": "number",
+        "$value": 105
+      },
+      "120": {
+        "$description": "Angle 120",
+        "$extensions": {
+          "org.enfantterrible.order": 8
+        },
+        "$type": "number",
+        "$value": 120
+      },
+      "135": {
+        "$description": "Angle 135",
+        "$extensions": {
+          "org.enfantterrible.order": 9
+        },
+        "$type": "number",
+        "$value": 135
+      },
+      "150": {
+        "$description": "Angle 150",
+        "$extensions": {
+          "org.enfantterrible.order": 10
+        },
+        "$type": "number",
+        "$value": 150
+      },
+      "165": {
+        "$description": "Angle 165",
+        "$extensions": {
+          "org.enfantterrible.order": 11
+        },
+        "$type": "number",
+        "$value": 165
+      },
+      "180": {
+        "$description": "Angle 180",
+        "$extensions": {
+          "org.enfantterrible.order": 12
+        },
+        "$type": "number",
+        "$value": 180
+      },
+      "195": {
+        "$description": "Angle 195",
+        "$extensions": {
+          "org.enfantterrible.order": 13
+        },
+        "$type": "number",
+        "$value": 195
+      },
+      "210": {
+        "$description": "Angle 210",
+        "$extensions": {
+          "org.enfantterrible.order": 14
+        },
+        "$type": "number",
+        "$value": 210
+      },
+      "225": {
+        "$description": "Angle 225",
+        "$extensions": {
+          "org.enfantterrible.order": 15
+        },
+        "$type": "number",
+        "$value": 225
+      },
+      "240": {
+        "$description": "Angle 240",
+        "$extensions": {
+          "org.enfantterrible.order": 16
+        },
+        "$type": "number",
+        "$value": 240
+      },
+      "255": {
+        "$description": "Angle 255",
+        "$extensions": {
+          "org.enfantterrible.order": 17
+        },
+        "$type": "number",
+        "$value": 255
+      },
+      "270": {
+        "$description": "Angle 270",
+        "$extensions": {
+          "org.enfantterrible.order": 18
+        },
+        "$type": "number",
+        "$value": 270
+      },
+      "285": {
+        "$description": "Angle 285",
+        "$extensions": {
+          "org.enfantterrible.order": 19
+        },
+        "$type": "number",
+        "$value": 285
+      },
+      "300": {
+        "$description": "Angle 300",
+        "$extensions": {
+          "org.enfantterrible.order": 20
+        },
+        "$type": "number",
+        "$value": 300
+      },
+      "315": {
+        "$description": "Angle 315",
+        "$extensions": {
+          "org.enfantterrible.order": 21
+        },
+        "$type": "number",
+        "$value": 315
+      },
+      "330": {
+        "$description": "Angle 330",
+        "$extensions": {
+          "org.enfantterrible.order": 22
+        },
+        "$type": "number",
+        "$value": 330
+      },
+      "345": {
+        "$description": "Angle 345",
+        "$extensions": {
+          "org.enfantterrible.order": 23
+        },
+        "$type": "number",
+        "$value": 345
+      },
+      "360": {
+        "$description": "Angle 360",
+        "$extensions": {
+          "org.enfantterrible.order": 24
+        },
+        "$type": "number",
+        "$value": 360
+      },
+      "$description": "Angle scale"
+    },
+    "color": {
+      "black": {
+        "$description": "Color black",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        }
+      },
+      "white": {
+        "$description": "Color white",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "hex": "#ffffff"
+        }
+      },
+      "slate-50": {
+        "$description": "Color slate-50",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9731,
+            0.98,
+            0.9869
+          ],
+          "hex": "#f8fafc"
+        }
+      },
+      "slate-100": {
+        "$description": "Color slate-100",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9445,
+            0.9605,
+            0.9765
+          ],
+          "hex": "#f1f5f9"
+        }
+      },
+      "slate-200": {
+        "$description": "Color slate-200",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.886,
+            0.9102,
+            0.9425
+          ],
+          "hex": "#e2e8f0"
+        }
+      },
+      "slate-300": {
+        "$description": "Color slate-300",
+        "$extensions": {
+          "org.enfantterrible.order": 5
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7923,
+            0.8358,
+            0.888
+          ],
+          "hex": "#cad5e2"
+        }
+      },
+      "slate-400": {
+        "$description": "Color slate-400",
+        "$extensions": {
+          "org.enfantterrible.order": 6
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5648,
+            0.6317,
+            0.7252
+          ],
+          "hex": "#90a1b9"
+        }
+      },
+      "slate-500": {
+        "$description": "Color slate-500",
+        "$extensions": {
+          "org.enfantterrible.order": 7
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3839,
+            0.4548,
+            0.5567
+          ],
+          "hex": "#62748e"
+        }
+      },
+      "slate-600": {
+        "$description": "Color slate-600",
+        "$extensions": {
+          "org.enfantterrible.order": 8
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.271,
+            0.3341,
+            0.4242
+          ],
+          "hex": "#45556c"
+        }
+      },
+      "slate-700": {
+        "$description": "Color slate-700",
+        "$extensions": {
+          "org.enfantterrible.order": 9
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1935,
+            0.2553,
+            0.3435
+          ],
+          "hex": "#314158"
+        }
+      },
+      "slate-800": {
+        "$description": "Color slate-800",
+        "$extensions": {
+          "org.enfantterrible.order": 10
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1121,
+            0.16,
+            0.2387
+          ],
+          "hex": "#1d293d"
+        }
+      },
+      "slate-900": {
+        "$description": "Color slate-900",
+        "$extensions": {
+          "org.enfantterrible.order": 11
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0572,
+            0.09,
+            0.1688
+          ],
+          "hex": "#0f172b"
+        }
+      },
+      "slate-950": {
+        "$description": "Color slate-950",
+        "$extensions": {
+          "org.enfantterrible.order": 12
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0074,
+            0.0233,
+            0.0925
+          ],
+          "hex": "#020618"
+        }
+      },
+      "gray-50": {
+        "$description": "Color gray-50",
+        "$extensions": {
+          "org.enfantterrible.order": 13
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9764,
+            0.981,
+            0.9856
+          ],
+          "hex": "#f9fafb"
+        }
+      },
+      "gray-100": {
+        "$description": "Color gray-100",
+        "$extensions": {
+          "org.enfantterrible.order": 14
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9528,
+            0.9569,
+            0.9651
+          ],
+          "hex": "#f3f4f6"
+        }
+      },
+      "gray-200": {
+        "$description": "Color gray-200",
+        "$extensions": {
+          "org.enfantterrible.order": 15
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8983,
+            0.9064,
+            0.9226
+          ],
+          "hex": "#e5e7eb"
+        }
+      },
+      "gray-300": {
+        "$description": "Color gray-300",
+        "$extensions": {
+          "org.enfantterrible.order": 16
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.819,
+            0.8358,
+            0.861
+          ],
+          "hex": "#d1d5dc"
+        }
+      },
+      "gray-400": {
+        "$description": "Color gray-400",
+        "$extensions": {
+          "org.enfantterrible.order": 17
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6,
+            0.6314,
+            0.6852
+          ],
+          "hex": "#99a1af"
+        }
+      },
+      "gray-500": {
+        "$description": "Color gray-500",
+        "$extensions": {
+          "org.enfantterrible.order": 18
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4155,
+            0.4471,
+            0.5105
+          ],
+          "hex": "#6a7282"
+        }
+      },
+      "gray-600": {
+        "$description": "Color gray-600",
+        "$extensions": {
+          "org.enfantterrible.order": 19
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2888,
+            0.3335,
+            0.3961
+          ],
+          "hex": "#4a5565"
+        }
+      },
+      "gray-700": {
+        "$description": "Color gray-700",
+        "$extensions": {
+          "org.enfantterrible.order": 20
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2115,
+            0.255,
+            0.3247
+          ],
+          "hex": "#364153"
+        }
+      },
+      "gray-800": {
+        "$description": "Color gray-800",
+        "$extensions": {
+          "org.enfantterrible.order": 21
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.117,
+            0.1608,
+            0.222
+          ],
+          "hex": "#1e2939"
+        }
+      },
+      "gray-900": {
+        "$description": "Color gray-900",
+        "$extensions": {
+          "org.enfantterrible.order": 22
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0645,
+            0.0937,
+            0.1568
+          ],
+          "hex": "#101828"
+        }
+      },
+      "gray-950": {
+        "$description": "Color gray-950",
+        "$extensions": {
+          "org.enfantterrible.order": 23
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0116,
+            0.0276,
+            0.0719
+          ],
+          "hex": "#030712"
+        }
+      },
+      "zinc-50": {
+        "$description": "Color zinc-50",
+        "$extensions": {
+          "org.enfantterrible.order": 24
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9803,
+            0.9803,
+            0.9803
+          ],
+          "hex": "#fafafa"
+        }
+      },
+      "zinc-100": {
+        "$description": "Color zinc-100",
+        "$extensions": {
+          "org.enfantterrible.order": 25
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9564,
+            0.9564,
+            0.9593
+          ],
+          "hex": "#f4f4f5"
+        }
+      },
+      "zinc-200": {
+        "$description": "Color zinc-200",
+        "$extensions": {
+          "org.enfantterrible.order": 26
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8945,
+            0.8945,
+            0.9062
+          ],
+          "hex": "#e4e4e7"
+        }
+      },
+      "zinc-300": {
+        "$description": "Color zinc-300",
+        "$extensions": {
+          "org.enfantterrible.order": 27
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8311,
+            0.8311,
+            0.8483
+          ],
+          "hex": "#d4d4d8"
+        }
+      },
+      "zinc-400": {
+        "$description": "Color zinc-400",
+        "$extensions": {
+          "org.enfantterrible.order": 28
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6226,
+            0.6226,
+            0.6634
+          ],
+          "hex": "#9f9fa9"
+        }
+      },
+      "zinc-500": {
+        "$description": "Color zinc-500",
+        "$extensions": {
+          "org.enfantterrible.order": 29
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.443,
+            0.4429,
+            0.4838
+          ],
+          "hex": "#71717b"
+        }
+      },
+      "zinc-600": {
+        "$description": "Color zinc-600",
+        "$extensions": {
+          "org.enfantterrible.order": 30
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3212,
+            0.3211,
+            0.3621
+          ],
+          "hex": "#52525c"
+        }
+      },
+      "zinc-700": {
+        "$description": "Color zinc-700",
+        "$extensions": {
+          "org.enfantterrible.order": 31
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2465,
+            0.2464,
+            0.2765
+          ],
+          "hex": "#3f3f46"
+        }
+      },
+      "zinc-800": {
+        "$description": "Color zinc-800",
+        "$extensions": {
+          "org.enfantterrible.order": 32
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1529,
+            0.1529,
+            0.1658
+          ],
+          "hex": "#27272a"
+        }
+      },
+      "zinc-900": {
+        "$description": "Color zinc-900",
+        "$extensions": {
+          "org.enfantterrible.order": 33
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0938,
+            0.0938,
+            0.1058
+          ],
+          "hex": "#18181b"
+        }
+      },
+      "zinc-950": {
+        "$description": "Color zinc-950",
+        "$extensions": {
+          "org.enfantterrible.order": 34
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0354,
+            0.0354,
+            0.0443
+          ],
+          "hex": "#09090b"
+        }
+      },
+      "neutral-50": {
+        "$description": "Color neutral-50",
+        "$extensions": {
+          "org.enfantterrible.order": 35
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9803,
+            0.9803,
+            0.9803
+          ],
+          "hex": "#fafafa"
+        }
+      },
+      "neutral-100": {
+        "$description": "Color neutral-100",
+        "$extensions": {
+          "org.enfantterrible.order": 36
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9606,
+            0.9606,
+            0.9606
+          ],
+          "hex": "#f5f5f5"
+        }
+      },
+      "neutral-200": {
+        "$description": "Color neutral-200",
+        "$extensions": {
+          "org.enfantterrible.order": 37
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8982,
+            0.8982,
+            0.8982
+          ],
+          "hex": "#e5e5e5"
+        }
+      },
+      "neutral-300": {
+        "$description": "Color neutral-300",
+        "$extensions": {
+          "org.enfantterrible.order": 38
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8314,
+            0.8314,
+            0.8314
+          ],
+          "hex": "#d4d4d4"
+        }
+      },
+      "neutral-400": {
+        "$description": "Color neutral-400",
+        "$extensions": {
+          "org.enfantterrible.order": 39
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6302,
+            0.6302,
+            0.6302
+          ],
+          "hex": "#a1a1a1"
+        }
+      },
+      "neutral-500": {
+        "$description": "Color neutral-500",
+        "$extensions": {
+          "org.enfantterrible.order": 40
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4515,
+            0.4515,
+            0.4515
+          ],
+          "hex": "#737373"
+        }
+      },
+      "neutral-600": {
+        "$description": "Color neutral-600",
+        "$extensions": {
+          "org.enfantterrible.order": 41
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.322,
+            0.322,
+            0.322
+          ],
+          "hex": "#525252"
+        }
+      },
+      "neutral-700": {
+        "$description": "Color neutral-700",
+        "$extensions": {
+          "org.enfantterrible.order": 42
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2505,
+            0.2505,
+            0.2505
+          ],
+          "hex": "#404040"
+        }
+      },
+      "neutral-800": {
+        "$description": "Color neutral-800",
+        "$extensions": {
+          "org.enfantterrible.order": 43
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1494,
+            0.1494,
+            0.1494
+          ],
+          "hex": "#262626"
+        }
+      },
+      "neutral-900": {
+        "$description": "Color neutral-900",
+        "$extensions": {
+          "org.enfantterrible.order": 44
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0905,
+            0.0905,
+            0.0905
+          ],
+          "hex": "#171717"
+        }
+      },
+      "neutral-950": {
+        "$description": "Color neutral-950",
+        "$extensions": {
+          "org.enfantterrible.order": 45
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0394,
+            0.0394,
+            0.0394
+          ],
+          "hex": "#0a0a0a"
+        }
+      },
+      "stone-50": {
+        "$description": "Color stone-50",
+        "$extensions": {
+          "org.enfantterrible.order": 46
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9805,
+            0.9805,
+            0.9776
+          ],
+          "hex": "#fafaf9"
+        }
+      },
+      "stone-100": {
+        "$description": "Color stone-100",
+        "$extensions": {
+          "org.enfantterrible.order": 47
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9609,
+            0.9609,
+            0.9579
+          ],
+          "hex": "#f5f5f4"
+        }
+      },
+      "stone-200": {
+        "$description": "Color stone-200",
+        "$extensions": {
+          "org.enfantterrible.order": 48
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9067,
+            0.8975,
+            0.8929
+          ],
+          "hex": "#e7e5e4"
+        }
+      },
+      "stone-300": {
+        "$description": "Color stone-300",
+        "$extensions": {
+          "org.enfantterrible.order": 49
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8412,
+            0.8275,
+            0.8184
+          ],
+          "hex": "#d6d3d1"
+        }
+      },
+      "stone-400": {
+        "$description": "Color stone-400",
+        "$extensions": {
+          "org.enfantterrible.order": 50
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6521,
+            0.6262,
+            0.6089
+          ],
+          "hex": "#a6a09b"
+        }
+      },
+      "stone-500": {
+        "$description": "Color stone-500",
+        "$extensions": {
+          "org.enfantterrible.order": 51
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4727,
+            0.442,
+            0.42
+          ],
+          "hex": "#79716b"
+        }
+      },
+      "stone-600": {
+        "$description": "Color stone-600",
+        "$extensions": {
+          "org.enfantterrible.order": 52
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3427,
+            0.3247,
+            0.3022
+          ],
+          "hex": "#57534d"
+        }
+      },
+      "stone-700": {
+        "$description": "Color stone-700",
+        "$extensions": {
+          "org.enfantterrible.order": 53
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2685,
+            0.2504,
+            0.2323
+          ],
+          "hex": "#44403b"
+        }
+      },
+      "stone-800": {
+        "$description": "Color stone-800",
+        "$extensions": {
+          "org.enfantterrible.order": 54
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1616,
+            0.1442,
+            0.1398
+          ],
+          "hex": "#292524"
+        }
+      },
+      "stone-900": {
+        "$description": "Color stone-900",
+        "$extensions": {
+          "org.enfantterrible.order": 55
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1095,
+            0.098,
+            0.0903
+          ],
+          "hex": "#1c1917"
+        }
+      },
+      "stone-950": {
+        "$description": "Color stone-950",
+        "$extensions": {
+          "org.enfantterrible.order": 56
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.047,
+            0.0394,
+            0.0355
+          ],
+          "hex": "#0c0a09"
+        }
+      },
+      "mauve-50": {
+        "$description": "Color mauve-50",
+        "$extensions": {
+          "org.enfantterrible.order": 57
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9803,
+            0.9803,
+            0.9803
+          ],
+          "hex": "#fafafa"
+        }
+      },
+      "mauve-100": {
+        "$description": "Color mauve-100",
+        "$extensions": {
+          "org.enfantterrible.order": 58
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.952,
+            0.9451,
+            0.952
+          ],
+          "hex": "#f3f1f3"
+        }
+      },
+      "mauve-200": {
+        "$description": "Color mauve-200",
+        "$extensions": {
+          "org.enfantterrible.order": 59
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9056,
+            0.8942,
+            0.9056
+          ],
+          "hex": "#e7e4e7"
+        }
+      },
+      "mauve-300": {
+        "$description": "Color mauve-300",
+        "$extensions": {
+          "org.enfantterrible.order": 60
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8426,
+            0.8155,
+            0.8426
+          ],
+          "hex": "#d7d0d7"
+        }
+      },
+      "mauve-400": {
+        "$description": "Color mauve-400",
+        "$extensions": {
+          "org.enfantterrible.order": 61
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6581,
+            0.6197,
+            0.6619
+          ],
+          "hex": "#a89ea9"
+        }
+      },
+      "mauve-500": {
+        "$description": "Color mauve-500",
+        "$extensions": {
+          "org.enfantterrible.order": 62
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4748,
+            0.4115,
+            0.4827
+          ],
+          "hex": "#79697b"
+        }
+      },
+      "mauve-600": {
+        "$description": "Color mauve-600",
+        "$extensions": {
+          "org.enfantterrible.order": 63
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3486,
+            0.2983,
+            0.3563
+          ],
+          "hex": "#594c5b"
+        }
+      },
+      "mauve-700": {
+        "$description": "Color mauve-700",
+        "$extensions": {
+          "org.enfantterrible.order": 64
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2744,
+            0.224,
+            0.2782
+          ],
+          "hex": "#463947"
+        }
+      },
+      "mauve-800": {
+        "$description": "Color mauve-800",
+        "$extensions": {
+          "org.enfantterrible.order": 65
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1649,
+            0.1295,
+            0.1728
+          ],
+          "hex": "#2a212c"
+        }
+      },
+      "mauve-900": {
+        "$description": "Color mauve-900",
+        "$extensions": {
+          "org.enfantterrible.order": 66
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1136,
+            0.0859,
+            0.1176
+          ],
+          "hex": "#1d161e"
+        }
+      },
+      "mauve-950": {
+        "$description": "Color mauve-950",
+        "$extensions": {
+          "org.enfantterrible.order": 67
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0467,
+            0.0353,
+            0.0467
+          ],
+          "hex": "#0c090c"
+        }
+      },
+      "olive-50": {
+        "$description": "Color olive-50",
+        "$extensions": {
+          "org.enfantterrible.order": 68
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.985,
+            0.985,
+            0.9761
+          ],
+          "hex": "#fbfbf9"
+        }
+      },
+      "olive-100": {
+        "$description": "Color olive-100",
+        "$extensions": {
+          "org.enfantterrible.order": 69
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9567,
+            0.9567,
+            0.9419
+          ],
+          "hex": "#f4f4f0"
+        }
+      },
+      "olive-200": {
+        "$description": "Color olive-200",
+        "$extensions": {
+          "org.enfantterrible.order": 70
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9104,
+            0.9104,
+            0.8898
+          ],
+          "hex": "#e8e8e3"
+        }
+      },
+      "olive-300": {
+        "$description": "Color olive-300",
+        "$extensions": {
+          "org.enfantterrible.order": 71
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8471,
+            0.8471,
+            0.8152
+          ],
+          "hex": "#d8d8d0"
+        }
+      },
+      "olive-400": {
+        "$description": "Color olive-400",
+        "$extensions": {
+          "org.enfantterrible.order": 72
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6706,
+            0.6706,
+            0.612
+          ],
+          "hex": "#abab9c"
+        }
+      },
+      "olive-500": {
+        "$description": "Color olive-500",
+        "$extensions": {
+          "org.enfantterrible.order": 73
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.486,
+            0.4859,
+            0.4035
+          ],
+          "hex": "#7c7c67"
+        }
+      },
+      "olive-600": {
+        "$description": "Color olive-600",
+        "$extensions": {
+          "org.enfantterrible.order": 74
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3565,
+            0.3565,
+            0.2936
+          ],
+          "hex": "#5b5b4b"
+        }
+      },
+      "olive-700": {
+        "$description": "Color olive-700",
+        "$extensions": {
+          "org.enfantterrible.order": 75
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.279,
+            0.279,
+            0.2233
+          ],
+          "hex": "#474739"
+        }
+      },
+      "olive-800": {
+        "$description": "Color olive-800",
+        "$extensions": {
+          "org.enfantterrible.order": 76
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1686,
+            0.1687,
+            0.133
+          ],
+          "hex": "#2b2b22"
+        }
+      },
+      "olive-900": {
+        "$description": "Color olive-900",
+        "$extensions": {
+          "org.enfantterrible.order": 77
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1135,
+            0.1135,
+            0.0861
+          ],
+          "hex": "#1d1d16"
+        }
+      },
+      "olive-950": {
+        "$description": "Color olive-950",
+        "$extensions": {
+          "org.enfantterrible.order": 78
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0469,
+            0.0469,
+            0.0357
+          ],
+          "hex": "#0c0c09"
+        }
+      },
+      "mist-50": {
+        "$description": "Color mist-50",
+        "$extensions": {
+          "org.enfantterrible.order": 79
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9774,
+            0.9848,
+            0.9848
+          ],
+          "hex": "#f9fbfb"
+        }
+      },
+      "mist-100": {
+        "$description": "Color mist-100",
+        "$extensions": {
+          "org.enfantterrible.order": 80
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.946,
+            0.9533,
+            0.9533
+          ],
+          "hex": "#f1f3f3"
+        }
+      },
+      "mist-200": {
+        "$description": "Color mist-200",
+        "$extensions": {
+          "org.enfantterrible.order": 81
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8887,
+            0.906,
+            0.9103
+          ],
+          "hex": "#e3e7e8"
+        }
+      },
+      "mist-300": {
+        "$description": "Color mist-300",
+        "$extensions": {
+          "org.enfantterrible.order": 82
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8159,
+            0.8391,
+            0.8468
+          ],
+          "hex": "#d0d6d8"
+        }
+      },
+      "mist-400": {
+        "$description": "Color mist-400",
+        "$extensions": {
+          "org.enfantterrible.order": 83
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6124,
+            0.6586,
+            0.6702
+          ],
+          "hex": "#9ca8ab"
+        }
+      },
+      "mist-500": {
+        "$description": "Color mist-500",
+        "$extensions": {
+          "org.enfantterrible.order": 84
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4039,
+            0.4703,
+            0.486
+          ],
+          "hex": "#67787c"
+        }
+      },
+      "mist-600": {
+        "$description": "Color mist-600",
+        "$extensions": {
+          "org.enfantterrible.order": 85
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2938,
+            0.3448,
+            0.3566
+          ],
+          "hex": "#4b585b"
+        }
+      },
+      "mist-700": {
+        "$description": "Color mist-700",
+        "$extensions": {
+          "org.enfantterrible.order": 86
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2242,
+            0.2666,
+            0.2782
+          ],
+          "hex": "#394447"
+        }
+      },
+      "mist-800": {
+        "$description": "Color mist-800",
+        "$extensions": {
+          "org.enfantterrible.order": 87
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1325,
+            0.1611,
+            0.1692
+          ],
+          "hex": "#22292b"
+        }
+      },
+      "mist-900": {
+        "$description": "Color mist-900",
+        "$extensions": {
+          "org.enfantterrible.order": 88
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0874,
+            0.1058,
+            0.1132
+          ],
+          "hex": "#161b1d"
+        }
+      },
+      "mist-950": {
+        "$description": "Color mist-950",
+        "$extensions": {
+          "org.enfantterrible.order": 89
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0356,
+            0.0434,
+            0.0473
+          ],
+          "hex": "#090b0c"
+        }
+      },
+      "taupe-50": {
+        "$description": "Color taupe-50",
+        "$extensions": {
+          "org.enfantterrible.order": 90
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9854,
+            0.9808,
+            0.9762
+          ],
+          "hex": "#fbfaf9"
+        }
+      },
+      "taupe-100": {
+        "$description": "Color taupe-100",
+        "$extensions": {
+          "org.enfantterrible.order": 91
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.953,
+            0.9456,
+            0.9456
+          ],
+          "hex": "#f3f1f1"
+        }
+      },
+      "taupe-200": {
+        "$description": "Color taupe-200",
+        "$extensions": {
+          "org.enfantterrible.order": 92
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9113,
+            0.8941,
+            0.8899
+          ],
+          "hex": "#e8e4e3"
+        }
+      },
+      "taupe-300": {
+        "$description": "Color taupe-300",
+        "$extensions": {
+          "org.enfantterrible.order": 93
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8466,
+            0.8237,
+            0.8161
+          ],
+          "hex": "#d8d2d0"
+        }
+      },
+      "taupe-400": {
+        "$description": "Color taupe-400",
+        "$extensions": {
+          "org.enfantterrible.order": 94
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6703,
+            0.6276,
+            0.6121
+          ],
+          "hex": "#aba09c"
+        }
+      },
+      "taupe-500": {
+        "$description": "Color taupe-500",
+        "$extensions": {
+          "org.enfantterrible.order": 95
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.486,
+            0.4276,
+            0.4042
+          ],
+          "hex": "#7c6d67"
+        }
+      },
+      "taupe-600": {
+        "$description": "Color taupe-600",
+        "$extensions": {
+          "org.enfantterrible.order": 96
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3559,
+            0.3098,
+            0.2945
+          ],
+          "hex": "#5b4f4b"
+        }
+      },
+      "taupe-700": {
+        "$description": "Color taupe-700",
+        "$extensions": {
+          "org.enfantterrible.order": 97
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2782,
+            0.2358,
+            0.2243
+          ],
+          "hex": "#473c39"
+        }
+      },
+      "taupe-800": {
+        "$description": "Color taupe-800",
+        "$extensions": {
+          "org.enfantterrible.order": 98
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1686,
+            0.1418,
+            0.1342
+          ],
+          "hex": "#2b2422"
+        }
+      },
+      "taupe-900": {
+        "$description": "Color taupe-900",
+        "$extensions": {
+          "org.enfantterrible.order": 99
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1137,
+            0.0939,
+            0.086
+          ],
+          "hex": "#1d1816"
+        }
+      },
+      "taupe-950": {
+        "$description": "Color taupe-950",
+        "$extensions": {
+          "org.enfantterrible.order": 100
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.047,
+            0.0394,
+            0.0355
+          ],
+          "hex": "#0c0a09"
+        }
+      },
+      "red-50": {
+        "$description": "Color red-50",
+        "$extensions": {
+          "org.enfantterrible.order": 101
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9968,
+            0.9496,
+            0.9496
+          ],
+          "hex": "#fef2f2"
+        }
+      },
+      "red-100": {
+        "$description": "Color red-100",
+        "$extensions": {
+          "org.enfantterrible.order": 102
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9993,
+            0.8856,
+            0.8857
+          ],
+          "hex": "#ffe2e2"
+        }
+      },
+      "red-200": {
+        "$description": "Color red-200",
+        "$extensions": {
+          "org.enfantterrible.order": 103
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0029,
+            0.7898,
+            0.79
+          ],
+          "hex": "#ffc9c9"
+        }
+      },
+      "red-300": {
+        "$description": "Color red-300",
+        "$extensions": {
+          "org.enfantterrible.order": 104
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0097,
+            0.6347,
+            0.6364
+          ],
+          "hex": "#ffa2a2"
+        }
+      },
+      "red-400": {
+        "$description": "Color red-400",
+        "$extensions": {
+          "org.enfantterrible.order": 105
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0056,
+            0.3912,
+            0.4039
+          ],
+          "hex": "#ff6467"
+        }
+      },
+      "red-500": {
+        "$description": "Color red-500",
+        "$extensions": {
+          "org.enfantterrible.order": 106
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9827,
+            0.1718,
+            0.2131
+          ],
+          "hex": "#fb2c36"
+        }
+      },
+      "red-600": {
+        "$description": "Color red-600",
+        "$extensions": {
+          "org.enfantterrible.order": 107
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9065,
+            -0.0959,
+            0.0422
+          ],
+          "hex": "#e7000b"
+        }
+      },
+      "red-700": {
+        "$description": "Color red-700",
+        "$extensions": {
+          "org.enfantterrible.order": 108
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7569,
+            -0.0624,
+            0.0288
+          ],
+          "hex": "#c10007"
+        }
+      },
+      "red-800": {
+        "$description": "Color red-800",
+        "$extensions": {
+          "org.enfantterrible.order": 109
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6222,
+            0.0288,
+            0.0689
+          ],
+          "hex": "#9f0712"
+        }
+      },
+      "red-900": {
+        "$description": "Color red-900",
+        "$extensions": {
+          "org.enfantterrible.order": 110
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5092,
+            0.0923,
+            0.1007
+          ],
+          "hex": "#82181a"
+        }
+      },
+      "red-950": {
+        "$description": "Color red-950",
+        "$extensions": {
+          "org.enfantterrible.order": 111
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2754,
+            0.0316,
+            0.0345
+          ],
+          "hex": "#460809"
+        }
+      },
+      "orange-50": {
+        "$description": "Color orange-50",
+        "$extensions": {
+          "org.enfantterrible.order": 112
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0009,
+            0.9691,
+            0.9293
+          ],
+          "hex": "#fff7ed"
+        }
+      },
+      "orange-100": {
+        "$description": "Color orange-100",
+        "$extensions": {
+          "org.enfantterrible.order": 113
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0011,
+            0.9289,
+            0.8326
+          ],
+          "hex": "#ffedd4"
+        }
+      },
+      "orange-200": {
+        "$description": "Color orange-200",
+        "$extensions": {
+          "org.enfantterrible.order": 114
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0004,
+            0.8411,
+            0.6568
+          ],
+          "hex": "#ffd6a7"
+        }
+      },
+      "orange-300": {
+        "$description": "Color orange-300",
+        "$extensions": {
+          "org.enfantterrible.order": 115
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0112,
+            0.7223,
+            0.4139
+          ],
+          "hex": "#ffb86a"
+        }
+      },
+      "orange-400": {
+        "$description": "Color orange-400",
+        "$extensions": {
+          "org.enfantterrible.order": 116
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0125,
+            0.537,
+            0.0138
+          ],
+          "hex": "#ff8904"
+        }
+      },
+      "orange-500": {
+        "$description": "Color orange-500",
+        "$extensions": {
+          "org.enfantterrible.order": 117
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0187,
+            0.4107,
+            -0.1658
+          ],
+          "hex": "#ff6900"
+        }
+      },
+      "orange-600": {
+        "$description": "Color orange-600",
+        "$extensions": {
+          "org.enfantterrible.order": 118
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9607,
+            0.2882,
+            -0.1544
+          ],
+          "hex": "#f54900"
+        }
+      },
+      "orange-700": {
+        "$description": "Color orange-700",
+        "$extensions": {
+          "org.enfantterrible.order": 119
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7919,
+            0.2073,
+            -0.0963
+          ],
+          "hex": "#ca3500"
+        }
+      },
+      "orange-800": {
+        "$description": "Color orange-800",
+        "$extensions": {
+          "org.enfantterrible.order": 120
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6245,
+            0.1766,
+            -0.0043
+          ],
+          "hex": "#9f2d00"
+        }
+      },
+      "orange-900": {
+        "$description": "Color orange-900",
+        "$extensions": {
+          "org.enfantterrible.order": 121
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4951,
+            0.1654,
+            0.0457
+          ],
+          "hex": "#7e2a0c"
+        }
+      },
+      "orange-950": {
+        "$description": "Color orange-950",
+        "$extensions": {
+          "org.enfantterrible.order": 122
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2664,
+            0.0744,
+            0.0219
+          ],
+          "hex": "#441306"
+        }
+      },
+      "amber-50": {
+        "$description": "Color amber-50",
+        "$extensions": {
+          "org.enfantterrible.order": 123
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0006,
+            0.9845,
+            0.92
+          ],
+          "hex": "#fffbeb"
+        }
+      },
+      "amber-100": {
+        "$description": "Color amber-100",
+        "$extensions": {
+          "org.enfantterrible.order": 124
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.997,
+            0.9531,
+            0.7775
+          ],
+          "hex": "#fef3c6"
+        }
+      },
+      "amber-200": {
+        "$description": "Color amber-200",
+        "$extensions": {
+          "org.enfantterrible.order": 125
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9957,
+            0.9012,
+            0.5222
+          ],
+          "hex": "#fee685"
+        }
+      },
+      "amber-300": {
+        "$description": "Color amber-300",
+        "$extensions": {
+          "org.enfantterrible.order": 126
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.003,
+            0.8238,
+            0.1876
+          ],
+          "hex": "#ffd230"
+        }
+      },
+      "amber-400": {
+        "$description": "Color amber-400",
+        "$extensions": {
+          "org.enfantterrible.order": 127
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0003,
+            0.7273,
+            -0.2298
+          ],
+          "hex": "#ffb900"
+        }
+      },
+      "amber-500": {
+        "$description": "Color amber-500",
+        "$extensions": {
+          "org.enfantterrible.order": 128
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9943,
+            0.6021,
+            -0.2175
+          ],
+          "hex": "#fe9a00"
+        }
+      },
+      "amber-600": {
+        "$description": "Color amber-600",
+        "$extensions": {
+          "org.enfantterrible.order": 129
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8838,
+            0.4434,
+            -0.1698
+          ],
+          "hex": "#e17100"
+        }
+      },
+      "amber-700": {
+        "$description": "Color amber-700",
+        "$extensions": {
+          "org.enfantterrible.order": 130
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7318,
+            0.301,
+            -0.1038
+          ],
+          "hex": "#bb4d00"
+        }
+      },
+      "amber-800": {
+        "$description": "Color amber-800",
+        "$extensions": {
+          "org.enfantterrible.order": 131
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5903,
+            0.2338,
+            -0.0308
+          ],
+          "hex": "#973c00"
+        }
+      },
+      "amber-900": {
+        "$description": "Color amber-900",
+        "$extensions": {
+          "org.enfantterrible.order": 132
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4804,
+            0.1998,
+            0.0248
+          ],
+          "hex": "#7b3306"
+        }
+      },
+      "amber-950": {
+        "$description": "Color amber-950",
+        "$extensions": {
+          "org.enfantterrible.order": 133
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2741,
+            0.0985,
+            0.0047
+          ],
+          "hex": "#461901"
+        }
+      },
+      "yellow-50": {
+        "$description": "Color yellow-50",
+        "$extensions": {
+          "org.enfantterrible.order": 134
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9956,
+            0.9878,
+            0.9101
+          ],
+          "hex": "#fefce8"
+        }
+      },
+      "yellow-100": {
+        "$description": "Color yellow-100",
+        "$extensions": {
+          "org.enfantterrible.order": 135
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.997,
+            0.9768,
+            0.7597
+          ],
+          "hex": "#fef9c2"
+        }
+      },
+      "yellow-200": {
+        "$description": "Color yellow-200",
+        "$extensions": {
+          "org.enfantterrible.order": 136
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9987,
+            0.9411,
+            0.5228
+          ],
+          "hex": "#fff085"
+        }
+      },
+      "yellow-300": {
+        "$description": "Color yellow-300",
+        "$extensions": {
+          "org.enfantterrible.order": 137
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0037,
+            0.8763,
+            0.1257
+          ],
+          "hex": "#ffdf20"
+        }
+      },
+      "yellow-400": {
+        "$description": "Color yellow-400",
+        "$extensions": {
+          "org.enfantterrible.order": 138
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.993,
+            0.7819,
+            -0.2691
+          ],
+          "hex": "#fdc700"
+        }
+      },
+      "yellow-500": {
+        "$description": "Color yellow-500",
+        "$extensions": {
+          "org.enfantterrible.order": 139
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9413,
+            0.6929,
+            -0.2322
+          ],
+          "hex": "#f0b100"
+        }
+      },
+      "yellow-600": {
+        "$description": "Color yellow-600",
+        "$extensions": {
+          "org.enfantterrible.order": 140
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8176,
+            0.5296,
+            -0.1815
+          ],
+          "hex": "#d08700"
+        }
+      },
+      "yellow-700": {
+        "$description": "Color yellow-700",
+        "$extensions": {
+          "org.enfantterrible.order": 141
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6511,
+            0.3732,
+            -0.107
+          ],
+          "hex": "#a65f00"
+        }
+      },
+      "yellow-800": {
+        "$description": "Color yellow-800",
+        "$extensions": {
+          "org.enfantterrible.order": 142
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5359,
+            0.2927,
+            -0.0377
+          ],
+          "hex": "#894b00"
+        }
+      },
+      "yellow-900": {
+        "$description": "Color yellow-900",
+        "$extensions": {
+          "org.enfantterrible.order": 143
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4505,
+            0.2424,
+            0.0409
+          ],
+          "hex": "#733e0a"
+        }
+      },
+      "yellow-950": {
+        "$description": "Color yellow-950",
+        "$extensions": {
+          "org.enfantterrible.order": 144
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2619,
+            0.124,
+            0.0174
+          ],
+          "hex": "#432004"
+        }
+      },
+      "lime-50": {
+        "$description": "Color lime-50",
+        "$extensions": {
+          "org.enfantterrible.order": 145
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.969,
+            0.9965,
+            0.9062
+          ],
+          "hex": "#f7fee7"
+        }
+      },
+      "lime-100": {
+        "$description": "Color lime-100",
+        "$extensions": {
+          "org.enfantterrible.order": 146
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9251,
+            0.9888,
+            0.7934
+          ],
+          "hex": "#ecfcca"
+        }
+      },
+      "lime-200": {
+        "$description": "Color lime-200",
+        "$extensions": {
+          "org.enfantterrible.order": 147
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8478,
+            0.9783,
+            0.5999
+          ],
+          "hex": "#d8f999"
+        }
+      },
+      "lime-300": {
+        "$description": "Color lime-300",
+        "$extensions": {
+          "org.enfantterrible.order": 148
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7329,
+            0.9552,
+            0.3178
+          ],
+          "hex": "#bbf451"
+        }
+      },
+      "lime-400": {
+        "$description": "Color lime-400",
+        "$extensions": {
+          "org.enfantterrible.order": 149
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6024,
+            0.9017,
+            -0.1879
+          ],
+          "hex": "#9ae600"
+        }
+      },
+      "lime-500": {
+        "$description": "Color lime-500",
+        "$extensions": {
+          "org.enfantterrible.order": 150
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4873,
+            0.8099,
+            -0.2092
+          ],
+          "hex": "#7ccf00"
+        }
+      },
+      "lime-600": {
+        "$description": "Color lime-600",
+        "$extensions": {
+          "org.enfantterrible.order": 151
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3687,
+            0.6475,
+            -0.1623
+          ],
+          "hex": "#5ea500"
+        }
+      },
+      "lime-700": {
+        "$description": "Color lime-700",
+        "$extensions": {
+          "org.enfantterrible.order": 152
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2848,
+            0.4915,
+            -0.0828
+          ],
+          "hex": "#497d00"
+        }
+      },
+      "lime-800": {
+        "$description": "Color lime-800",
+        "$extensions": {
+          "org.enfantterrible.order": 153
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2372,
+            0.3881,
+            -0.0024
+          ],
+          "hex": "#3c6300"
+        }
+      },
+      "lime-900": {
+        "$description": "Color lime-900",
+        "$extensions": {
+          "org.enfantterrible.order": 154
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.207,
+            0.3272,
+            0.0552
+          ],
+          "hex": "#35530e"
+        }
+      },
+      "lime-950": {
+        "$description": "Color lime-950",
+        "$extensions": {
+          "org.enfantterrible.order": 155
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0991,
+            0.1813,
+            0.0109
+          ],
+          "hex": "#192e03"
+        }
+      },
+      "green-50": {
+        "$description": "Color green-50",
+        "$extensions": {
+          "org.enfantterrible.order": 156
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9414,
+            0.9922,
+            0.957
+          ],
+          "hex": "#f0fdf4"
+        }
+      },
+      "green-100": {
+        "$description": "Color green-100",
+        "$extensions": {
+          "org.enfantterrible.order": 157
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8609,
+            0.9882,
+            0.9047
+          ],
+          "hex": "#dcfce7"
+        }
+      },
+      "green-200": {
+        "$description": "Color green-200",
+        "$extensions": {
+          "org.enfantterrible.order": 158
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7251,
+            0.9713,
+            0.8118
+          ],
+          "hex": "#b9f8cf"
+        }
+      },
+      "green-300": {
+        "$description": "Color green-300",
+        "$extensions": {
+          "org.enfantterrible.order": 159
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4815,
+            0.9463,
+            0.657
+          ],
+          "hex": "#7bf1a8"
+        }
+      },
+      "green-400": {
+        "$description": "Color green-400",
+        "$extensions": {
+          "org.enfantterrible.order": 160
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0199,
+            0.8753,
+            0.4485
+          ],
+          "hex": "#05df72"
+        }
+      },
+      "green-500": {
+        "$description": "Color green-500",
+        "$extensions": {
+          "org.enfantterrible.order": 161
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1941,
+            0.7872,
+            0.3156
+          ],
+          "hex": "#00c950"
+        }
+      },
+      "green-600": {
+        "$description": "Color green-600",
+        "$extensions": {
+          "org.enfantterrible.order": 162
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.166,
+            0.6513,
+            0.242
+          ],
+          "hex": "#00a63e"
+        }
+      },
+      "green-700": {
+        "$description": "Color green-700",
+        "$extensions": {
+          "org.enfantterrible.order": 163
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.0904,
+            0.51,
+            0.2098
+          ],
+          "hex": "#008236"
+        }
+      },
+      "green-800": {
+        "$description": "Color green-800",
+        "$extensions": {
+          "org.enfantterrible.order": 164
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0058,
+            0.4015,
+            0.1886
+          ],
+          "hex": "#016630"
+        }
+      },
+      "green-900": {
+        "$description": "Color green-900",
+        "$extensions": {
+          "org.enfantterrible.order": 165
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0511,
+            0.3287,
+            0.1702
+          ],
+          "hex": "#0d542b"
+        }
+      },
+      "green-950": {
+        "$description": "Color green-950",
+        "$extensions": {
+          "org.enfantterrible.order": 166
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.012,
+            0.181,
+            0.0835
+          ],
+          "hex": "#032e15"
+        }
+      },
+      "emerald-50": {
+        "$description": "Color emerald-50",
+        "$extensions": {
+          "org.enfantterrible.order": 167
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9243,
+            0.992,
+            0.9602
+          ],
+          "hex": "#ecfdf5"
+        }
+      },
+      "emerald-100": {
+        "$description": "Color emerald-100",
+        "$extensions": {
+          "org.enfantterrible.order": 168
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8159,
+            0.9809,
+            0.8965
+          ],
+          "hex": "#d0fae5"
+        }
+      },
+      "emerald-200": {
+        "$description": "Color emerald-200",
+        "$extensions": {
+          "org.enfantterrible.order": 169
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6445,
+            0.9558,
+            0.8133
+          ],
+          "hex": "#a4f4cf"
+        }
+      },
+      "emerald-300": {
+        "$description": "Color emerald-300",
+        "$extensions": {
+          "org.enfantterrible.order": 170
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3699,
+            0.9151,
+            0.7088
+          ],
+          "hex": "#5ee9b5"
+        }
+      },
+      "emerald-400": {
+        "$description": "Color emerald-400",
+        "$extensions": {
+          "org.enfantterrible.order": 171
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1938,
+            0.8326,
+            0.5723
+          ],
+          "hex": "#00d492"
+        }
+      },
+      "emerald-500": {
+        "$description": "Color emerald-500",
+        "$extensions": {
+          "org.enfantterrible.order": 172
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.2167,
+            0.7388,
+            0.4893
+          ],
+          "hex": "#00bc7d"
+        }
+      },
+      "emerald-600": {
+        "$description": "Color emerald-600",
+        "$extensions": {
+          "org.enfantterrible.order": 173
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1745,
+            0.5989,
+            0.399
+          ],
+          "hex": "#009966"
+        }
+      },
+      "emerald-700": {
+        "$description": "Color emerald-700",
+        "$extensions": {
+          "org.enfantterrible.order": 174
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1233,
+            0.4782,
+            0.3335
+          ],
+          "hex": "#007a55"
+        }
+      },
+      "emerald-800": {
+        "$description": "Color emerald-800",
+        "$extensions": {
+          "org.enfantterrible.order": 175
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.0654,
+            0.3777,
+            0.2706
+          ],
+          "hex": "#006045"
+        }
+      },
+      "emerald-900": {
+        "$description": "Color emerald-900",
+        "$extensions": {
+          "org.enfantterrible.order": 176
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.0112,
+            0.3081,
+            0.2298
+          ],
+          "hex": "#004f3b"
+        }
+      },
+      "emerald-950": {
+        "$description": "Color emerald-950",
+        "$extensions": {
+          "org.enfantterrible.order": 177
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.0021,
+            0.1736,
+            0.1328
+          ],
+          "hex": "#002c22"
+        }
+      },
+      "teal-50": {
+        "$description": "Color teal-50",
+        "$extensions": {
+          "org.enfantterrible.order": 178
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9423,
+            0.9925,
+            0.9809
+          ],
+          "hex": "#f0fdfa"
+        }
+      },
+      "teal-100": {
+        "$description": "Color teal-100",
+        "$extensions": {
+          "org.enfantterrible.order": 179
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7968,
+            0.9858,
+            0.9457
+          ],
+          "hex": "#cbfbf1"
+        }
+      },
+      "teal-200": {
+        "$description": "Color teal-200",
+        "$extensions": {
+          "org.enfantterrible.order": 180
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.587,
+            0.9675,
+            0.8946
+          ],
+          "hex": "#96f7e4"
+        }
+      },
+      "teal-300": {
+        "$description": "Color teal-300",
+        "$extensions": {
+          "org.enfantterrible.order": 181
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2756,
+            0.9274,
+            0.8335
+          ],
+          "hex": "#46ecd5"
+        }
+      },
+      "teal-400": {
+        "$description": "Color teal-400",
+        "$extensions": {
+          "org.enfantterrible.order": 182
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.2216,
+            0.8353,
+            0.7433
+          ],
+          "hex": "#00d5be"
+        }
+      },
+      "teal-500": {
+        "$description": "Color teal-500",
+        "$extensions": {
+          "org.enfantterrible.order": 183
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.2122,
+            0.7334,
+            0.6549
+          ],
+          "hex": "#00bba7"
+        }
+      },
+      "teal-600": {
+        "$description": "Color teal-600",
+        "$extensions": {
+          "org.enfantterrible.order": 184
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1645,
+            0.5893,
+            0.5373
+          ],
+          "hex": "#009689"
+        }
+      },
+      "teal-700": {
+        "$description": "Color teal-700",
+        "$extensions": {
+          "org.enfantterrible.order": 185
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.0941,
+            0.469,
+            0.435
+          ],
+          "hex": "#00786f"
+        }
+      },
+      "teal-800": {
+        "$description": "Color teal-800",
+        "$extensions": {
+          "org.enfantterrible.order": 186
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.0275,
+            0.3731,
+            0.3521
+          ],
+          "hex": "#005f5a"
+        }
+      },
+      "teal-900": {
+        "$description": "Color teal-900",
+        "$extensions": {
+          "org.enfantterrible.order": 187
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.042,
+            0.3082,
+            0.2918
+          ],
+          "hex": "#0b4f4a"
+        }
+      },
+      "teal-950": {
+        "$description": "Color teal-950",
+        "$extensions": {
+          "org.enfantterrible.order": 188
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0081,
+            0.1848,
+            0.1808
+          ],
+          "hex": "#022f2e"
+        }
+      },
+      "cyan-50": {
+        "$description": "Color cyan-50",
+        "$extensions": {
+          "org.enfantterrible.order": 189
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.925,
+            0.996,
+            1
+          ],
+          "hex": "#ecfeff"
+        }
+      },
+      "cyan-100": {
+        "$description": "Color cyan-100",
+        "$extensions": {
+          "org.enfantterrible.order": 190
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8093,
+            0.9806,
+            0.9965
+          ],
+          "hex": "#cefafe"
+        }
+      },
+      "cyan-200": {
+        "$description": "Color cyan-200",
+        "$extensions": {
+          "org.enfantterrible.order": 191
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6366,
+            0.9554,
+            0.9922
+          ],
+          "hex": "#a2f4fd"
+        }
+      },
+      "cyan-300": {
+        "$description": "Color cyan-300",
+        "$extensions": {
+          "org.enfantterrible.order": 192
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3267,
+            0.917,
+            0.9914
+          ],
+          "hex": "#53eafd"
+        }
+      },
+      "cyan-400": {
+        "$description": "Color cyan-400",
+        "$extensions": {
+          "org.enfantterrible.order": 193
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.2594,
+            0.8274,
+            0.951
+          ],
+          "hex": "#00d3f2"
+        }
+      },
+      "cyan-500": {
+        "$description": "Color cyan-500",
+        "$extensions": {
+          "org.enfantterrible.order": 194
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.2302,
+            0.7219,
+            0.8573
+          ],
+          "hex": "#00b8db"
+        }
+      },
+      "cyan-600": {
+        "$description": "Color cyan-600",
+        "$extensions": {
+          "org.enfantterrible.order": 195
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1707,
+            0.5742,
+            0.7226
+          ],
+          "hex": "#0092b8"
+        }
+      },
+      "cyan-700": {
+        "$description": "Color cyan-700",
+        "$extensions": {
+          "org.enfantterrible.order": 196
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1028,
+            0.459,
+            0.5833
+          ],
+          "hex": "#007595"
+        }
+      },
+      "cyan-800": {
+        "$description": "Color cyan-800",
+        "$extensions": {
+          "org.enfantterrible.order": 197
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.0035,
+            0.3712,
+            0.4712
+          ],
+          "hex": "#005f78"
+        }
+      },
+      "cyan-900": {
+        "$description": "Color cyan-900",
+        "$extensions": {
+          "org.enfantterrible.order": 198
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0637,
+            0.3067,
+            0.3937
+          ],
+          "hex": "#104e64"
+        }
+      },
+      "cyan-950": {
+        "$description": "Color cyan-950",
+        "$extensions": {
+          "org.enfantterrible.order": 199
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0212,
+            0.2006,
+            0.2698
+          ],
+          "hex": "#053345"
+        }
+      },
+      "sky-50": {
+        "$description": "Color sky-50",
+        "$extensions": {
+          "org.enfantterrible.order": 200
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9398,
+            0.9766,
+            1.0011
+          ],
+          "hex": "#f0f9ff"
+        }
+      },
+      "sky-100": {
+        "$description": "Color sky-100",
+        "$extensions": {
+          "org.enfantterrible.order": 201
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8756,
+            0.9489,
+            0.9978
+          ],
+          "hex": "#dff2fe"
+        }
+      },
+      "sky-200": {
+        "$description": "Color sky-200",
+        "$extensions": {
+          "org.enfantterrible.order": 202
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7219,
+            0.9027,
+            0.997
+          ],
+          "hex": "#b8e6fe"
+        }
+      },
+      "sky-300": {
+        "$description": "Color sky-300",
+        "$extensions": {
+          "org.enfantterrible.order": 203
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4532,
+            0.8317,
+            1.0084
+          ],
+          "hex": "#74d4ff"
+        }
+      },
+      "sky-400": {
+        "$description": "Color sky-400",
+        "$extensions": {
+          "org.enfantterrible.order": 204
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1313,
+            0.7364,
+            1.0043
+          ],
+          "hex": "#00bcff"
+        }
+      },
+      "sky-500": {
+        "$description": "Color sky-500",
+        "$extensions": {
+          "org.enfantterrible.order": 205
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.2032,
+            0.6498,
+            0.9571
+          ],
+          "hex": "#00a6f4"
+        }
+      },
+      "sky-600": {
+        "$description": "Color sky-600",
+        "$extensions": {
+          "org.enfantterrible.order": 206
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1618,
+            0.5182,
+            0.8198
+          ],
+          "hex": "#0084d1"
+        }
+      },
+      "sky-700": {
+        "$description": "Color sky-700",
+        "$extensions": {
+          "org.enfantterrible.order": 207
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.1107,
+            0.4116,
+            0.6603
+          ],
+          "hex": "#0069a8"
+        }
+      },
+      "sky-800": {
+        "$description": "Color sky-800",
+        "$extensions": {
+          "org.enfantterrible.order": 208
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            -0.0619,
+            0.349,
+            0.5399
+          ],
+          "hex": "#00598a"
+        }
+      },
+      "sky-900": {
+        "$description": "Color sky-900",
+        "$extensions": {
+          "org.enfantterrible.order": 209
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0068,
+            0.2903,
+            0.4411
+          ],
+          "hex": "#024a70"
+        }
+      },
+      "sky-950": {
+        "$description": "Color sky-950",
+        "$extensions": {
+          "org.enfantterrible.order": 210
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0198,
+            0.1839,
+            0.2906
+          ],
+          "hex": "#052f4a"
+        }
+      },
+      "blue-50": {
+        "$description": "Color blue-50",
+        "$extensions": {
+          "org.enfantterrible.order": 211
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9369,
+            0.964,
+            0.9989
+          ],
+          "hex": "#eff6ff"
+        }
+      },
+      "blue-100": {
+        "$description": "Color blue-100",
+        "$extensions": {
+          "org.enfantterrible.order": 212
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8582,
+            0.9178,
+            0.9973
+          ],
+          "hex": "#dbeafe"
+        }
+      },
+      "blue-200": {
+        "$description": "Color blue-200",
+        "$extensions": {
+          "org.enfantterrible.order": 213
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7451,
+            0.8587,
+            1.0006
+          ],
+          "hex": "#bedbff"
+        }
+      },
+      "blue-300": {
+        "$description": "Color blue-300",
+        "$extensions": {
+          "org.enfantterrible.order": 214
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5566,
+            0.7732,
+            1.0146
+          ],
+          "hex": "#8ec5ff"
+        }
+      },
+      "blue-400": {
+        "$description": "Color blue-400",
+        "$extensions": {
+          "org.enfantterrible.order": 215
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3158,
+            0.6356,
+            1.021
+          ],
+          "hex": "#51a2ff"
+        }
+      },
+      "blue-500": {
+        "$description": "Color blue-500",
+        "$extensions": {
+          "org.enfantterrible.order": 216
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1693,
+            0.498,
+            1.0228
+          ],
+          "hex": "#2b7fff"
+        }
+      },
+      "blue-600": {
+        "$description": "Color blue-600",
+        "$extensions": {
+          "org.enfantterrible.order": 217
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0836,
+            0.3644,
+            0.9863
+          ],
+          "hex": "#155dfc"
+        }
+      },
+      "blue-700": {
+        "$description": "Color blue-700",
+        "$extensions": {
+          "org.enfantterrible.order": 218
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0779,
+            0.2791,
+            0.9018
+          ],
+          "hex": "#1447e6"
+        }
+      },
+      "blue-800": {
+        "$description": "Color blue-800",
+        "$extensions": {
+          "org.enfantterrible.order": 219
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0998,
+            0.2338,
+            0.7229
+          ],
+          "hex": "#193cb8"
+        }
+      },
+      "blue-900": {
+        "$description": "Color blue-900",
+        "$extensions": {
+          "org.enfantterrible.order": 220
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1091,
+            0.2222,
+            0.5575
+          ],
+          "hex": "#1c398e"
+        }
+      },
+      "blue-950": {
+        "$description": "Color blue-950",
+        "$extensions": {
+          "org.enfantterrible.order": 221
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.0873,
+            0.1431,
+            0.3357
+          ],
+          "hex": "#162456"
+        }
+      },
+      "indigo-50": {
+        "$description": "Color indigo-50",
+        "$extensions": {
+          "org.enfantterrible.order": 222
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9334,
+            0.9491,
+            1.0003
+          ],
+          "hex": "#eef2ff"
+        }
+      },
+      "indigo-100": {
+        "$description": "Color indigo-100",
+        "$extensions": {
+          "org.enfantterrible.order": 223
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.878,
+            0.9059,
+            1.0016
+          ],
+          "hex": "#e0e7ff"
+        }
+      },
+      "indigo-200": {
+        "$description": "Color indigo-200",
+        "$extensions": {
+          "org.enfantterrible.order": 224
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7784,
+            0.8232,
+            1.0034
+          ],
+          "hex": "#c6d2ff"
+        }
+      },
+      "indigo-300": {
+        "$description": "Color indigo-300",
+        "$extensions": {
+          "org.enfantterrible.order": 225
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6391,
+            0.7021,
+            1.0143
+          ],
+          "hex": "#a3b3ff"
+        }
+      },
+      "indigo-400": {
+        "$description": "Color indigo-400",
+        "$extensions": {
+          "org.enfantterrible.order": 226
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4878,
+            0.5265,
+            1.0168
+          ],
+          "hex": "#7c86ff"
+        }
+      },
+      "indigo-500": {
+        "$description": "Color indigo-500",
+        "$extensions": {
+          "org.enfantterrible.order": 227
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3822,
+            0.3719,
+            1.0077
+          ],
+          "hex": "#615fff"
+        }
+      },
+      "indigo-600": {
+        "$description": "Color indigo-600",
+        "$extensions": {
+          "org.enfantterrible.order": 228
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3109,
+            0.2244,
+            0.9663
+          ],
+          "hex": "#4f39f6"
+        }
+      },
+      "indigo-700": {
+        "$description": "Color indigo-700",
+        "$extensions": {
+          "org.enfantterrible.order": 229
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2644,
+            0.1766,
+            0.8448
+          ],
+          "hex": "#432dd7"
+        }
+      },
+      "indigo-800": {
+        "$description": "Color indigo-800",
+        "$extensions": {
+          "org.enfantterrible.order": 230
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2154,
+            0.1632,
+            0.6737
+          ],
+          "hex": "#372aac"
+        }
+      },
+      "indigo-900": {
+        "$description": "Color indigo-900",
+        "$extensions": {
+          "org.enfantterrible.order": 231
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1916,
+            0.1726,
+            0.5227
+          ],
+          "hex": "#312c85"
+        }
+      },
+      "indigo-950": {
+        "$description": "Color indigo-950",
+        "$extensions": {
+          "org.enfantterrible.order": 232
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1171,
+            0.1026,
+            0.3006
+          ],
+          "hex": "#1e1a4d"
+        }
+      },
+      "violet-50": {
+        "$description": "Color violet-50",
+        "$extensions": {
+          "org.enfantterrible.order": 233
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9606,
+            0.9528,
+            0.9997
+          ],
+          "hex": "#f5f3ff"
+        }
+      },
+      "violet-100": {
+        "$description": "Color violet-100",
+        "$extensions": {
+          "org.enfantterrible.order": 234
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.929,
+            0.913,
+            0.9971
+          ],
+          "hex": "#ede9fe"
+        }
+      },
+      "violet-200": {
+        "$description": "Color violet-200",
+        "$extensions": {
+          "org.enfantterrible.order": 235
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8665,
+            0.8379,
+            1.0008
+          ],
+          "hex": "#ddd6ff"
+        }
+      },
+      "violet-300": {
+        "$description": "Color violet-300",
+        "$extensions": {
+          "org.enfantterrible.order": 236
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7701,
+            0.7039,
+            1.0136
+          ],
+          "hex": "#c4b4ff"
+        }
+      },
+      "violet-400": {
+        "$description": "Color violet-400",
+        "$extensions": {
+          "org.enfantterrible.order": 237
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6526,
+            0.5169,
+            1.0208
+          ],
+          "hex": "#a684ff"
+        }
+      },
+      "violet-500": {
+        "$description": "Color violet-500",
+        "$extensions": {
+          "org.enfantterrible.order": 238
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5559,
+            0.3182,
+            1.0276
+          ],
+          "hex": "#8e51ff"
+        }
+      },
+      "violet-600": {
+        "$description": "Color violet-600",
+        "$extensions": {
+          "org.enfantterrible.order": 239
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4999,
+            0.1337,
+            0.996
+          ],
+          "hex": "#7f22fe"
+        }
+      },
+      "violet-700": {
+        "$description": "Color violet-700",
+        "$extensions": {
+          "org.enfantterrible.order": 240
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4397,
+            0.0314,
+            0.9064
+          ],
+          "hex": "#7008e7"
+        }
+      },
+      "violet-800": {
+        "$description": "Color violet-800",
+        "$extensions": {
+          "org.enfantterrible.order": 241
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3654,
+            0.0555,
+            0.7533
+          ],
+          "hex": "#5d0ec0"
+        }
+      },
+      "violet-900": {
+        "$description": "Color violet-900",
+        "$extensions": {
+          "org.enfantterrible.order": 242
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3025,
+            0.0891,
+            0.6037
+          ],
+          "hex": "#4d179a"
+        }
+      },
+      "violet-950": {
+        "$description": "Color violet-950",
+        "$extensions": {
+          "org.enfantterrible.order": 243
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.1825,
+            0.0509,
+            0.4064
+          ],
+          "hex": "#2f0d68"
+        }
+      },
+      "purple-50": {
+        "$description": "Color purple-50",
+        "$extensions": {
+          "org.enfantterrible.order": 244
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9804,
+            0.9611,
+            0.9998
+          ],
+          "hex": "#faf5ff"
+        }
+      },
+      "purple-100": {
+        "$description": "Color purple-100",
+        "$extensions": {
+          "org.enfantterrible.order": 245
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9526,
+            0.9091,
+            1
+          ],
+          "hex": "#f3e8ff"
+        }
+      },
+      "purple-200": {
+        "$description": "Color purple-200",
+        "$extensions": {
+          "org.enfantterrible.order": 246
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.915,
+            0.8331,
+            1.0048
+          ],
+          "hex": "#e9d4ff"
+        }
+      },
+      "purple-300": {
+        "$description": "Color purple-300",
+        "$extensions": {
+          "org.enfantterrible.order": 247
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8544,
+            0.6978,
+            1.0174
+          ],
+          "hex": "#dab2ff"
+        }
+      },
+      "purple-400": {
+        "$description": "Color purple-400",
+        "$extensions": {
+          "org.enfantterrible.order": 248
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7596,
+            0.4798,
+            1.0262
+          ],
+          "hex": "#c27aff"
+        }
+      },
+      "purple-500": {
+        "$description": "Color purple-500",
+        "$extensions": {
+          "org.enfantterrible.order": 249
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6779,
+            0.2759,
+            1.0271
+          ],
+          "hex": "#ad46ff"
+        }
+      },
+      "purple-600": {
+        "$description": "Color purple-600",
+        "$extensions": {
+          "org.enfantterrible.order": 250
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5968,
+            0.0617,
+            0.9814
+          ],
+          "hex": "#9810fa"
+        }
+      },
+      "purple-700": {
+        "$description": "Color purple-700",
+        "$extensions": {
+          "org.enfantterrible.order": 251
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5099,
+            -0.0262,
+            0.8573
+          ],
+          "hex": "#8200db"
+        }
+      },
+      "purple-800": {
+        "$description": "Color purple-800",
+        "$extensions": {
+          "org.enfantterrible.order": 252
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.43,
+            0.0666,
+            0.6907
+          ],
+          "hex": "#6e11b0"
+        }
+      },
+      "purple-900": {
+        "$description": "Color purple-900",
+        "$extensions": {
+          "org.enfantterrible.order": 253
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3507,
+            0.0873,
+            0.5452
+          ],
+          "hex": "#59168b"
+        }
+      },
+      "purple-950": {
+        "$description": "Color purple-950",
+        "$extensions": {
+          "org.enfantterrible.order": 254
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2346,
+            0.0118,
+            0.4014
+          ],
+          "hex": "#3c0366"
+        }
+      },
+      "fuchsia-50": {
+        "$description": "Color fuchsia-50",
+        "$extensions": {
+          "org.enfantterrible.order": 255
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9914,
+            0.9568,
+            0.9991
+          ],
+          "hex": "#fdf4ff"
+        }
+      },
+      "fuchsia-100": {
+        "$description": "Color fuchsia-100",
+        "$extensions": {
+          "org.enfantterrible.order": 256
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9816,
+            0.9089,
+            1.0017
+          ],
+          "hex": "#fae8ff"
+        }
+      },
+      "fuchsia-200": {
+        "$description": "Color fuchsia-200",
+        "$extensions": {
+          "org.enfantterrible.order": 257
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.964,
+            0.8133,
+            1.0006
+          ],
+          "hex": "#f6cfff"
+        }
+      },
+      "fuchsia-300": {
+        "$description": "Color fuchsia-300",
+        "$extensions": {
+          "org.enfantterrible.order": 258
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9551,
+            0.6573,
+            1.0071
+          ],
+          "hex": "#f4a8ff"
+        }
+      },
+      "fuchsia-400": {
+        "$description": "Color fuchsia-400",
+        "$extensions": {
+          "org.enfantterrible.order": 259
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9299,
+            0.4176,
+            1.0084
+          ],
+          "hex": "#ed6aff"
+        }
+      },
+      "fuchsia-500": {
+        "$description": "Color fuchsia-500",
+        "$extensions": {
+          "org.enfantterrible.order": 260
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.8837,
+            0.1657,
+            0.9845
+          ],
+          "hex": "#e12afb"
+        }
+      },
+      "fuchsia-600": {
+        "$description": "Color fuchsia-600",
+        "$extensions": {
+          "org.enfantterrible.order": 261
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7836,
+            -0.1112,
+            0.8715
+          ],
+          "hex": "#c800de"
+        }
+      },
+      "fuchsia-700": {
+        "$description": "Color fuchsia-700",
+        "$extensions": {
+          "org.enfantterrible.order": 262
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6585,
+            -0.0728,
+            0.718
+          ],
+          "hex": "#a800b7"
+        }
+      },
+      "fuchsia-800": {
+        "$description": "Color fuchsia-800",
+        "$extensions": {
+          "org.enfantterrible.order": 263
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5414,
+            0.0052,
+            0.5818
+          ],
+          "hex": "#8a0194"
+        }
+      },
+      "fuchsia-900": {
+        "$description": "Color fuchsia-900",
+        "$extensions": {
+          "org.enfantterrible.order": 264
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.4479,
+            0.0753,
+            0.4696
+          ],
+          "hex": "#721378"
+        }
+      },
+      "fuchsia-950": {
+        "$description": "Color fuchsia-950",
+        "$extensions": {
+          "org.enfantterrible.order": 265
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.2939,
+            0.0015,
+            0.3106
+          ],
+          "hex": "#4b004f"
+        }
+      },
+      "pink-50": {
+        "$description": "Color pink-50",
+        "$extensions": {
+          "org.enfantterrible.order": 266
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9913,
+            0.9486,
+            0.9719
+          ],
+          "hex": "#fdf2f8"
+        }
+      },
+      "pink-100": {
+        "$description": "Color pink-100",
+        "$extensions": {
+          "org.enfantterrible.order": 267
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9887,
+            0.9053,
+            0.9529
+          ],
+          "hex": "#fce7f3"
+        }
+      },
+      "pink-200": {
+        "$description": "Color pink-200",
+        "$extensions": {
+          "org.enfantterrible.order": 268
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9877,
+            0.809,
+            0.9107
+          ],
+          "hex": "#fccee8"
+        }
+      },
+      "pink-300": {
+        "$description": "Color pink-300",
+        "$extensions": {
+          "org.enfantterrible.order": 269
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9941,
+            0.6465,
+            0.8371
+          ],
+          "hex": "#fda5d5"
+        }
+      },
+      "pink-400": {
+        "$description": "Color pink-400",
+        "$extensions": {
+          "org.enfantterrible.order": 270
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9856,
+            0.392,
+            0.7139
+          ],
+          "hex": "#fb64b6"
+        }
+      },
+      "pink-500": {
+        "$description": "Color pink-500",
+        "$extensions": {
+          "org.enfantterrible.order": 271
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9658,
+            0.1981,
+            0.6043
+          ],
+          "hex": "#f6339a"
+        }
+      },
+      "pink-600": {
+        "$description": "Color pink-600",
+        "$extensions": {
+          "org.enfantterrible.order": 272
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9013,
+            -0.0923,
+            0.4634
+          ],
+          "hex": "#e60076"
+        }
+      },
+      "pink-700": {
+        "$description": "Color pink-700",
+        "$extensions": {
+          "org.enfantterrible.order": 273
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7778,
+            -0.0927,
+            0.3589
+          ],
+          "hex": "#c6005c"
+        }
+      },
+      "pink-800": {
+        "$description": "Color pink-800",
+        "$extensions": {
+          "org.enfantterrible.order": 274
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6386,
+            -0.0168,
+            0.298
+          ],
+          "hex": "#a3004c"
+        }
+      },
+      "pink-900": {
+        "$description": "Color pink-900",
+        "$extensions": {
+          "org.enfantterrible.order": 275
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5252,
+            0.0633,
+            0.2613
+          ],
+          "hex": "#861043"
+        }
+      },
+      "pink-950": {
+        "$description": "Color pink-950",
+        "$extensions": {
+          "org.enfantterrible.order": 276
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.318,
+            0.0151,
+            0.1398
+          ],
+          "hex": "#510424"
+        }
+      },
+      "rose-50": {
+        "$description": "Color rose-50",
+        "$extensions": {
+          "org.enfantterrible.order": 277
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.999,
+            0.9447,
+            0.9486
+          ],
+          "hex": "#fff1f2"
+        }
+      },
+      "rose-100": {
+        "$description": "Color rose-100",
+        "$extensions": {
+          "org.enfantterrible.order": 278
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0001,
+            0.8934,
+            0.9013
+          ],
+          "hex": "#ffe4e6"
+        }
+      },
+      "rose-200": {
+        "$description": "Color rose-200",
+        "$extensions": {
+          "org.enfantterrible.order": 279
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0002,
+            0.8011,
+            0.8257
+          ],
+          "hex": "#ffccd3"
+        }
+      },
+      "rose-300": {
+        "$description": "Color rose-300",
+        "$extensions": {
+          "org.enfantterrible.order": 280
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.014,
+            0.6299,
+            0.6795
+          ],
+          "hex": "#ffa1ad"
+        }
+      },
+      "rose-400": {
+        "$description": "Color rose-400",
+        "$extensions": {
+          "org.enfantterrible.order": 281
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0161,
+            0.3889,
+            0.4943
+          ],
+          "hex": "#ff637e"
+        }
+      },
+      "rose-500": {
+        "$description": "Color rose-500",
+        "$extensions": {
+          "org.enfantterrible.order": 282
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            1.0034,
+            0.1246,
+            0.339
+          ],
+          "hex": "#ff2056"
+        }
+      },
+      "rose-600": {
+        "$description": "Color rose-600",
+        "$extensions": {
+          "org.enfantterrible.order": 283
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.9274,
+            -0.1439,
+            0.2487
+          ],
+          "hex": "#ec003f"
+        }
+      },
+      "rose-700": {
+        "$description": "Color rose-700",
+        "$extensions": {
+          "org.enfantterrible.order": 284
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.7785,
+            -0.1146,
+            0.2107
+          ],
+          "hex": "#c70036"
+        }
+      },
+      "rose-800": {
+        "$description": "Color rose-800",
+        "$extensions": {
+          "org.enfantterrible.order": 285
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.6467,
+            -0.0466,
+            0.2117
+          ],
+          "hex": "#a50036"
+        }
+      },
+      "rose-900": {
+        "$description": "Color rose-900",
+        "$extensions": {
+          "org.enfantterrible.order": 286
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.5445,
+            0.03,
+            0.2107
+          ],
+          "hex": "#8b0836"
+        }
+      },
+      "rose-950": {
+        "$description": "Color rose-950",
+        "$extensions": {
+          "org.enfantterrible.order": 287
+        },
+        "$type": "color",
+        "$value": {
+          "alpha": 1,
+          "colorSpace": "srgb",
+          "components": [
+            0.3031,
+            0.0088,
+            0.0959
+          ],
+          "hex": "#4d0218"
+        }
+      },
+      "$description": "Color palette"
+    },
+    "diffusion": {
+      "1": {
+        "$description": "Diffusion scale - 1px",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 1
+        }
+      },
+      "1p5": {
+        "$description": "Diffusion scale - 1.5px",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 1.5
+        }
+      },
+      "2": {
+        "$description": "Diffusion scale - 2px",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 2
+        }
+      },
+      "2p5": {
+        "$description": "Diffusion scale - 2.5px",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 2.5
+        }
+      },
+      "3": {
+        "$description": "Diffusion scale - 3px",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 3
+        }
+      },
+      "3p5": {
+        "$description": "Diffusion scale - 3.5px",
+        "$extensions": {
+          "org.enfantterrible.order": 5
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 3.5
+        }
+      },
+      "4": {
+        "$description": "Diffusion scale - 4px",
+        "$extensions": {
+          "org.enfantterrible.order": 6
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 4
+        }
+      },
+      "5": {
+        "$description": "Diffusion scale - 5px",
+        "$extensions": {
+          "org.enfantterrible.order": 7
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 5
+        }
+      },
+      "6": {
+        "$description": "Diffusion scale - 6px",
+        "$extensions": {
+          "org.enfantterrible.order": 8
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 6
+        }
+      },
+      "7": {
+        "$description": "Diffusion scale - 7px",
+        "$extensions": {
+          "org.enfantterrible.order": 9
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 7
+        }
+      },
+      "8": {
+        "$description": "Diffusion scale - 8px",
+        "$extensions": {
+          "org.enfantterrible.order": 10
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 8
+        }
+      },
+      "$description": "Difussion scale"
+    },
+    "index": {
+      "0": {
+        "$description": "Index 0",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "number",
+        "$value": 0
+      },
+      "10": {
+        "$description": "Index 10",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "number",
+        "$value": 10
+      },
+      "20": {
+        "$description": "Index 20",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "number",
+        "$value": 20
+      },
+      "30": {
+        "$description": "Index 30",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "number",
+        "$value": 30
+      },
+      "40": {
+        "$description": "Index 40",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "number",
+        "$value": 40
+      },
+      "50": {
+        "$description": "Index 50",
+        "$extensions": {
+          "org.enfantterrible.order": 5
+        },
+        "$type": "number",
+        "$value": 50
+      },
+      "$description": "Z-index scale"
+    },
+    "radius": {
+      "1": {
+        "$description": "Radius scale - 0.25rem",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.25
+        }
+      },
+      "1p5": {
+        "$description": "Radius scale - 0.375rem",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.375
+        }
+      },
+      "2": {
+        "$description": "Radius scale - 0.5rem",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.5
+        }
+      },
+      "2p5": {
+        "$description": "Radius scale - 0.625rem",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.625
+        }
+      },
+      "3": {
+        "$description": "Radius scale - 0.75rem",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.75
+        }
+      },
+      "3p5": {
+        "$description": "Radius scale - 0.875rem",
+        "$extensions": {
+          "org.enfantterrible.order": 5
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.875
+        }
+      },
+      "4": {
+        "$description": "Radius scale - 1rem",
+        "$extensions": {
+          "org.enfantterrible.order": 6
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 1
+        }
+      },
+      "5": {
+        "$description": "Radius scale - 1.25rem",
+        "$extensions": {
+          "org.enfantterrible.order": 7
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 1.25
+        }
+      },
+      "6": {
+        "$description": "Radius scale - 1.5rem",
+        "$extensions": {
+          "org.enfantterrible.order": 8
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 1.5
+        }
+      },
+      "7": {
+        "$description": "Radius scale - 1.75rem",
+        "$extensions": {
+          "org.enfantterrible.order": 9
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 1.75
+        }
+      },
+      "8": {
+        "$description": "Radius scale - 2rem",
+        "$extensions": {
+          "org.enfantterrible.order": 10
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 2
+        }
+      },
+      "9": {
+        "$description": "Radius scale - 2.25rem",
+        "$extensions": {
+          "org.enfantterrible.order": 11
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 2.25
+        }
+      },
+      "10": {
+        "$description": "Radius scale - 2.5rem",
+        "$extensions": {
+          "org.enfantterrible.order": 12
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 2.5
+        }
+      },
+      "11": {
+        "$description": "Radius scale - 2.75rem",
+        "$extensions": {
+          "org.enfantterrible.order": 13
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 2.75
+        }
+      },
+      "12": {
+        "$description": "Radius scale - 3rem",
+        "$extensions": {
+          "org.enfantterrible.order": 14
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 3
+        }
+      },
+      "14": {
+        "$description": "Radius scale - 3.5rem",
+        "$extensions": {
+          "org.enfantterrible.order": 15
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 3.5
+        }
+      },
+      "16": {
+        "$description": "Radius scale - 4rem",
+        "$extensions": {
+          "org.enfantterrible.order": 16
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 4
+        }
+      },
+      "full": {
+        "$description": "Radius scale - 999px",
+        "$extensions": {
+          "org.enfantterrible.order": 17
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 999
+        }
+      },
+      "$description": "Border radius"
+    },
+    "screens": {
+      "1": {
+        "$description": "Screens scale - 40rem",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 40
+        }
+      },
+      "2": {
+        "$description": "Screens scale - 48rem",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 48
+        }
+      },
+      "3": {
+        "$description": "Screens scale - 64rem",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 64
+        }
+      },
+      "4": {
+        "$description": "Screens scale - 80rem",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 80
+        }
+      },
+      "5": {
+        "$description": "Screens scale - 96rem",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 96
+        }
+      },
+      "$description": "Breakpoints"
+    },
+    "space": {
+      "0": {
+        "$description": "Space scale - 0rem",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0
+        }
+      },
+      "px-1": {
+        "$description": "Space scale - 1px",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 1
+        }
+      },
+      "0p5": {
+        "$description": "Space scale - 0.125rem",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.125
+        }
+      },
+      "1": {
+        "$description": "Space scale - 0.25rem",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.25
+        }
+      },
+      "1p5": {
+        "$description": "Space scale - 0.375rem",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.375
+        }
+      },
+      "2": {
+        "$description": "Space scale - 0.5rem",
+        "$extensions": {
+          "org.enfantterrible.order": 5
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.5
+        }
+      },
+      "2p5": {
+        "$description": "Space scale - 0.625rem",
+        "$extensions": {
+          "org.enfantterrible.order": 6
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.625
+        }
+      },
+      "3": {
+        "$description": "Space scale - 0.75rem",
+        "$extensions": {
+          "org.enfantterrible.order": 7
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.75
+        }
+      },
+      "3p5": {
+        "$description": "Space scale - 0.875rem",
+        "$extensions": {
+          "org.enfantterrible.order": 8
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 0.875
+        }
+      },
+      "4": {
+        "$description": "Space scale - 1rem",
+        "$extensions": {
+          "org.enfantterrible.order": 9
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 1
+        }
+      },
+      "5": {
+        "$description": "Space scale - 1.25rem",
+        "$extensions": {
+          "org.enfantterrible.order": 10
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 1.25
+        }
+      },
+      "6": {
+        "$description": "Space scale - 1.5rem",
+        "$extensions": {
+          "org.enfantterrible.order": 11
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 1.5
+        }
+      },
+      "7": {
+        "$description": "Space scale - 1.75rem",
+        "$extensions": {
+          "org.enfantterrible.order": 12
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 1.75
+        }
+      },
+      "8": {
+        "$description": "Space scale - 2rem",
+        "$extensions": {
+          "org.enfantterrible.order": 13
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 2
+        }
+      },
+      "9": {
+        "$description": "Space scale - 2.25rem",
+        "$extensions": {
+          "org.enfantterrible.order": 14
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 2.25
+        }
+      },
+      "10": {
+        "$description": "Space scale - 2.5rem",
+        "$extensions": {
+          "org.enfantterrible.order": 15
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 2.5
+        }
+      },
+      "11": {
+        "$description": "Space scale - 2.75rem",
+        "$extensions": {
+          "org.enfantterrible.order": 16
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 2.75
+        }
+      },
+      "12": {
+        "$description": "Space scale - 3rem",
+        "$extensions": {
+          "org.enfantterrible.order": 17
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 3
+        }
+      },
+      "14": {
+        "$description": "Space scale - 3.5rem",
+        "$extensions": {
+          "org.enfantterrible.order": 18
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 3.5
+        }
+      },
+      "16": {
+        "$description": "Space scale - 4rem",
+        "$extensions": {
+          "org.enfantterrible.order": 19
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 4
+        }
+      },
+      "20": {
+        "$description": "Space scale - 5rem",
+        "$extensions": {
+          "org.enfantterrible.order": 20
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 5
+        }
+      },
+      "24": {
+        "$description": "Space scale - 6rem",
+        "$extensions": {
+          "org.enfantterrible.order": 21
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 6
+        }
+      },
+      "28": {
+        "$description": "Space scale - 7rem",
+        "$extensions": {
+          "org.enfantterrible.order": 22
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 7
+        }
+      },
+      "32": {
+        "$description": "Space scale - 8rem",
+        "$extensions": {
+          "org.enfantterrible.order": 23
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 8
+        }
+      },
+      "36": {
+        "$description": "Space scale - 9rem",
+        "$extensions": {
+          "org.enfantterrible.order": 24
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 9
+        }
+      },
+      "40": {
+        "$description": "Space scale - 10rem",
+        "$extensions": {
+          "org.enfantterrible.order": 25
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 10
+        }
+      },
+      "44": {
+        "$description": "Space scale - 11rem",
+        "$extensions": {
+          "org.enfantterrible.order": 26
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 11
+        }
+      },
+      "48": {
+        "$description": "Space scale - 12rem",
+        "$extensions": {
+          "org.enfantterrible.order": 27
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 12
+        }
+      },
+      "52": {
+        "$description": "Space scale - 13rem",
+        "$extensions": {
+          "org.enfantterrible.order": 28
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 13
+        }
+      },
+      "56": {
+        "$description": "Space scale - 14rem",
+        "$extensions": {
+          "org.enfantterrible.order": 29
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 14
+        }
+      },
+      "60": {
+        "$description": "Space scale - 15rem",
+        "$extensions": {
+          "org.enfantterrible.order": 30
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 15
+        }
+      },
+      "64": {
+        "$description": "Space scale - 16rem",
+        "$extensions": {
+          "org.enfantterrible.order": 31
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 16
+        }
+      },
+      "72": {
+        "$description": "Space scale - 18rem",
+        "$extensions": {
+          "org.enfantterrible.order": 32
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 18
+        }
+      },
+      "80": {
+        "$description": "Space scale - 20rem",
+        "$extensions": {
+          "org.enfantterrible.order": 33
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 20
+        }
+      },
+      "96": {
+        "$description": "Space scale - 24rem",
+        "$extensions": {
+          "org.enfantterrible.order": 34
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "rem",
+          "value": 24
+        }
+      },
+      "$description": "Space scale"
+    },
+    "thickness": {
+      "0": {
+        "$description": "Thickness scale - 0px",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 0
+        }
+      },
+      "0p5": {
+        "$description": "Thickness scale - 0.5px",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 0.5
+        }
+      },
+      "1": {
+        "$description": "Thickness scale - 1px",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 1
+        }
+      },
+      "1p5": {
+        "$description": "Thickness scale - 1.5px",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 1.5
+        }
+      },
+      "2": {
+        "$description": "Thickness scale - 2px",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 2
+        }
+      },
+      "2p5": {
+        "$description": "Thickness scale - 2.5px",
+        "$extensions": {
+          "org.enfantterrible.order": 5
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 2.5
+        }
+      },
+      "3": {
+        "$description": "Thickness scale - 3px",
+        "$extensions": {
+          "org.enfantterrible.order": 6
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 3
+        }
+      },
+      "3p5": {
+        "$description": "Thickness scale - 3.5px",
+        "$extensions": {
+          "org.enfantterrible.order": 7
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 3.5
+        }
+      },
+      "4": {
+        "$description": "Thickness scale - 4px",
+        "$extensions": {
+          "org.enfantterrible.order": 8
+        },
+        "$type": "dimension",
+        "$value": {
+          "unit": "px",
+          "value": 4
+        }
+      },
+      "$description": "Border thickness"
+    },
+    "time": {
+      "250": {
+        "$description": "Time scale - 250ms",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 250
+        }
+      },
+      "300": {
+        "$description": "Time scale - 300ms",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 300
+        }
+      },
+      "350": {
+        "$description": "Time scale - 350ms",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 350
+        }
+      },
+      "400": {
+        "$description": "Time scale - 400ms",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 400
+        }
+      },
+      "450": {
+        "$description": "Time scale - 450ms",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 450
+        }
+      },
+      "500": {
+        "$description": "Time scale - 500ms",
+        "$extensions": {
+          "org.enfantterrible.order": 5
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 500
+        }
+      },
+      "550": {
+        "$description": "Time scale - 550ms",
+        "$extensions": {
+          "org.enfantterrible.order": 6
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 550
+        }
+      },
+      "600": {
+        "$description": "Time scale - 600ms",
+        "$extensions": {
+          "org.enfantterrible.order": 7
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 600
+        }
+      },
+      "650": {
+        "$description": "Time scale - 650ms",
+        "$extensions": {
+          "org.enfantterrible.order": 8
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 650
+        }
+      },
+      "700": {
+        "$description": "Time scale - 700ms",
+        "$extensions": {
+          "org.enfantterrible.order": 9
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 700
+        }
+      },
+      "750": {
+        "$description": "Time scale - 750ms",
+        "$extensions": {
+          "org.enfantterrible.order": 10
+        },
+        "$type": "duration",
+        "$value": {
+          "unit": "ms",
+          "value": 750
+        }
+      },
+      "$description": "Time scale"
+    },
+    "weight": {
+      "100": {
+        "$description": "Weight 100",
+        "$extensions": {
+          "org.enfantterrible.order": 0
+        },
+        "$type": "fontWeight",
+        "$value": 100
+      },
+      "200": {
+        "$description": "Weight 200",
+        "$extensions": {
+          "org.enfantterrible.order": 1
+        },
+        "$type": "fontWeight",
+        "$value": 200
+      },
+      "300": {
+        "$description": "Weight 300",
+        "$extensions": {
+          "org.enfantterrible.order": 2
+        },
+        "$type": "fontWeight",
+        "$value": 300
+      },
+      "400": {
+        "$description": "Weight 400",
+        "$extensions": {
+          "org.enfantterrible.order": 3
+        },
+        "$type": "fontWeight",
+        "$value": 400
+      },
+      "500": {
+        "$description": "Weight 500",
+        "$extensions": {
+          "org.enfantterrible.order": 4
+        },
+        "$type": "fontWeight",
+        "$value": 500
+      },
+      "600": {
+        "$description": "Weight 600",
+        "$extensions": {
+          "org.enfantterrible.order": 5
+        },
+        "$type": "fontWeight",
+        "$value": 600
+      },
+      "700": {
+        "$description": "Weight 700",
+        "$extensions": {
+          "org.enfantterrible.order": 6
+        },
+        "$type": "fontWeight",
+        "$value": 700
+      },
+      "800": {
+        "$description": "Weight 800",
+        "$extensions": {
+          "org.enfantterrible.order": 7
+        },
+        "$type": "fontWeight",
+        "$value": 800
+      },
+      "900": {
+        "$description": "Weight 900",
+        "$extensions": {
+          "org.enfantterrible.order": 8
+        },
+        "$type": "fontWeight",
+        "$value": 900
+      },
+      "$description": "Font weight scale"
+    }
+  }
+}
