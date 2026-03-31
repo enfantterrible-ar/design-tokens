@@ -4,9 +4,12 @@
   "type": "module",
   "scripts": {
     "primitives": "tsx src/primitives/index.ts",
-    "primitives:watch": "tsx --watch src/primitives/index.ts"
+    "primitives:watch": "tsx --watch src/primitives/index.ts",
+    "primitives:validate": "tz check build/tokens.primitives.json"
   },
   "devDependencies": {
+    "@terrazzo/cli": "^2.0.0",
+    "@terrazzo/plugin-js": "^2.0.0",
     "@types/culori": "^4.0.1",
     "@types/node": "^25.5.0",
     "culori": "^4.0.2",

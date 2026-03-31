@@ -16,6 +16,34 @@ function uniqueSorted(numbers: number[]): number[] {
     return Array.from(new Set(numbers)).sort((a, b) => a - b);
 }
 
+/**
+ * Clamps a number to the decimal precision of a reference literal.
+ * Ensures math noise like 0.30000000000000004 snaps back to 0.3.
+ */
+function clampToPrecision(target: number, reference: number): number {
+    const s = String(reference);
+    let precision = 0;
+
+    if (s.includes('e')) {
+        // Handle scientific notation: e.g., 1e-7 or 1.23e-4
+        const [base, exp] = s.split('e');
+        const baseDecimals = base.includes('.') ? base.split('.')[1].length : 0;
+        precision = Math.abs(Number(exp)) + baseDecimals;
+    } else if (s.includes('.')) {
+        // Handle standard decimals: e.g., 0.03
+        precision = s.split('.')[1].length;
+    }
+
+    // toFixed(precision) is the "clamp". 
+    // parseFloat() removes any resulting trailing zeros (turning "1.200" into 1.2).
+    return parseFloat(target.toFixed(precision));
+}
+function cleanNumber(num: number): number {
+    // toPrecision(12) handles the noise at the 15th+ digit.
+    // parseFloat() removes the trailing zeros that you (rightly) pointed out.
+    return parseFloat(num.toPrecision(12));
+}
+
 function generateSteps<T extends TokenType>(params: StepsParams<T>, core: CoreConfig): GeneratorOutput {
 	const result: GeneratorOutput = {};
     const base = params.base ?? core.baseUnit;
@@ -23,10 +51,16 @@ function generateSteps<T extends TokenType>(params: StepsParams<T>, core: CoreCo
     const resolvedSteps = uniqueSorted(steps);
 
     for (const step of resolvedSteps) {
+        
+        // Clamp the step itself to remove potential noise from uniqueSorted or previous math
+        const key = String(step);
+        console.log(`Generating step: ${key}`);
+
         if (base && typeof base === "object" && "unit" in base) {
-            result[String(step)] = { value: step * base.value, unit: base.unit };
+            const calculatedValue = cleanNumber(step * base.value);
+            result[key] = { value: calculatedValue, unit: base.unit };
         } else {
-            result[String(step)] = step;
+            result[key] = step;
         }
     }
 
@@ -42,10 +76,15 @@ function generateRange(params: RangeParams): GeneratorOutput {
     const result: GeneratorOutput = {};
 
     for (let v = min; v <= max; v += step) {
+        
+        // Use the 'step' literal from config to clamp the current value 'v'
+        const cleanedValue = cleanNumber(v);
+        const key = String(cleanedValue);
+
         if (params.base && "unit" in params.base) {
-            result[String(v)] = { value: v * params.base.value, unit: params.base.unit };
+            result[key] = { value: cleanedValue * params.base.value, unit: params.base.unit };
         } else {
-            result[String(v)] = v;
+            result[key] = cleanedValue;
         }
     }
 
@@ -87,7 +126,7 @@ function generateColor(params: PaletteParams): GeneratorOutput {
 
     for (const [paletteName, scale] of Object.entries(colors)) {
         if (typeof scale === 'string') {
-            if (paletteName === 'black' || paletteName === 'white') {
+            if (paletteName === 'black' || paletteName === 'white' || paletteName === 'transparent') {
                 result[paletteName] = parseTailwindColor(scale, params.colorSpace);
             }
             continue;

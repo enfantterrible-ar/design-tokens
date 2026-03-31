@@ -6,4 +6,4 @@ import { toDTCG } from './transformers';
 const resolvedConfig = resolveConfig(config);
 const dtcg = toDTCG(resolvedConfig);
 
-saveTokens(dtcg, 'build/tokens.primitives.json');
+saveTokens(dtcg, 'layers/tokens.primitives.json');

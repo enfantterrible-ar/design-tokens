@@ -23,7 +23,7 @@ const config: Config = {
             $description: "Color palette",
             $config: {
                 generator: "palette",
-                params: { source: "tailwind", colorSpace: "srgb" }
+                params: { source: "tailwind", colorSpace: "oklch" }
             }
         },
         // -------------------------
@@ -123,18 +123,6 @@ const config: Config = {
         },
 
         // -------------------------
-        // WEIGHT
-        // -------------------------
-        weight: {
-			$description: "Font weight scale",
-            $type: "fontWeight",
-            $config: {
-                generator: "range",
-                params: { min: 100, max: 900, step: 100 }
-            }
-        },
-
-        // -------------------------
         // INDEX
         // -------------------------
         index: {
@@ -162,6 +150,90 @@ const config: Config = {
                         "4": { value: 80, unit: "rem" },
                         "5": { value: 96, unit: "rem" }
                     }
+                }
+            }
+        },
+
+        // -------------------------
+        // FONT SIZE
+        // -------------------------
+        "font-size": {
+            $description: "Font size scale",
+            $type: "dimension",
+            $config: {
+                generator: "map",
+                params: {
+                    values: {
+                        "1b": { value: 0.833, unit: "rem" },
+                        "1":  { value: 1, unit: "rem" },
+                        "2":  { value: 1.2, unit: "rem" },
+                        "3":  { value: 1.44, unit: "rem" },
+                        "4":  { value: 1.728, unit: "rem" },
+                        "5":  { value: 2.074, unit: "rem" },
+                        "6":  { value: 2.488, unit: "rem" },
+                        "7":  { value: 2.986, unit: "rem" },
+                        "8":  { value: 3.583, unit: "rem" }
+                    }
+                }
+            }
+        },
+
+        // -------------------------
+        // WEIGHT
+        // -------------------------
+        "font-weight": {
+			$description: "Font weight scale",
+            $type: "fontWeight",
+            $config: {
+                generator: "range",
+                params: { min: 100, max: 900, step: 100 }
+            }
+        },
+
+        // -------------------------
+        // LINE HEIGHT
+        // -------------------------
+        "line-height": {
+            $description: "Line height scale",
+            $type: "number",
+            $config: {
+                generator: "map",
+                params: {
+                    values: {
+                        "1": 1.1,
+                        "2": 1.2,
+                        "3": 1.3,
+                        "4": 1.4,
+                        "5": 1.5,
+                        "6": 1.6,
+                        "7": 1.7
+                    }
+                }
+            }
+        },
+
+        // -------------------------
+        // LETTER SPACING
+        // -------------------------
+        "letter-spacing": {
+            $description: "Letter spacing scale",
+            $type: "dimension",
+            $config: {
+                generator: "map",
+                params: {
+                values: {
+                    "5b": { value: -0.05, unit: "rem" },
+                    "4b": { value: -0.04, unit: "rem" },
+                    "3b": { value: -0.03, unit: "rem" },
+                    "2b": { value: -0.02, unit: "rem" },
+                    "1b": { value: -0.01, unit: "rem" },
+                    "0":  { value: 0,     unit: "rem" },
+                    "1":  { value: 0.01,  unit: "rem" },
+                    "2":  { value: 0.02,  unit: "rem" },
+                    "3":  { value: 0.03,  unit: "rem" },
+                    "4":  { value: 0.04,  unit: "rem" },
+                    "5":  { value: 0.05,  unit: "rem" }
+                }
                 }
             }
         }
