@@ -1,0 +1,18 @@
+{
+  "semantics": {
+    "space": {
+      "xs": { "$type": "dimension", "$value": "{primitives.space.1}" },
+      "sm": { "$type": "dimension", "$value": "{primitives.space.2}" },
+      "md": { "$type": "dimension", "$value": "{primitives.space.3}" },
+      "lg": { "$type": "dimension", "$value": "{primitives.space.4}" },
+      "xl": { "$type": "dimension", "$value": "{primitives.space.6}" },
+      "2xl": { "$type": "dimension", "$value": "{primitives.space.8}" },
+      "3xl": { "$type": "dimension", "$value": "{primitives.space.10}" },
+      "4xl": { "$type": "dimension", "$value": "{primitives.space.12}" },
+      "5xl": { "$type": "dimension", "$value": "{primitives.space.16}" },
+      "6xl": { "$type": "dimension", "$value": "{primitives.space.20}" },
+      "7xl": { "$type": "dimension", "$value": "{primitives.space.24}" },
+      "8xl": { "$type": "dimension", "$value": "{primitives.space.32}" }
+    }
+  }
+}

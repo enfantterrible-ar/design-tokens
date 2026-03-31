@@ -1,0 +1,293 @@
+{
+  "palette": {
+    "brand": {
+      "base": {
+        "$type": "color",
+        "$value": "{palette.brand.300}",
+        "$description": "Base color for the brand palette."
+      },
+      "100": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9059,
+            0.7098,
+            0.7137
+          ],
+          "hex": "#E7B5B6",
+          "alpha": 1
+        }
+      },
+      "200": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8706,
+            0.5529,
+            0.5608
+          ],
+          "hex": "#DE8D8F",
+          "alpha": 1
+        }
+      },
+      "300": {
+        "$description": "Base color for the brand palette.",
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8431,
+            0.3686,
+            0.3843
+          ],
+          "hex": "#D75E62",
+          "alpha": 1
+        }
+      },
+      "400": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7216,
+            0.2784,
+            0.2941
+          ],
+          "hex": "#B8474B",
+          "alpha": 1
+        }
+      },
+      "500": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5843,
+            0.2196,
+            0.2314
+          ],
+          "hex": "#95383B",
+          "alpha": 1
+        }
+      }
+    },
+    "black": {
+      "$type": "color",
+      "$value": "{primitives.color.black}"
+    },
+    "white": {
+      "$type": "color",
+      "$value": "{primitives.color.white}"
+    },
+    "transparent": {
+      "$type": "color",
+      "$value": "{primitives.color.transparent}"
+    },
+    "primary": {
+      "base": {
+        "$type": "color",
+        "$value": "{palette.primary.300}",
+        "$description": "Base color for the primary palette."
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{primitives.color.cyan-50}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{primitives.color.cyan-200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{primitives.color.cyan-500}",
+        "$description": "Action and interactive primary. CTA color. Distinct from brand."
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{primitives.color.cyan-700}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{primitives.color.cyan-900}"
+      }
+    },
+    "accent": {
+      "base": {
+        "$type": "color",
+        "$value": "{palette.accent.300}",
+        "$description": "Base color for the accent palette."
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{primitives.color.violet-50}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{primitives.color.violet-200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{primitives.color.violet-500}",
+        "$description": "Decorative accent. Emphasis, illustration, data visualization."
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{primitives.color.violet-700}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{primitives.color.violet-900}"
+      }
+    },
+    "neutral": {
+      "base": {
+        "$type": "color",
+        "$value": "{palette.neutral.300}",
+        "$description": "Base color for the neutral palette."
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{primitives.color.stone-50}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{primitives.color.stone-200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{primitives.color.stone-500}"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{primitives.color.stone-700}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{primitives.color.stone-900}"
+      }
+    },
+    "success": {
+      "base": {
+        "$type": "color",
+        "$value": "{palette.success.300}",
+        "$description": "Base color for the success palette."
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{primitives.color.emerald-50}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{primitives.color.emerald-200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{primitives.color.emerald-500}"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{primitives.color.emerald-700}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{primitives.color.emerald-900}"
+      }
+    },
+    "warning": {
+      "base": {
+        "$type": "color",
+        "$value": "{palette.warning.300}",
+        "$description": "Base color for the warning palette."
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{primitives.color.amber-50}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{primitives.color.amber-200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{primitives.color.amber-500}"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{primitives.color.amber-700}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{primitives.color.amber-900}"
+      }
+    },
+    "danger": {
+      "base": {
+        "$type": "color",
+        "$value": "{palette.danger.300}",
+        "$description": "Base color for the danger palette."
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{primitives.color.red-50}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{primitives.color.red-200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{primitives.color.red-500}"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{primitives.color.red-700}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{primitives.color.red-900}"
+      }
+    },
+    "info": {
+      "base": {
+        "$type": "color",
+        "$value": "{palette.info.300}",
+        "$description": "Base color for the info palette."
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{primitives.color.purple-50}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{primitives.color.purple-200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{primitives.color.purple-500}",
+        "$description": "Default for links and focus ring."
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{primitives.color.purple-700}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{primitives.color.purple-900}"
+      }
+    },
+    "overlay": {
+      "default": {
+        "$description": "Backdrop scrim for modals and overlays.",
+        "$type": "color",
+        "$value": {
+          "colorSpace": { "$ref": "#/primitives/color/stone-900/$value/colorSpace" },
+          "components": { "$ref": "#/primitives/color/stone-900/$value/components" },
+          "hex": { "$ref": "#/primitives/color/stone-900/$value/hex" },
+          "alpha": 0.4
+        }
+      }
+    }
+  }
+}
