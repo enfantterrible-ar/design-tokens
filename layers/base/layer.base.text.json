@@ -1,0 +1,38 @@
+{
+  	"base": {
+		"text": {
+			"font": {
+				"heading": {
+					"$type": "fontFamily",
+					"$value": "Anybody",
+					"$description": "Variable font - wght, wdth axes - headings"
+				},
+				"body": {
+					"$type": "fontFamily",
+					"$value": "Inter",
+					"$description": "Variable font - wght, opsz axes - body and UI"
+				}
+			},
+			"size": {
+				"$type": "dimension",
+				"$extends": "{primitives.font-size}",
+				"$description": "Font sizes"
+			},
+			"weight": {
+				"$type": "dimension",
+				"$extends": "{primitives.font-weight}",
+				"$description": "Font weights"
+			},
+			"line-height": {
+				"$type": "dimension",
+				"$extends": "{primitives.line-height}",
+				"$description": "Line heights"
+			},
+			"letter-spacing": {
+				"$type": "dimension",
+				"$extends": "{primitives.letter-spacing}",
+				"$description": "Letter spacing"
+			}
+		}
+  	}
+}

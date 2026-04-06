@@ -1,0 +1,8 @@
+{
+  "base": {
+    "space": {
+      "$extends": "{primitives.space}",
+	  "$description": "Spacing tokens. These values use a base unit of 0.25rem, so the key * 4 equals to the value in pixels. For example, space.4 equals 1rem or 16px."
+    }
+  }
+}

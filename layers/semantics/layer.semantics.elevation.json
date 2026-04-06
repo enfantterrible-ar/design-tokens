@@ -1,0 +1,26 @@
+{
+  "semantics": {
+    "elevation": {
+      "1": {
+        "$type": "shadow",
+        "$value": "{base.shadow.1}",
+        "$description": "Default application background."
+      },
+	  "2": {
+		"$type": "shadow",
+		"$value": "{base.shadow.2}",
+		"$description": "Default for cards, sheets, and menus."
+	  },
+	  "3": {
+		"$type": "shadow",
+		"$value": "{base.shadow.3}",
+		"$description": "Default for popovers and tooltips."
+	  },
+	  "4": {
+		"$type": "shadow",
+		"$value": "{base.shadow.4}",
+		"$description": "Default for modals, dialogs, and overlays."
+	  }
+    }
+  }
+}

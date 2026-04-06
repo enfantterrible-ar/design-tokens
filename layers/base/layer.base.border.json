@@ -1,0 +1,25 @@
+{
+  	"base": {
+		"border": {
+			"radius": {
+				"$description": "Border radius tokens. These values use a base unit of 0.25rem, so the key * 4 equals to the value in pixels. For example, radius.4 equals 1rem or 16px.",
+				"1":  { "$type": "dimension", "$value": "{primitives.radius.1}" },
+				"2":  { "$type": "dimension", "$value": "{primitives.radius.2}" },
+				"3":  { "$type": "dimension", "$value": "{primitives.radius.3}" },
+				"4":  { "$type": "dimension", "$value": "{primitives.radius.4}" },
+				"5":  { "$type": "dimension", "$value": "{primitives.radius.5}" },
+				"6": { "$type": "dimension", "$value": "{primitives.radius.6}" },
+				"8":{ "$type": "dimension", "$value": "{primitives.radius.8}" },
+				"16":{ "$type": "dimension", "$value": "{primitives.radius.16}" },
+				"full":{ "$type": "dimension", "$value": "{primitives.radius.full}" }
+			},
+			"width": {
+				"$description": "Border width tokens. These values use a base unit of 1px, so the key * 1 equals to the value in pixels. For example, width.1 equals 1px.",
+				"1":  { "$type": "dimension", "$value": "{primitives.thickness.1}" },
+				"2":  { "$type": "dimension", "$value": "{primitives.thickness.2}" },
+				"3":  { "$type": "dimension", "$value": "{primitives.thickness.3}" },
+				"4":  { "$type": "dimension", "$value": "{primitives.thickness.4}" }
+			}
+		}
+  	}
+}

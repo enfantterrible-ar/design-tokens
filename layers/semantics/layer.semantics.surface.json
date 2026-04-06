@@ -3,22 +3,22 @@
     "surface": {
       "base": {
         "$type": "color",
-        "$value": "{palette.neutral.100}",
+        "$value": "{base.palette.neutral.100}",
         "$description": "Default application background."
       },
       "raised": {
         "$type": "color",
-        "$value": "{palette.neutral.200}",
+        "$value": "{base.palette.neutral.200}",
         "$description": "Foreground containers: cards, modals, dropdowns."
       },
       "overlay": {
         "$description": "Backdrop scrim for modals and overlays.",
         "$type": "color",
-        "$value": "{palette.overlay.default}"
+        "$value": "{base.palette.overlay.default}"
       },
       "inverse": {
         "$type": "color",
-        "$value": "{palette.neutral.500}",
+        "$value": "{base.palette.neutral.500}",
         "$description": "Inverse surface for dark sections."
       }
     }
