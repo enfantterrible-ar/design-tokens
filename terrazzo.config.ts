@@ -4,6 +4,8 @@ import js from '@terrazzo/plugin-js';
 
 import { getPathsFromRoot } from './terrazzo/helpers';
 import { filterPrimitivesFromJS } from './terrazzo/plugin-filter-primitives-from-js';
+import { generateJSON } from './terrazzo/plugin-generate-json';
+import { tokenStudioPlugin } from './terrazzo/plugin-token-studio-transform';
 
 export default defineConfig({
   tokens: [
@@ -14,6 +16,8 @@ export default defineConfig({
   plugins: [
     /** @see https://terrazzo.app/docs */
     filterPrimitivesFromJS(),
+    generateJSON(),
+    tokenStudioPlugin(),
   ],
   outDir: './dist/',
   lint: {

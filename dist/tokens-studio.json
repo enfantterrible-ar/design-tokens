@@ -1,0 +1,2333 @@
+{
+  "base": {
+    "border.radius.1": {
+      "$type": "dimension",
+      "$value": "0.25rem"
+    },
+    "border.radius.2": {
+      "$type": "dimension",
+      "$value": "0.5rem"
+    },
+    "border.radius.3": {
+      "$type": "dimension",
+      "$value": "0.75rem"
+    },
+    "border.radius.4": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "border.radius.5": {
+      "$type": "dimension",
+      "$value": "1.25rem"
+    },
+    "border.radius.6": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "border.radius.8": {
+      "$type": "dimension",
+      "$value": "2rem"
+    },
+    "border.radius.16": {
+      "$type": "dimension",
+      "$value": "4rem"
+    },
+    "border.radius.full": {
+      "$type": "dimension",
+      "$value": "999px"
+    },
+    "border.width.1": {
+      "$type": "dimension",
+      "$value": "1px"
+    },
+    "border.width.2": {
+      "$type": "dimension",
+      "$value": "2px"
+    },
+    "border.width.3": {
+      "$type": "dimension",
+      "$value": "3px"
+    },
+    "border.width.4": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "palette.accent.50": {
+      "$type": "color",
+      "$value": "#fdf2f8",
+      "$description": "Color pink-50",
+      "$extensions": {
+        "org.enfantterrible.order": 267
+      }
+    },
+    "palette.accent.100": {
+      "$type": "color",
+      "$value": "#fce7f3",
+      "$description": "Color pink-100",
+      "$extensions": {
+        "org.enfantterrible.order": 268
+      }
+    },
+    "palette.accent.200": {
+      "$type": "color",
+      "$value": "#fccee8",
+      "$description": "Color pink-200",
+      "$extensions": {
+        "org.enfantterrible.order": 269
+      }
+    },
+    "palette.accent.300": {
+      "$type": "color",
+      "$value": "#fda5d5",
+      "$description": "Color pink-300",
+      "$extensions": {
+        "org.enfantterrible.order": 270
+      }
+    },
+    "palette.accent.400": {
+      "$type": "color",
+      "$value": "#fb64b6",
+      "$description": "Color pink-400",
+      "$extensions": {
+        "org.enfantterrible.order": 271
+      }
+    },
+    "palette.accent.500": {
+      "$type": "color",
+      "$value": "#f6339a",
+      "$description": "Color pink-500",
+      "$extensions": {
+        "org.enfantterrible.order": 272
+      }
+    },
+    "palette.accent.600": {
+      "$type": "color",
+      "$value": "#e60076",
+      "$description": "Color pink-600",
+      "$extensions": {
+        "org.enfantterrible.order": 273
+      }
+    },
+    "palette.accent.700": {
+      "$type": "color",
+      "$value": "#c6005c",
+      "$description": "Color pink-700",
+      "$extensions": {
+        "org.enfantterrible.order": 274
+      }
+    },
+    "palette.accent.800": {
+      "$type": "color",
+      "$value": "#a3004c",
+      "$description": "Color pink-800",
+      "$extensions": {
+        "org.enfantterrible.order": 275
+      }
+    },
+    "palette.accent.900": {
+      "$type": "color",
+      "$value": "#861043",
+      "$description": "Color pink-900",
+      "$extensions": {
+        "org.enfantterrible.order": 276
+      }
+    },
+    "palette.accent.950": {
+      "$type": "color",
+      "$value": "#510424",
+      "$description": "Color pink-950",
+      "$extensions": {
+        "org.enfantterrible.order": 277
+      }
+    },
+    "palette.black": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "palette.brand.50": {
+      "$type": "color",
+      "$value": "#faf2f2"
+    },
+    "palette.brand.100": {
+      "$type": "color",
+      "$value": "#f4e1e1"
+    },
+    "palette.brand.200": {
+      "$type": "color",
+      "$value": "#ebc2c3"
+    },
+    "palette.brand.300": {
+      "$type": "color",
+      "$value": "#e2a3a5"
+    },
+    "palette.brand.400": {
+      "$type": "color",
+      "$value": "#dc8284"
+    },
+    "palette.brand.500": {
+      "$type": "color",
+      "$value": "#d75e62"
+    },
+    "palette.brand.600": {
+      "$type": "color",
+      "$value": "#b04448"
+    },
+    "palette.brand.700": {
+      "$type": "color",
+      "$value": "#863235"
+    },
+    "palette.brand.800": {
+      "$type": "color",
+      "$value": "#5d2022"
+    },
+    "palette.brand.900": {
+      "$type": "color",
+      "$value": "#381012"
+    },
+    "palette.brand.950": {
+      "$type": "color",
+      "$value": "#28090a"
+    },
+    "palette.danger.50": {
+      "$type": "color",
+      "$value": "#fef2f2",
+      "$description": "Color red-50",
+      "$extensions": {
+        "org.enfantterrible.order": 102
+      }
+    },
+    "palette.danger.100": {
+      "$type": "color",
+      "$value": "#ffe2e2",
+      "$description": "Color red-100",
+      "$extensions": {
+        "org.enfantterrible.order": 103
+      }
+    },
+    "palette.danger.200": {
+      "$type": "color",
+      "$value": "#ffc9c9",
+      "$description": "Color red-200",
+      "$extensions": {
+        "org.enfantterrible.order": 104
+      }
+    },
+    "palette.danger.300": {
+      "$type": "color",
+      "$value": "#ffa2a2",
+      "$description": "Color red-300",
+      "$extensions": {
+        "org.enfantterrible.order": 105
+      }
+    },
+    "palette.danger.400": {
+      "$type": "color",
+      "$value": "#ff6467",
+      "$description": "Color red-400",
+      "$extensions": {
+        "org.enfantterrible.order": 106
+      }
+    },
+    "palette.danger.500": {
+      "$type": "color",
+      "$value": "#fb2c36",
+      "$description": "Color red-500",
+      "$extensions": {
+        "org.enfantterrible.order": 107
+      }
+    },
+    "palette.danger.600": {
+      "$type": "color",
+      "$value": "#e7000b",
+      "$description": "Color red-600",
+      "$extensions": {
+        "org.enfantterrible.order": 108
+      }
+    },
+    "palette.danger.700": {
+      "$type": "color",
+      "$value": "#c10007",
+      "$description": "Color red-700",
+      "$extensions": {
+        "org.enfantterrible.order": 109
+      }
+    },
+    "palette.danger.800": {
+      "$type": "color",
+      "$value": "#9f0712",
+      "$description": "Color red-800",
+      "$extensions": {
+        "org.enfantterrible.order": 110
+      }
+    },
+    "palette.danger.900": {
+      "$type": "color",
+      "$value": "#82181a",
+      "$description": "Color red-900",
+      "$extensions": {
+        "org.enfantterrible.order": 111
+      }
+    },
+    "palette.danger.950": {
+      "$type": "color",
+      "$value": "#460809",
+      "$description": "Color red-950",
+      "$extensions": {
+        "org.enfantterrible.order": 112
+      }
+    },
+    "palette.info.50": {
+      "$type": "color",
+      "$value": "#eff6ff",
+      "$description": "Color blue-50",
+      "$extensions": {
+        "org.enfantterrible.order": 212
+      }
+    },
+    "palette.info.100": {
+      "$type": "color",
+      "$value": "#dbeafe",
+      "$description": "Color blue-100",
+      "$extensions": {
+        "org.enfantterrible.order": 213
+      }
+    },
+    "palette.info.200": {
+      "$type": "color",
+      "$value": "#bedbff",
+      "$description": "Color blue-200",
+      "$extensions": {
+        "org.enfantterrible.order": 214
+      }
+    },
+    "palette.info.300": {
+      "$type": "color",
+      "$value": "#8ec5ff",
+      "$description": "Color blue-300",
+      "$extensions": {
+        "org.enfantterrible.order": 215
+      }
+    },
+    "palette.info.400": {
+      "$type": "color",
+      "$value": "#51a2ff",
+      "$description": "Color blue-400",
+      "$extensions": {
+        "org.enfantterrible.order": 216
+      }
+    },
+    "palette.info.500": {
+      "$type": "color",
+      "$value": "#2b7fff",
+      "$description": "Color blue-500",
+      "$extensions": {
+        "org.enfantterrible.order": 217
+      }
+    },
+    "palette.info.600": {
+      "$type": "color",
+      "$value": "#155dfc",
+      "$description": "Color blue-600",
+      "$extensions": {
+        "org.enfantterrible.order": 218
+      }
+    },
+    "palette.info.700": {
+      "$type": "color",
+      "$value": "#1447e6",
+      "$description": "Color blue-700",
+      "$extensions": {
+        "org.enfantterrible.order": 219
+      }
+    },
+    "palette.info.800": {
+      "$type": "color",
+      "$value": "#193cb8",
+      "$description": "Color blue-800",
+      "$extensions": {
+        "org.enfantterrible.order": 220
+      }
+    },
+    "palette.info.900": {
+      "$type": "color",
+      "$value": "#1c398e",
+      "$description": "Color blue-900",
+      "$extensions": {
+        "org.enfantterrible.order": 221
+      }
+    },
+    "palette.info.950": {
+      "$type": "color",
+      "$value": "#162456",
+      "$description": "Color blue-950",
+      "$extensions": {
+        "org.enfantterrible.order": 222
+      }
+    },
+    "palette.neutral.50": {
+      "$type": "color",
+      "$value": "#fafaf9",
+      "$description": "Color stone-50",
+      "$extensions": {
+        "org.enfantterrible.order": 47
+      }
+    },
+    "palette.neutral.100": {
+      "$type": "color",
+      "$value": "#f5f5f4",
+      "$description": "Color stone-100",
+      "$extensions": {
+        "org.enfantterrible.order": 48
+      }
+    },
+    "palette.neutral.200": {
+      "$type": "color",
+      "$value": "#e7e5e4",
+      "$description": "Color stone-200",
+      "$extensions": {
+        "org.enfantterrible.order": 49
+      }
+    },
+    "palette.neutral.300": {
+      "$type": "color",
+      "$value": "#d6d3d1",
+      "$description": "Color stone-300",
+      "$extensions": {
+        "org.enfantterrible.order": 50
+      }
+    },
+    "palette.neutral.400": {
+      "$type": "color",
+      "$value": "#a6a09b",
+      "$description": "Color stone-400",
+      "$extensions": {
+        "org.enfantterrible.order": 51
+      }
+    },
+    "palette.neutral.500": {
+      "$type": "color",
+      "$value": "#79716b",
+      "$description": "Color stone-500",
+      "$extensions": {
+        "org.enfantterrible.order": 52
+      }
+    },
+    "palette.neutral.600": {
+      "$type": "color",
+      "$value": "#57534d",
+      "$description": "Color stone-600",
+      "$extensions": {
+        "org.enfantterrible.order": 53
+      }
+    },
+    "palette.neutral.700": {
+      "$type": "color",
+      "$value": "#44403b",
+      "$description": "Color stone-700",
+      "$extensions": {
+        "org.enfantterrible.order": 54
+      }
+    },
+    "palette.neutral.800": {
+      "$type": "color",
+      "$value": "#292524",
+      "$description": "Color stone-800",
+      "$extensions": {
+        "org.enfantterrible.order": 55
+      }
+    },
+    "palette.neutral.900": {
+      "$type": "color",
+      "$value": "#1c1917",
+      "$description": "Color stone-900",
+      "$extensions": {
+        "org.enfantterrible.order": 56
+      }
+    },
+    "palette.neutral.950": {
+      "$type": "color",
+      "$value": "#0c0a09",
+      "$description": "Color stone-950",
+      "$extensions": {
+        "org.enfantterrible.order": 57
+      }
+    },
+    "palette.overlay.default": {
+      "$type": "color",
+      "$value": "rgba(28, 25, 23, 0.4)",
+      "$description": "Backdrop scrim for modals and overlays."
+    },
+    "palette.primary.50": {
+      "$type": "color",
+      "$value": "#fdf4ff",
+      "$description": "Color fuchsia-50",
+      "$extensions": {
+        "org.enfantterrible.order": 256
+      }
+    },
+    "palette.primary.100": {
+      "$type": "color",
+      "$value": "#fae8ff",
+      "$description": "Color fuchsia-100",
+      "$extensions": {
+        "org.enfantterrible.order": 257
+      }
+    },
+    "palette.primary.200": {
+      "$type": "color",
+      "$value": "#f6cfff",
+      "$description": "Color fuchsia-200",
+      "$extensions": {
+        "org.enfantterrible.order": 258
+      }
+    },
+    "palette.primary.300": {
+      "$type": "color",
+      "$value": "#f4a8ff",
+      "$description": "Color fuchsia-300",
+      "$extensions": {
+        "org.enfantterrible.order": 259
+      }
+    },
+    "palette.primary.400": {
+      "$type": "color",
+      "$value": "#ed6aff",
+      "$description": "Color fuchsia-400",
+      "$extensions": {
+        "org.enfantterrible.order": 260
+      }
+    },
+    "palette.primary.500": {
+      "$type": "color",
+      "$value": "#e12afb",
+      "$description": "Color fuchsia-500",
+      "$extensions": {
+        "org.enfantterrible.order": 261
+      }
+    },
+    "palette.primary.600": {
+      "$type": "color",
+      "$value": "#c800de",
+      "$description": "Color fuchsia-600",
+      "$extensions": {
+        "org.enfantterrible.order": 262
+      }
+    },
+    "palette.primary.700": {
+      "$type": "color",
+      "$value": "#a800b7",
+      "$description": "Color fuchsia-700",
+      "$extensions": {
+        "org.enfantterrible.order": 263
+      }
+    },
+    "palette.primary.800": {
+      "$type": "color",
+      "$value": "#8a0194",
+      "$description": "Color fuchsia-800",
+      "$extensions": {
+        "org.enfantterrible.order": 264
+      }
+    },
+    "palette.primary.900": {
+      "$type": "color",
+      "$value": "#721378",
+      "$description": "Color fuchsia-900",
+      "$extensions": {
+        "org.enfantterrible.order": 265
+      }
+    },
+    "palette.primary.950": {
+      "$type": "color",
+      "$value": "#4b004f",
+      "$description": "Color fuchsia-950",
+      "$extensions": {
+        "org.enfantterrible.order": 266
+      }
+    },
+    "palette.success.50": {
+      "$type": "color",
+      "$value": "#f0fdf4",
+      "$description": "Color green-50",
+      "$extensions": {
+        "org.enfantterrible.order": 157
+      }
+    },
+    "palette.success.100": {
+      "$type": "color",
+      "$value": "#dcfce7",
+      "$description": "Color green-100",
+      "$extensions": {
+        "org.enfantterrible.order": 158
+      }
+    },
+    "palette.success.200": {
+      "$type": "color",
+      "$value": "#b9f8cf",
+      "$description": "Color green-200",
+      "$extensions": {
+        "org.enfantterrible.order": 159
+      }
+    },
+    "palette.success.300": {
+      "$type": "color",
+      "$value": "#7bf1a8",
+      "$description": "Color green-300",
+      "$extensions": {
+        "org.enfantterrible.order": 160
+      }
+    },
+    "palette.success.400": {
+      "$type": "color",
+      "$value": "#05df72",
+      "$description": "Color green-400",
+      "$extensions": {
+        "org.enfantterrible.order": 161
+      }
+    },
+    "palette.success.500": {
+      "$type": "color",
+      "$value": "#00c950",
+      "$description": "Color green-500",
+      "$extensions": {
+        "org.enfantterrible.order": 162
+      }
+    },
+    "palette.success.600": {
+      "$type": "color",
+      "$value": "#00a63e",
+      "$description": "Color green-600",
+      "$extensions": {
+        "org.enfantterrible.order": 163
+      }
+    },
+    "palette.success.700": {
+      "$type": "color",
+      "$value": "#008236",
+      "$description": "Color green-700",
+      "$extensions": {
+        "org.enfantterrible.order": 164
+      }
+    },
+    "palette.success.800": {
+      "$type": "color",
+      "$value": "#016630",
+      "$description": "Color green-800",
+      "$extensions": {
+        "org.enfantterrible.order": 165
+      }
+    },
+    "palette.success.900": {
+      "$type": "color",
+      "$value": "#0d542b",
+      "$description": "Color green-900",
+      "$extensions": {
+        "org.enfantterrible.order": 166
+      }
+    },
+    "palette.success.950": {
+      "$type": "color",
+      "$value": "#032e15",
+      "$description": "Color green-950",
+      "$extensions": {
+        "org.enfantterrible.order": 167
+      }
+    },
+    "palette.transparent": {
+      "$type": "color",
+      "$value": "rgba(0, 0, 0, 0)"
+    },
+    "palette.warning.50": {
+      "$type": "color",
+      "$value": "#fefce8",
+      "$description": "Color yellow-50",
+      "$extensions": {
+        "org.enfantterrible.order": 135
+      }
+    },
+    "palette.warning.100": {
+      "$type": "color",
+      "$value": "#fef9c2",
+      "$description": "Color yellow-100",
+      "$extensions": {
+        "org.enfantterrible.order": 136
+      }
+    },
+    "palette.warning.200": {
+      "$type": "color",
+      "$value": "#fff085",
+      "$description": "Color yellow-200",
+      "$extensions": {
+        "org.enfantterrible.order": 137
+      }
+    },
+    "palette.warning.300": {
+      "$type": "color",
+      "$value": "#ffdf20",
+      "$description": "Color yellow-300",
+      "$extensions": {
+        "org.enfantterrible.order": 138
+      }
+    },
+    "palette.warning.400": {
+      "$type": "color",
+      "$value": "#fdc700",
+      "$description": "Color yellow-400",
+      "$extensions": {
+        "org.enfantterrible.order": 139
+      }
+    },
+    "palette.warning.500": {
+      "$type": "color",
+      "$value": "#f0b100",
+      "$description": "Color yellow-500",
+      "$extensions": {
+        "org.enfantterrible.order": 140
+      }
+    },
+    "palette.warning.600": {
+      "$type": "color",
+      "$value": "#d08700",
+      "$description": "Color yellow-600",
+      "$extensions": {
+        "org.enfantterrible.order": 141
+      }
+    },
+    "palette.warning.700": {
+      "$type": "color",
+      "$value": "#a65f00",
+      "$description": "Color yellow-700",
+      "$extensions": {
+        "org.enfantterrible.order": 142
+      }
+    },
+    "palette.warning.800": {
+      "$type": "color",
+      "$value": "#894b00",
+      "$description": "Color yellow-800",
+      "$extensions": {
+        "org.enfantterrible.order": 143
+      }
+    },
+    "palette.warning.900": {
+      "$type": "color",
+      "$value": "#733e0a",
+      "$description": "Color yellow-900",
+      "$extensions": {
+        "org.enfantterrible.order": 144
+      }
+    },
+    "palette.warning.950": {
+      "$type": "color",
+      "$value": "#432004",
+      "$description": "Color yellow-950",
+      "$extensions": {
+        "org.enfantterrible.order": 145
+      }
+    },
+    "palette.white": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "screens.1": {
+      "$type": "dimension",
+      "$value": "40rem",
+      "$description": "Screens scale - 40rem",
+      "$extensions": {
+        "org.enfantterrible.order": 0
+      }
+    },
+    "screens.2": {
+      "$type": "dimension",
+      "$value": "48rem",
+      "$description": "Screens scale - 48rem",
+      "$extensions": {
+        "org.enfantterrible.order": 1
+      }
+    },
+    "screens.3": {
+      "$type": "dimension",
+      "$value": "64rem",
+      "$description": "Screens scale - 64rem",
+      "$extensions": {
+        "org.enfantterrible.order": 2
+      }
+    },
+    "screens.4": {
+      "$type": "dimension",
+      "$value": "80rem",
+      "$description": "Screens scale - 80rem",
+      "$extensions": {
+        "org.enfantterrible.order": 3
+      }
+    },
+    "screens.5": {
+      "$type": "dimension",
+      "$value": "96rem",
+      "$description": "Screens scale - 96rem",
+      "$extensions": {
+        "org.enfantterrible.order": 4
+      }
+    },
+    "shadow.1": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.06)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3px",
+          "blur": "3px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "4px",
+          "blur": "4px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.1)",
+          "type": "dropShadow"
+        }
+      ]
+    },
+    "shadow.2": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3px",
+          "blur": "3px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.06)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "5px",
+          "blur": "5px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "8px",
+          "blur": "8px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.1)",
+          "type": "dropShadow"
+        }
+      ]
+    },
+    "shadow.3": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3px",
+          "blur": "3px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "6px",
+          "blur": "6px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.06)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "10px",
+          "blur": "10px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "16px",
+          "blur": "16px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.1)",
+          "type": "dropShadow"
+        }
+      ]
+    },
+    "shadow.4": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "5px",
+          "blur": "5px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "12px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.06)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "20px",
+          "blur": "20px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "32px",
+          "blur": "32px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.1)",
+          "type": "dropShadow"
+        }
+      ]
+    },
+    "shadow.color.002": {
+      "$type": "color",
+      "$value": "rgba(28, 25, 23, 0.02)"
+    },
+    "shadow.color.004": {
+      "$type": "color",
+      "$value": "rgba(28, 25, 23, 0.04)"
+    },
+    "shadow.color.006": {
+      "$type": "color",
+      "$value": "rgba(28, 25, 23, 0.06)"
+    },
+    "shadow.color.008": {
+      "$type": "color",
+      "$value": "rgba(28, 25, 23, 0.08)"
+    },
+    "shadow.color.010": {
+      "$type": "color",
+      "$value": "rgba(28, 25, 23, 0.1)"
+    },
+    "space.0": {
+      "$type": "dimension",
+      "$value": "0",
+      "$description": "Space scale - 0rem",
+      "$extensions": {
+        "org.enfantterrible.order": 0
+      }
+    },
+    "space.0p5": {
+      "$type": "dimension",
+      "$value": "0.125rem",
+      "$description": "Space scale - 0.125rem",
+      "$extensions": {
+        "org.enfantterrible.order": 2
+      }
+    },
+    "space.1": {
+      "$type": "dimension",
+      "$value": "0.25rem",
+      "$description": "Space scale - 0.25rem",
+      "$extensions": {
+        "org.enfantterrible.order": 3
+      }
+    },
+    "space.1p5": {
+      "$type": "dimension",
+      "$value": "0.375rem",
+      "$description": "Space scale - 0.375rem",
+      "$extensions": {
+        "org.enfantterrible.order": 4
+      }
+    },
+    "space.2": {
+      "$type": "dimension",
+      "$value": "0.5rem",
+      "$description": "Space scale - 0.5rem",
+      "$extensions": {
+        "org.enfantterrible.order": 5
+      }
+    },
+    "space.2p5": {
+      "$type": "dimension",
+      "$value": "0.625rem",
+      "$description": "Space scale - 0.625rem",
+      "$extensions": {
+        "org.enfantterrible.order": 6
+      }
+    },
+    "space.3": {
+      "$type": "dimension",
+      "$value": "0.75rem",
+      "$description": "Space scale - 0.75rem",
+      "$extensions": {
+        "org.enfantterrible.order": 7
+      }
+    },
+    "space.3p5": {
+      "$type": "dimension",
+      "$value": "0.875rem",
+      "$description": "Space scale - 0.875rem",
+      "$extensions": {
+        "org.enfantterrible.order": 8
+      }
+    },
+    "space.4": {
+      "$type": "dimension",
+      "$value": "1rem",
+      "$description": "Space scale - 1rem",
+      "$extensions": {
+        "org.enfantterrible.order": 9
+      }
+    },
+    "space.5": {
+      "$type": "dimension",
+      "$value": "1.25rem",
+      "$description": "Space scale - 1.25rem",
+      "$extensions": {
+        "org.enfantterrible.order": 10
+      }
+    },
+    "space.6": {
+      "$type": "dimension",
+      "$value": "1.5rem",
+      "$description": "Space scale - 1.5rem",
+      "$extensions": {
+        "org.enfantterrible.order": 11
+      }
+    },
+    "space.7": {
+      "$type": "dimension",
+      "$value": "1.75rem",
+      "$description": "Space scale - 1.75rem",
+      "$extensions": {
+        "org.enfantterrible.order": 12
+      }
+    },
+    "space.8": {
+      "$type": "dimension",
+      "$value": "2rem",
+      "$description": "Space scale - 2rem",
+      "$extensions": {
+        "org.enfantterrible.order": 13
+      }
+    },
+    "space.9": {
+      "$type": "dimension",
+      "$value": "2.25rem",
+      "$description": "Space scale - 2.25rem",
+      "$extensions": {
+        "org.enfantterrible.order": 14
+      }
+    },
+    "space.10": {
+      "$type": "dimension",
+      "$value": "2.5rem",
+      "$description": "Space scale - 2.5rem",
+      "$extensions": {
+        "org.enfantterrible.order": 15
+      }
+    },
+    "space.11": {
+      "$type": "dimension",
+      "$value": "2.75rem",
+      "$description": "Space scale - 2.75rem",
+      "$extensions": {
+        "org.enfantterrible.order": 16
+      }
+    },
+    "space.12": {
+      "$type": "dimension",
+      "$value": "3rem",
+      "$description": "Space scale - 3rem",
+      "$extensions": {
+        "org.enfantterrible.order": 17
+      }
+    },
+    "space.14": {
+      "$type": "dimension",
+      "$value": "3.5rem",
+      "$description": "Space scale - 3.5rem",
+      "$extensions": {
+        "org.enfantterrible.order": 18
+      }
+    },
+    "space.16": {
+      "$type": "dimension",
+      "$value": "4rem",
+      "$description": "Space scale - 4rem",
+      "$extensions": {
+        "org.enfantterrible.order": 19
+      }
+    },
+    "space.20": {
+      "$type": "dimension",
+      "$value": "5rem",
+      "$description": "Space scale - 5rem",
+      "$extensions": {
+        "org.enfantterrible.order": 20
+      }
+    },
+    "space.24": {
+      "$type": "dimension",
+      "$value": "6rem",
+      "$description": "Space scale - 6rem",
+      "$extensions": {
+        "org.enfantterrible.order": 21
+      }
+    },
+    "space.28": {
+      "$type": "dimension",
+      "$value": "7rem",
+      "$description": "Space scale - 7rem",
+      "$extensions": {
+        "org.enfantterrible.order": 22
+      }
+    },
+    "space.32": {
+      "$type": "dimension",
+      "$value": "8rem",
+      "$description": "Space scale - 8rem",
+      "$extensions": {
+        "org.enfantterrible.order": 23
+      }
+    },
+    "space.36": {
+      "$type": "dimension",
+      "$value": "9rem",
+      "$description": "Space scale - 9rem",
+      "$extensions": {
+        "org.enfantterrible.order": 24
+      }
+    },
+    "space.40": {
+      "$type": "dimension",
+      "$value": "10rem",
+      "$description": "Space scale - 10rem",
+      "$extensions": {
+        "org.enfantterrible.order": 25
+      }
+    },
+    "space.44": {
+      "$type": "dimension",
+      "$value": "11rem",
+      "$description": "Space scale - 11rem",
+      "$extensions": {
+        "org.enfantterrible.order": 26
+      }
+    },
+    "space.48": {
+      "$type": "dimension",
+      "$value": "12rem",
+      "$description": "Space scale - 12rem",
+      "$extensions": {
+        "org.enfantterrible.order": 27
+      }
+    },
+    "space.52": {
+      "$type": "dimension",
+      "$value": "13rem",
+      "$description": "Space scale - 13rem",
+      "$extensions": {
+        "org.enfantterrible.order": 28
+      }
+    },
+    "space.56": {
+      "$type": "dimension",
+      "$value": "14rem",
+      "$description": "Space scale - 14rem",
+      "$extensions": {
+        "org.enfantterrible.order": 29
+      }
+    },
+    "space.60": {
+      "$type": "dimension",
+      "$value": "15rem",
+      "$description": "Space scale - 15rem",
+      "$extensions": {
+        "org.enfantterrible.order": 30
+      }
+    },
+    "space.64": {
+      "$type": "dimension",
+      "$value": "16rem",
+      "$description": "Space scale - 16rem",
+      "$extensions": {
+        "org.enfantterrible.order": 31
+      }
+    },
+    "space.72": {
+      "$type": "dimension",
+      "$value": "18rem",
+      "$description": "Space scale - 18rem",
+      "$extensions": {
+        "org.enfantterrible.order": 32
+      }
+    },
+    "space.80": {
+      "$type": "dimension",
+      "$value": "20rem",
+      "$description": "Space scale - 20rem",
+      "$extensions": {
+        "org.enfantterrible.order": 33
+      }
+    },
+    "space.96": {
+      "$type": "dimension",
+      "$value": "24rem",
+      "$description": "Space scale - 24rem",
+      "$extensions": {
+        "org.enfantterrible.order": 34
+      }
+    },
+    "space.px-1": {
+      "$type": "dimension",
+      "$value": "1px",
+      "$description": "Space scale - 1px",
+      "$extensions": {
+        "org.enfantterrible.order": 1
+      }
+    },
+    "text.font.body": {
+      "$type": "fontFamily",
+      "$value": "Inter",
+      "$description": "Variable font - wght, opsz axes - body and UI"
+    },
+    "text.font.heading": {
+      "$type": "fontFamily",
+      "$value": "Anybody",
+      "$description": "Variable font - wght, wdth axes - headings"
+    },
+    "text.letter-spacing.0": {
+      "$type": "dimension",
+      "$value": "0",
+      "$description": "Letter-spacing scale - 0rem",
+      "$extensions": {
+        "org.enfantterrible.order": 5
+      }
+    },
+    "text.letter-spacing.1": {
+      "$type": "dimension",
+      "$value": "0.01rem",
+      "$description": "Letter-spacing scale - 0.01rem",
+      "$extensions": {
+        "org.enfantterrible.order": 6
+      }
+    },
+    "text.letter-spacing.1b": {
+      "$type": "dimension",
+      "$value": "-0.01rem",
+      "$description": "Letter-spacing scale - -0.01rem",
+      "$extensions": {
+        "org.enfantterrible.order": 4
+      }
+    },
+    "text.letter-spacing.2": {
+      "$type": "dimension",
+      "$value": "0.02rem",
+      "$description": "Letter-spacing scale - 0.02rem",
+      "$extensions": {
+        "org.enfantterrible.order": 7
+      }
+    },
+    "text.letter-spacing.2b": {
+      "$type": "dimension",
+      "$value": "-0.02rem",
+      "$description": "Letter-spacing scale - -0.02rem",
+      "$extensions": {
+        "org.enfantterrible.order": 3
+      }
+    },
+    "text.letter-spacing.3": {
+      "$type": "dimension",
+      "$value": "0.03rem",
+      "$description": "Letter-spacing scale - 0.03rem",
+      "$extensions": {
+        "org.enfantterrible.order": 8
+      }
+    },
+    "text.letter-spacing.3b": {
+      "$type": "dimension",
+      "$value": "-0.03rem",
+      "$description": "Letter-spacing scale - -0.03rem",
+      "$extensions": {
+        "org.enfantterrible.order": 2
+      }
+    },
+    "text.letter-spacing.4": {
+      "$type": "dimension",
+      "$value": "0.04rem",
+      "$description": "Letter-spacing scale - 0.04rem",
+      "$extensions": {
+        "org.enfantterrible.order": 9
+      }
+    },
+    "text.letter-spacing.4b": {
+      "$type": "dimension",
+      "$value": "-0.04rem",
+      "$description": "Letter-spacing scale - -0.04rem",
+      "$extensions": {
+        "org.enfantterrible.order": 1
+      }
+    },
+    "text.letter-spacing.5": {
+      "$type": "dimension",
+      "$value": "0.05rem",
+      "$description": "Letter-spacing scale - 0.05rem",
+      "$extensions": {
+        "org.enfantterrible.order": 10
+      }
+    },
+    "text.letter-spacing.5b": {
+      "$type": "dimension",
+      "$value": "-0.05rem",
+      "$description": "Letter-spacing scale - -0.05rem",
+      "$extensions": {
+        "org.enfantterrible.order": 0
+      }
+    },
+    "text.line-height.1": {
+      "$type": "number",
+      "$value": 1.1,
+      "$description": "Line-height 1",
+      "$extensions": {
+        "org.enfantterrible.order": 0
+      }
+    },
+    "text.line-height.2": {
+      "$type": "number",
+      "$value": 1.2,
+      "$description": "Line-height 2",
+      "$extensions": {
+        "org.enfantterrible.order": 1
+      }
+    },
+    "text.line-height.3": {
+      "$type": "number",
+      "$value": 1.3,
+      "$description": "Line-height 3",
+      "$extensions": {
+        "org.enfantterrible.order": 2
+      }
+    },
+    "text.line-height.4": {
+      "$type": "number",
+      "$value": 1.4,
+      "$description": "Line-height 4",
+      "$extensions": {
+        "org.enfantterrible.order": 3
+      }
+    },
+    "text.line-height.5": {
+      "$type": "number",
+      "$value": 1.5,
+      "$description": "Line-height 5",
+      "$extensions": {
+        "org.enfantterrible.order": 4
+      }
+    },
+    "text.line-height.6": {
+      "$type": "number",
+      "$value": 1.6,
+      "$description": "Line-height 6",
+      "$extensions": {
+        "org.enfantterrible.order": 5
+      }
+    },
+    "text.line-height.7": {
+      "$type": "number",
+      "$value": 1.7,
+      "$description": "Line-height 7",
+      "$extensions": {
+        "org.enfantterrible.order": 6
+      }
+    },
+    "text.size.1": {
+      "$type": "dimension",
+      "$value": "1rem",
+      "$description": "Font-size scale - 1rem",
+      "$extensions": {
+        "org.enfantterrible.order": 1
+      }
+    },
+    "text.size.1b": {
+      "$type": "dimension",
+      "$value": "0.833rem",
+      "$description": "Font-size scale - 0.833rem",
+      "$extensions": {
+        "org.enfantterrible.order": 0
+      }
+    },
+    "text.size.2": {
+      "$type": "dimension",
+      "$value": "1.2rem",
+      "$description": "Font-size scale - 1.2rem",
+      "$extensions": {
+        "org.enfantterrible.order": 2
+      }
+    },
+    "text.size.3": {
+      "$type": "dimension",
+      "$value": "1.44rem",
+      "$description": "Font-size scale - 1.44rem",
+      "$extensions": {
+        "org.enfantterrible.order": 3
+      }
+    },
+    "text.size.4": {
+      "$type": "dimension",
+      "$value": "1.728rem",
+      "$description": "Font-size scale - 1.728rem",
+      "$extensions": {
+        "org.enfantterrible.order": 4
+      }
+    },
+    "text.size.5": {
+      "$type": "dimension",
+      "$value": "2.074rem",
+      "$description": "Font-size scale - 2.074rem",
+      "$extensions": {
+        "org.enfantterrible.order": 5
+      }
+    },
+    "text.size.6": {
+      "$type": "dimension",
+      "$value": "2.488rem",
+      "$description": "Font-size scale - 2.488rem",
+      "$extensions": {
+        "org.enfantterrible.order": 6
+      }
+    },
+    "text.size.7": {
+      "$type": "dimension",
+      "$value": "2.986rem",
+      "$description": "Font-size scale - 2.986rem",
+      "$extensions": {
+        "org.enfantterrible.order": 7
+      }
+    },
+    "text.size.8": {
+      "$type": "dimension",
+      "$value": "3.583rem",
+      "$description": "Font-size scale - 3.583rem",
+      "$extensions": {
+        "org.enfantterrible.order": 8
+      }
+    },
+    "text.weight.100": {
+      "$type": "fontWeight",
+      "$value": 100,
+      "$description": "Font-weight 100",
+      "$extensions": {
+        "org.enfantterrible.order": 0
+      }
+    },
+    "text.weight.200": {
+      "$type": "fontWeight",
+      "$value": 200,
+      "$description": "Font-weight 200",
+      "$extensions": {
+        "org.enfantterrible.order": 1
+      }
+    },
+    "text.weight.300": {
+      "$type": "fontWeight",
+      "$value": 300,
+      "$description": "Font-weight 300",
+      "$extensions": {
+        "org.enfantterrible.order": 2
+      }
+    },
+    "text.weight.400": {
+      "$type": "fontWeight",
+      "$value": 400,
+      "$description": "Font-weight 400",
+      "$extensions": {
+        "org.enfantterrible.order": 3
+      }
+    },
+    "text.weight.500": {
+      "$type": "fontWeight",
+      "$value": 500,
+      "$description": "Font-weight 500",
+      "$extensions": {
+        "org.enfantterrible.order": 4
+      }
+    },
+    "text.weight.600": {
+      "$type": "fontWeight",
+      "$value": 600,
+      "$description": "Font-weight 600",
+      "$extensions": {
+        "org.enfantterrible.order": 5
+      }
+    },
+    "text.weight.700": {
+      "$type": "fontWeight",
+      "$value": 700,
+      "$description": "Font-weight 700",
+      "$extensions": {
+        "org.enfantterrible.order": 6
+      }
+    },
+    "text.weight.800": {
+      "$type": "fontWeight",
+      "$value": 800,
+      "$description": "Font-weight 800",
+      "$extensions": {
+        "org.enfantterrible.order": 7
+      }
+    },
+    "text.weight.900": {
+      "$type": "fontWeight",
+      "$value": 900,
+      "$description": "Font-weight 900",
+      "$extensions": {
+        "org.enfantterrible.order": 8
+      }
+    }
+  },
+  "semantics": {
+    "background.accent.strong.active": {
+      "$type": "color",
+      "$value": "#f6339a"
+    },
+    "background.accent.strong.default": {
+      "$type": "color",
+      "$value": "#fda5d5"
+    },
+    "background.accent.strong.disabled": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "background.accent.strong.hover": {
+      "$type": "color",
+      "$value": "#fb64b6"
+    },
+    "background.accent.weak.active": {
+      "$type": "color",
+      "$value": "#fda5d5"
+    },
+    "background.accent.weak.default": {
+      "$type": "color",
+      "$value": "#fce7f3"
+    },
+    "background.accent.weak.disabled": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "background.accent.weak.hover": {
+      "$type": "color",
+      "$value": "#fccee8"
+    },
+    "background.brand.strong.default": {
+      "$type": "color",
+      "$value": "#e2a3a5"
+    },
+    "background.danger.strong.active": {
+      "$type": "color",
+      "$value": "#fb2c36"
+    },
+    "background.danger.strong.default": {
+      "$type": "color",
+      "$value": "#ffa2a2"
+    },
+    "background.danger.strong.disabled": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "background.danger.strong.hover": {
+      "$type": "color",
+      "$value": "#ff6467"
+    },
+    "background.danger.weak.active": {
+      "$type": "color",
+      "$value": "#ffa2a2"
+    },
+    "background.danger.weak.default": {
+      "$type": "color",
+      "$value": "#ffe2e2"
+    },
+    "background.danger.weak.disabled": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "background.danger.weak.hover": {
+      "$type": "color",
+      "$value": "#ffc9c9"
+    },
+    "background.info.strong.active": {
+      "$type": "color",
+      "$value": "#2b7fff"
+    },
+    "background.info.strong.default": {
+      "$type": "color",
+      "$value": "#8ec5ff"
+    },
+    "background.info.strong.disabled": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "background.info.strong.hover": {
+      "$type": "color",
+      "$value": "#51a2ff"
+    },
+    "background.info.weak.active": {
+      "$type": "color",
+      "$value": "#8ec5ff"
+    },
+    "background.info.weak.default": {
+      "$type": "color",
+      "$value": "#dbeafe"
+    },
+    "background.info.weak.disabled": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "background.info.weak.hover": {
+      "$type": "color",
+      "$value": "#bedbff"
+    },
+    "background.neutral.strong.active": {
+      "$type": "color",
+      "$value": "#79716b"
+    },
+    "background.neutral.strong.default": {
+      "$type": "color",
+      "$value": "#d6d3d1"
+    },
+    "background.neutral.strong.disabled": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "background.neutral.strong.hover": {
+      "$type": "color",
+      "$value": "#a6a09b"
+    },
+    "background.neutral.weak.active": {
+      "$type": "color",
+      "$value": "#a6a09b"
+    },
+    "background.neutral.weak.default": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "background.neutral.weak.disabled": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "background.neutral.weak.hover": {
+      "$type": "color",
+      "$value": "#d6d3d1"
+    },
+    "background.primary.strong.active": {
+      "$type": "color",
+      "$value": "#e12afb"
+    },
+    "background.primary.strong.default": {
+      "$type": "color",
+      "$value": "#f4a8ff"
+    },
+    "background.primary.strong.disabled": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "background.primary.strong.hover": {
+      "$type": "color",
+      "$value": "#ed6aff"
+    },
+    "background.primary.weak.active": {
+      "$type": "color",
+      "$value": "#f4a8ff"
+    },
+    "background.primary.weak.default": {
+      "$type": "color",
+      "$value": "#fae8ff"
+    },
+    "background.primary.weak.disabled": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "background.primary.weak.hover": {
+      "$type": "color",
+      "$value": "#f6cfff"
+    },
+    "background.success.strong.active": {
+      "$type": "color",
+      "$value": "#00c950"
+    },
+    "background.success.strong.default": {
+      "$type": "color",
+      "$value": "#7bf1a8"
+    },
+    "background.success.strong.disabled": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "background.success.strong.hover": {
+      "$type": "color",
+      "$value": "#05df72"
+    },
+    "background.success.weak.active": {
+      "$type": "color",
+      "$value": "#05df72"
+    },
+    "background.success.weak.default": {
+      "$type": "color",
+      "$value": "#b9f8cf"
+    },
+    "background.success.weak.disabled": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "background.success.weak.hover": {
+      "$type": "color",
+      "$value": "#7bf1a8"
+    },
+    "background.warning.strong.active": {
+      "$type": "color",
+      "$value": "#f0b100"
+    },
+    "background.warning.strong.default": {
+      "$type": "color",
+      "$value": "#ffdf20"
+    },
+    "background.warning.strong.disabled": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "background.warning.strong.hover": {
+      "$type": "color",
+      "$value": "#fdc700"
+    },
+    "background.warning.weak.active": {
+      "$type": "color",
+      "$value": "#ffdf20"
+    },
+    "background.warning.weak.default": {
+      "$type": "color",
+      "$value": "#fef9c2"
+    },
+    "background.warning.weak.disabled": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "background.warning.weak.hover": {
+      "$type": "color",
+      "$value": "#fff085"
+    },
+    "border.color.accent": {
+      "$type": "color",
+      "$value": "#fda5d5"
+    },
+    "border.color.brand": {
+      "$type": "color",
+      "$value": "#e2a3a5"
+    },
+    "border.color.danger": {
+      "$type": "color",
+      "$value": "#ffa2a2"
+    },
+    "border.color.info": {
+      "$type": "color",
+      "$value": "#8ec5ff"
+    },
+    "border.color.neutral.strong": {
+      "$type": "color",
+      "$value": "#d6d3d1"
+    },
+    "border.color.neutral.weak": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "border.color.primary": {
+      "$type": "color",
+      "$value": "#f4a8ff"
+    },
+    "border.color.success": {
+      "$type": "color",
+      "$value": "#7bf1a8"
+    },
+    "border.color.warning": {
+      "$type": "color",
+      "$value": "#ffdf20"
+    },
+    "elevation.1": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.06)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3px",
+          "blur": "3px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "4px",
+          "blur": "4px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.1)",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Default application background."
+    },
+    "elevation.2": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3px",
+          "blur": "3px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.06)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "5px",
+          "blur": "5px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "8px",
+          "blur": "8px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.1)",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Default for cards, sheets, and menus."
+    },
+    "elevation.3": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3px",
+          "blur": "3px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "6px",
+          "blur": "6px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.06)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "10px",
+          "blur": "10px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "16px",
+          "blur": "16px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.1)",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Default for popovers and tooltips."
+    },
+    "elevation.4": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "5px",
+          "blur": "5px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "12px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.06)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "20px",
+          "blur": "20px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "32px",
+          "blur": "32px",
+          "spread": "0",
+          "color": "rgba(28, 25, 23, 0.1)",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Default for modals, dialogs, and overlays."
+    },
+    "surface.base": {
+      "$type": "color",
+      "$value": "#f5f5f4",
+      "$description": "Default application background."
+    },
+    "surface.inverse": {
+      "$type": "color",
+      "$value": "#79716b",
+      "$description": "Inverse surface for dark sections."
+    },
+    "surface.overlay": {
+      "$type": "color",
+      "$value": "rgba(28, 25, 23, 0.4)",
+      "$description": "Backdrop scrim for modals and overlays."
+    },
+    "surface.raised": {
+      "$type": "color",
+      "$value": "#e7e5e4",
+      "$description": "Foreground containers: cards, modals, dropdowns."
+    },
+    "text.color.base": {
+      "$type": "color",
+      "$value": "#79716b"
+    },
+    "text.color.icon": {
+      "$type": "color",
+      "$value": "#79716b"
+    },
+    "text.color.inverse": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "text.color.link.default": {
+      "$type": "color",
+      "$value": "#8ec5ff"
+    },
+    "text.color.link.hover": {
+      "$type": "color",
+      "$value": "#51a2ff"
+    },
+    "text.color.link.visited": {
+      "$type": "color",
+      "$value": "#fda5d5"
+    },
+    "text.color.muted": {
+      "$type": "color",
+      "$value": "#d6d3d1"
+    },
+    "text.color.on-color.disabled": {
+      "$type": "color",
+      "$value": "#e7e5e4",
+      "$description": "For disabled state on colored backgrounds."
+    },
+    "text.color.on-color.strong": {
+      "$type": "color",
+      "$value": "#79716b",
+      "$description": "For strong backgrounds: primary, warning."
+    },
+    "text.color.on-color.weak": {
+      "$type": "color",
+      "$value": "#f5f5f4",
+      "$description": "For strong backgrounds: brand, success, danger, info."
+    },
+    "text.color.status.danger": {
+      "$type": "color",
+      "$value": "#ff6467"
+    },
+    "text.color.status.info": {
+      "$type": "color",
+      "$value": "#51a2ff"
+    },
+    "text.color.status.success": {
+      "$type": "color",
+      "$value": "#05df72"
+    },
+    "text.color.status.warning": {
+      "$type": "color",
+      "$value": "#fdc700"
+    },
+    "typography.body.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "400",
+        "lineHeight": "1.2",
+        "fontSize": "1.2rem",
+        "letterSpacing": "0rem"
+      },
+      "$description": "21px - desktop"
+    },
+    "typography.body.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "400",
+        "lineHeight": "1.1",
+        "fontSize": "1rem",
+        "letterSpacing": "0rem"
+      },
+      "$description": "18px - mobile"
+    },
+    "typography.caption.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "400",
+        "lineHeight": "1.2",
+        "fontSize": "1rem",
+        "letterSpacing": "0rem"
+      },
+      "$description": "18px - desktop"
+    },
+    "typography.caption.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "400",
+        "lineHeight": "1.1",
+        "fontSize": "0.833rem",
+        "letterSpacing": "0.01rem"
+      },
+      "$description": "15px - mobile"
+    },
+    "typography.display.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "800",
+        "lineHeight": "1.7",
+        "fontSize": "2.986rem",
+        "letterSpacing": "-0.05rem"
+      },
+      "$description": "61px - desktop"
+    },
+    "typography.display.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "800",
+        "lineHeight": "1.6",
+        "fontSize": "2.986rem",
+        "letterSpacing": "-0.04rem"
+      },
+      "$description": "51px - mobile"
+    },
+    "typography.heading-1.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "700",
+        "lineHeight": "1.6",
+        "fontSize": "2.488rem",
+        "letterSpacing": "-0.05rem"
+      },
+      "$description": "51px - desktop"
+    },
+    "typography.heading-1.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "700",
+        "lineHeight": "1.5",
+        "fontSize": "2.074rem",
+        "letterSpacing": "-0.04rem"
+      },
+      "$description": "43px - mobile"
+    },
+    "typography.heading-2.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "700",
+        "lineHeight": "1.5",
+        "fontSize": "2.074rem",
+        "letterSpacing": "-0.04rem"
+      },
+      "$description": "43px - desktop"
+    },
+    "typography.heading-2.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "700",
+        "lineHeight": "1.4",
+        "fontSize": "1.728rem",
+        "letterSpacing": "-0.03rem"
+      },
+      "$description": "36px - mobile"
+    },
+    "typography.heading-3.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "600",
+        "lineHeight": "1.4",
+        "fontSize": "1.728rem",
+        "letterSpacing": "-0.03rem"
+      },
+      "$description": "36px - desktop"
+    },
+    "typography.heading-3.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "600",
+        "lineHeight": "1.3",
+        "fontSize": "1.44rem",
+        "letterSpacing": "-0.02rem"
+      },
+      "$description": "30px - mobile"
+    },
+    "typography.heading-4.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "600",
+        "lineHeight": "1.3",
+        "fontSize": "1.44rem",
+        "letterSpacing": "-0.02rem"
+      },
+      "$description": "30px - desktop"
+    },
+    "typography.heading-4.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "600",
+        "lineHeight": "1.2",
+        "fontSize": "1.2rem",
+        "letterSpacing": "-0.01rem"
+      },
+      "$description": "25px - mobile"
+    },
+    "typography.heading-5.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "600",
+        "lineHeight": "1.2",
+        "fontSize": "1.2rem",
+        "letterSpacing": "-0.01rem"
+      },
+      "$description": "25px - desktop"
+    },
+    "typography.heading-5.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "600",
+        "lineHeight": "1.1",
+        "fontSize": "1rem",
+        "letterSpacing": "0rem"
+      },
+      "$description": "21px - mobile"
+    },
+    "typography.heading-6.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "600",
+        "lineHeight": "1.1",
+        "fontSize": "1.2rem",
+        "letterSpacing": "-0.01rem"
+      },
+      "$description": "21px - desktop"
+    },
+    "typography.heading-6.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "600",
+        "lineHeight": "1.1",
+        "fontSize": "1rem",
+        "letterSpacing": "0rem"
+      },
+      "$description": "18px - mobile"
+    },
+    "typography.label.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "lineHeight": "1.2",
+        "fontSize": "1rem",
+        "letterSpacing": "0rem"
+      },
+      "$description": "18px - desktop"
+    },
+    "typography.label.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "lineHeight": "1.1",
+        "fontSize": "1rem",
+        "letterSpacing": "0.01rem"
+      },
+      "$description": "15px - mobile"
+    },
+    "typography.lead.max": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Anybody",
+        "fontWeight": "400",
+        "lineHeight": "1.2",
+        "fontSize": "1.2rem",
+        "letterSpacing": "0rem"
+      },
+      "$description": "25px - desktop"
+    },
+    "typography.lead.min": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "400",
+        "lineHeight": "1.1",
+        "fontSize": "1rem",
+        "letterSpacing": "0rem"
+      },
+      "$description": "21px - mobile"
+    },
+    "typography.ui": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "lineHeight": "1.1",
+        "fontSize": "1rem",
+        "letterSpacing": "0rem"
+      },
+      "$description": "18px - fixed"
+    }
+  }
+}
