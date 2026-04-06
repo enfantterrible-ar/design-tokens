@@ -160,7 +160,7 @@
         "$extends": "{primitives.color.green}"
       },
       "warning": {
-        "$extends": "{primitives.color.yellow}"
+        "$extends": "{primitives.color.amber}"
       },
       "danger": {
         "$extends": "{primitives.color.red}"

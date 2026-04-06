@@ -639,90 +639,90 @@
     },
     "palette.warning.50": {
       "$type": "color",
-      "$value": "#fefce8",
-      "$description": "Color yellow-50",
+      "$value": "#fffbeb",
+      "$description": "Color amber-50",
       "$extensions": {
-        "org.enfantterrible.order": 135
+        "org.enfantterrible.order": 124
       }
     },
     "palette.warning.100": {
       "$type": "color",
-      "$value": "#fef9c2",
-      "$description": "Color yellow-100",
+      "$value": "#fef3c6",
+      "$description": "Color amber-100",
       "$extensions": {
-        "org.enfantterrible.order": 136
+        "org.enfantterrible.order": 125
       }
     },
     "palette.warning.200": {
       "$type": "color",
-      "$value": "#fff085",
-      "$description": "Color yellow-200",
+      "$value": "#fee685",
+      "$description": "Color amber-200",
       "$extensions": {
-        "org.enfantterrible.order": 137
+        "org.enfantterrible.order": 126
       }
     },
     "palette.warning.300": {
       "$type": "color",
-      "$value": "#ffdf20",
-      "$description": "Color yellow-300",
+      "$value": "#ffd230",
+      "$description": "Color amber-300",
       "$extensions": {
-        "org.enfantterrible.order": 138
+        "org.enfantterrible.order": 127
       }
     },
     "palette.warning.400": {
       "$type": "color",
-      "$value": "#fdc700",
-      "$description": "Color yellow-400",
+      "$value": "#ffb900",
+      "$description": "Color amber-400",
       "$extensions": {
-        "org.enfantterrible.order": 139
+        "org.enfantterrible.order": 128
       }
     },
     "palette.warning.500": {
       "$type": "color",
-      "$value": "#f0b100",
-      "$description": "Color yellow-500",
+      "$value": "#fe9a00",
+      "$description": "Color amber-500",
       "$extensions": {
-        "org.enfantterrible.order": 140
+        "org.enfantterrible.order": 129
       }
     },
     "palette.warning.600": {
       "$type": "color",
-      "$value": "#d08700",
-      "$description": "Color yellow-600",
+      "$value": "#e17100",
+      "$description": "Color amber-600",
       "$extensions": {
-        "org.enfantterrible.order": 141
+        "org.enfantterrible.order": 130
       }
     },
     "palette.warning.700": {
       "$type": "color",
-      "$value": "#a65f00",
-      "$description": "Color yellow-700",
+      "$value": "#bb4d00",
+      "$description": "Color amber-700",
       "$extensions": {
-        "org.enfantterrible.order": 142
+        "org.enfantterrible.order": 131
       }
     },
     "palette.warning.800": {
       "$type": "color",
-      "$value": "#894b00",
-      "$description": "Color yellow-800",
+      "$value": "#973c00",
+      "$description": "Color amber-800",
       "$extensions": {
-        "org.enfantterrible.order": 143
+        "org.enfantterrible.order": 132
       }
     },
     "palette.warning.900": {
       "$type": "color",
-      "$value": "#733e0a",
-      "$description": "Color yellow-900",
+      "$value": "#7b3306",
+      "$description": "Color amber-900",
       "$extensions": {
-        "org.enfantterrible.order": 144
+        "org.enfantterrible.order": 133
       }
     },
     "palette.warning.950": {
       "$type": "color",
-      "$value": "#432004",
-      "$description": "Color yellow-950",
+      "$value": "#461901",
+      "$description": "Color amber-950",
       "$extensions": {
-        "org.enfantterrible.order": 145
+        "org.enfantterrible.order": 134
       }
     },
     "palette.white": {
@@ -1551,11 +1551,11 @@
   "semantics": {
     "background.accent.strong.active": {
       "$type": "color",
-      "$value": "#f6339a"
+      "$value": "#510424"
     },
     "background.accent.strong.default": {
       "$type": "color",
-      "$value": "#fda5d5"
+      "$value": "#a3004c"
     },
     "background.accent.strong.disabled": {
       "$type": "color",
@@ -1563,15 +1563,15 @@
     },
     "background.accent.strong.hover": {
       "$type": "color",
-      "$value": "#fb64b6"
+      "$value": "#861043"
     },
     "background.accent.weak.active": {
       "$type": "color",
-      "$value": "#fda5d5"
+      "$value": "#fb64b6"
     },
     "background.accent.weak.default": {
       "$type": "color",
-      "$value": "#fce7f3"
+      "$value": "#fccee8"
     },
     "background.accent.weak.disabled": {
       "$type": "color",
@@ -1579,7 +1579,7 @@
     },
     "background.accent.weak.hover": {
       "$type": "color",
-      "$value": "#fccee8"
+      "$value": "#fda5d5"
     },
     "background.brand.strong.default": {
       "$type": "color",
@@ -1587,11 +1587,11 @@
     },
     "background.danger.strong.active": {
       "$type": "color",
-      "$value": "#fb2c36"
+      "$value": "#460809"
     },
     "background.danger.strong.default": {
       "$type": "color",
-      "$value": "#ffa2a2"
+      "$value": "#9f0712"
     },
     "background.danger.strong.disabled": {
       "$type": "color",
@@ -1599,31 +1599,31 @@
     },
     "background.danger.strong.hover": {
       "$type": "color",
-      "$value": "#ff6467"
+      "$value": "#82181a"
     },
     "background.danger.weak.active": {
       "$type": "color",
-      "$value": "#ffa2a2"
+      "$value": "#ff6467"
     },
     "background.danger.weak.default": {
       "$type": "color",
-      "$value": "#ffe2e2"
+      "$value": "#ffc9c9"
     },
     "background.danger.weak.disabled": {
       "$type": "color",
-      "$value": "#f5f5f4"
+      "$value": "#e7e5e4"
     },
     "background.danger.weak.hover": {
       "$type": "color",
-      "$value": "#ffc9c9"
+      "$value": "#ffa2a2"
     },
     "background.info.strong.active": {
       "$type": "color",
-      "$value": "#2b7fff"
+      "$value": "#162456"
     },
     "background.info.strong.default": {
       "$type": "color",
-      "$value": "#8ec5ff"
+      "$value": "#193cb8"
     },
     "background.info.strong.disabled": {
       "$type": "color",
@@ -1631,31 +1631,31 @@
     },
     "background.info.strong.hover": {
       "$type": "color",
-      "$value": "#51a2ff"
+      "$value": "#1c398e"
     },
     "background.info.weak.active": {
       "$type": "color",
-      "$value": "#8ec5ff"
+      "$value": "#51a2ff"
     },
     "background.info.weak.default": {
       "$type": "color",
-      "$value": "#dbeafe"
+      "$value": "#bedbff"
     },
     "background.info.weak.disabled": {
       "$type": "color",
-      "$value": "#f5f5f4"
+      "$value": "#e7e5e4"
     },
     "background.info.weak.hover": {
       "$type": "color",
-      "$value": "#bedbff"
+      "$value": "#8ec5ff"
     },
     "background.neutral.strong.active": {
       "$type": "color",
-      "$value": "#79716b"
+      "$value": "#44403b"
     },
     "background.neutral.strong.default": {
       "$type": "color",
-      "$value": "#d6d3d1"
+      "$value": "#57534d"
     },
     "background.neutral.strong.disabled": {
       "$type": "color",
@@ -1663,7 +1663,7 @@
     },
     "background.neutral.strong.hover": {
       "$type": "color",
-      "$value": "#a6a09b"
+      "$value": "#292524"
     },
     "background.neutral.weak.active": {
       "$type": "color",
@@ -1675,7 +1675,7 @@
     },
     "background.neutral.weak.disabled": {
       "$type": "color",
-      "$value": "#f5f5f4"
+      "$value": "#e7e5e4"
     },
     "background.neutral.weak.hover": {
       "$type": "color",
@@ -1683,11 +1683,11 @@
     },
     "background.primary.strong.active": {
       "$type": "color",
-      "$value": "#e12afb"
+      "$value": "#4b004f"
     },
     "background.primary.strong.default": {
       "$type": "color",
-      "$value": "#f4a8ff"
+      "$value": "#8a0194"
     },
     "background.primary.strong.disabled": {
       "$type": "color",
@@ -1695,31 +1695,31 @@
     },
     "background.primary.strong.hover": {
       "$type": "color",
-      "$value": "#ed6aff"
+      "$value": "#721378"
     },
     "background.primary.weak.active": {
       "$type": "color",
-      "$value": "#f4a8ff"
+      "$value": "#ed6aff"
     },
     "background.primary.weak.default": {
       "$type": "color",
-      "$value": "#fae8ff"
+      "$value": "#f6cfff"
     },
     "background.primary.weak.disabled": {
       "$type": "color",
-      "$value": "#f5f5f4"
+      "$value": "#e7e5e4"
     },
     "background.primary.weak.hover": {
       "$type": "color",
-      "$value": "#f6cfff"
+      "$value": "#f4a8ff"
     },
     "background.success.strong.active": {
       "$type": "color",
-      "$value": "#00c950"
+      "$value": "#032e15"
     },
     "background.success.strong.default": {
       "$type": "color",
-      "$value": "#7bf1a8"
+      "$value": "#016630"
     },
     "background.success.strong.disabled": {
       "$type": "color",
@@ -1727,7 +1727,7 @@
     },
     "background.success.strong.hover": {
       "$type": "color",
-      "$value": "#05df72"
+      "$value": "#0d542b"
     },
     "background.success.weak.active": {
       "$type": "color",
@@ -1739,7 +1739,7 @@
     },
     "background.success.weak.disabled": {
       "$type": "color",
-      "$value": "#f5f5f4"
+      "$value": "#e7e5e4"
     },
     "background.success.weak.hover": {
       "$type": "color",
@@ -1747,11 +1747,11 @@
     },
     "background.warning.strong.active": {
       "$type": "color",
-      "$value": "#f0b100"
+      "$value": "#461901"
     },
     "background.warning.strong.default": {
       "$type": "color",
-      "$value": "#ffdf20"
+      "$value": "#973c00"
     },
     "background.warning.strong.disabled": {
       "$type": "color",
@@ -1759,23 +1759,23 @@
     },
     "background.warning.strong.hover": {
       "$type": "color",
-      "$value": "#fdc700"
+      "$value": "#7b3306"
     },
     "background.warning.weak.active": {
       "$type": "color",
-      "$value": "#ffdf20"
+      "$value": "#ffb900"
     },
     "background.warning.weak.default": {
       "$type": "color",
-      "$value": "#fef9c2"
+      "$value": "#fee685"
     },
     "background.warning.weak.disabled": {
       "$type": "color",
-      "$value": "#f5f5f4"
+      "$value": "#e7e5e4"
     },
     "background.warning.weak.hover": {
       "$type": "color",
-      "$value": "#fff085"
+      "$value": "#ffd230"
     },
     "border.color.accent": {
       "$type": "color",
@@ -1811,7 +1811,7 @@
     },
     "border.color.warning": {
       "$type": "color",
-      "$value": "#ffdf20"
+      "$value": "#ffd230"
     },
     "elevation.1": {
       "$type": "boxShadow",
@@ -2074,7 +2074,7 @@
     },
     "text.color.status.warning": {
       "$type": "color",
-      "$value": "#fdc700"
+      "$value": "#ffb900"
     },
     "typography.body.max": {
       "$type": "typography",
