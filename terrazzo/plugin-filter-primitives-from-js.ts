@@ -4,6 +4,7 @@ import type { Plugin, BuildHookOptions } from '@terrazzo/parser';
 
 export const filterPrimitivesFromJS = (): Plugin => ({
   name: 'filter-primitives-from-js',
+  enforce: 'pre', // Ensure this runs before everything else
   async build(args: BuildHookOptions) {
     let finalCount = 0;
 
@@ -38,7 +39,7 @@ export const filterPrimitivesFromJS = (): Plugin => ({
     };
 
     const jsInstance = js({
-      filename: "tokens.js",
+      filename: "tokens.dtcg.js",
       properties: ["$value", "$type", "$description", "$extensions"], // Keep this here
     });
 

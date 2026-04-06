@@ -1,79 +1,3 @@
-// import type { Plugin } from '@terrazzo/parser';
-// import fs from 'node:fs';
-// import path from 'node:path';
-
-// const unflattenFirstLevel = (flatTokens: Record<string, any>) => {
-// 	const result: Record<string, any> = {};
-
-// 	for (const [key, value] of Object.entries(flatTokens)) {
-// 		const firstDotIndex = key.indexOf('.');
-
-// 		if (firstDotIndex === -1) {
-// 			result[key] = value;
-// 			continue;
-// 		}
-
-// 		const topLevelKey = key.substring(0, firstDotIndex);
-// 		const remainingPath = key.substring(firstDotIndex + 1);
-
-// 		if (!result[topLevelKey]) {
-// 			result[topLevelKey] = {};
-// 		}
-
-// 		result[topLevelKey][remainingPath] = value;
-// 	}
-
-// 	return result;
-// };
-
-// export const tokenStudioTransform = (): Plugin => ({
-// 	name: 'token-studio-transform',
-// 	enforce: 'post', // Ensure this runs after generate-json is fully finished
-
-// 	async buildEnd(args) {
-// 		const artifactPath = path.resolve('./dist/tokens.js');
-
-// 		try {
-// 			const { resolver } = await import(
-// 				/* @vite-ignore */
-// 				artifactPath
-// 			);
-// 			const permutations = resolver.listPermutations();
-
-// 			permutations.forEach((input: any) => {
-// 				// 1. Reconstruct the exact filename generate-json just made
-// 				const activeModifiers = Object.values(input).filter(val => val !== '.' && val !== '');
-// 				const suffix = activeModifiers.length > 0 ? `-${activeModifiers.join('-')}` : '';
-
-// 				const sourceFilename = path.resolve(`./dist/tokens${suffix}.json`);
-// 				const targetFilename = path.resolve(`./dist/tokens-studio${suffix}.json`);
-
-// 				// 2. Grab THAT specific file
-// 				if (!fs.existsSync(sourceFilename)) return;
-// 				const flatTokens = JSON.parse(fs.readFileSync(sourceFilename, 'utf-8'));
-
-// 				// 3. Make the mods
-// 				const studioTokens = unflattenFirstLevel(flatTokens);
-
-// 				// 4. Save as another JSON file
-// 				fs.writeFileSync(targetFilename, JSON.stringify(studioTokens, null, 2));
-
-// 				args.context.logger.info({
-// 					group: 'plugin',
-// 					label: 'token-studio-transform',
-// 					message: `Generated tokens-studio${suffix}.json`
-// 				});
-// 			});
-// 		} catch (error) {
-// 			args.context.logger.error({
-// 				group: 'plugin',
-// 				label: 'token-studio-transform',
-// 				message: `Failed: ${error}`
-// 			});
-// 		}
-// 	}
-// });
-
 import type { Plugin, BuildHookOptions } from '@terrazzo/parser';
 
 // Utility to convert hex + alpha to rgba()
@@ -194,7 +118,7 @@ export const tokenStudioPlugin = (): Plugin => ({
       // 3. Exact same filename logic as generate-json
       const activeModifiers = Object.values(input).filter(val => val !== '.' && val !== '');
       const suffix = activeModifiers.length > 0 ? `-${activeModifiers.join('-')}` : '';
-      const filename = `tokens-studio${suffix}.json`;
+      const filename = `tokens${suffix}.tokens-studio.json`;
 
       // 4. Output the file
       outputFile(filename, JSON.stringify(nestedTokens, null, 2));

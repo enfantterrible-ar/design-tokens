@@ -92,7 +92,6 @@
   },
   "base.palette.accent.50": {
     "$type": "color",
-    "$description": "Color pink-50",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -103,13 +102,13 @@
       ],
       "hex": "#fdf2f8"
     },
+    "$description": "Color pink-50",
     "$extensions": {
       "org.enfantterrible.order": 267
     }
   },
   "base.palette.accent.100": {
     "$type": "color",
-    "$description": "Color pink-100",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -120,13 +119,13 @@
       ],
       "hex": "#fce7f3"
     },
+    "$description": "Color pink-100",
     "$extensions": {
       "org.enfantterrible.order": 268
     }
   },
   "base.palette.accent.200": {
     "$type": "color",
-    "$description": "Color pink-200",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -137,13 +136,13 @@
       ],
       "hex": "#fccee8"
     },
+    "$description": "Color pink-200",
     "$extensions": {
       "org.enfantterrible.order": 269
     }
   },
   "base.palette.accent.300": {
     "$type": "color",
-    "$description": "Color pink-300",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -154,13 +153,13 @@
       ],
       "hex": "#fda5d5"
     },
+    "$description": "Color pink-300",
     "$extensions": {
       "org.enfantterrible.order": 270
     }
   },
   "base.palette.accent.400": {
     "$type": "color",
-    "$description": "Color pink-400",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -171,13 +170,13 @@
       ],
       "hex": "#fb64b6"
     },
+    "$description": "Color pink-400",
     "$extensions": {
       "org.enfantterrible.order": 271
     }
   },
   "base.palette.accent.500": {
     "$type": "color",
-    "$description": "Color pink-500",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -188,13 +187,13 @@
       ],
       "hex": "#f6339a"
     },
+    "$description": "Color pink-500",
     "$extensions": {
       "org.enfantterrible.order": 272
     }
   },
   "base.palette.accent.600": {
     "$type": "color",
-    "$description": "Color pink-600",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -205,13 +204,13 @@
       ],
       "hex": "#e60076"
     },
+    "$description": "Color pink-600",
     "$extensions": {
       "org.enfantterrible.order": 273
     }
   },
   "base.palette.accent.700": {
     "$type": "color",
-    "$description": "Color pink-700",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -222,13 +221,13 @@
       ],
       "hex": "#c6005c"
     },
+    "$description": "Color pink-700",
     "$extensions": {
       "org.enfantterrible.order": 274
     }
   },
   "base.palette.accent.800": {
     "$type": "color",
-    "$description": "Color pink-800",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -239,13 +238,13 @@
       ],
       "hex": "#a3004c"
     },
+    "$description": "Color pink-800",
     "$extensions": {
       "org.enfantterrible.order": 275
     }
   },
   "base.palette.accent.900": {
     "$type": "color",
-    "$description": "Color pink-900",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -256,13 +255,13 @@
       ],
       "hex": "#861043"
     },
+    "$description": "Color pink-900",
     "$extensions": {
       "org.enfantterrible.order": 276
     }
   },
   "base.palette.accent.950": {
     "$type": "color",
-    "$description": "Color pink-950",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -273,6 +272,7 @@
       ],
       "hex": "#510424"
     },
+    "$description": "Color pink-950",
     "$extensions": {
       "org.enfantterrible.order": 277
     }
@@ -290,89 +290,151 @@
       "hex": "#000000"
     }
   },
+  "base.palette.brand.50": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "oklch",
+      "components": [
+        0.967,
+        0.009,
+        17.51
+      ],
+      "hex": "#faf2f2",
+      "alpha": 1
+    }
+  },
   "base.palette.brand.100": {
     "$type": "color",
     "$value": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.9059,
-        0.7098,
-        0.7137
+        0.925,
+        0.021,
+        17.62
       ],
-      "hex": "#E7B5B6",
+      "hex": "#f4e1e1",
       "alpha": 1
     }
   },
   "base.palette.brand.200": {
     "$type": "color",
     "$value": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.8706,
-        0.5529,
-        0.5608
+        0.85,
+        0.047,
+        16.5
       ],
-      "hex": "#DE8D8F",
+      "hex": "#ebc2c3",
       "alpha": 1
     }
   },
   "base.palette.brand.300": {
     "$type": "color",
-    "$description": "Base color for the brand palette.",
     "$value": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.8431,
-        0.3686,
-        0.3843
+        0.776,
+        0.075,
+        16.85
       ],
-      "hex": "#D75E62",
+      "hex": "#e2a3a5",
       "alpha": 1
     }
   },
   "base.palette.brand.400": {
     "$type": "color",
     "$value": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.7216,
-        0.2784,
-        0.2941
+        0.703,
+        0.111,
+        18.86
       ],
-      "hex": "#B8474B",
+      "hex": "#dc8284",
       "alpha": 1
     }
   },
   "base.palette.brand.500": {
     "$type": "color",
     "$value": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.5843,
-        0.2196,
-        0.2314
+        0.634,
+        0.153,
+        20.5
       ],
-      "hex": "#95383B",
+      "hex": "#d75e62",
       "alpha": 1
     }
   },
-  "base.palette.brand.base": {
+  "base.palette.brand.600": {
     "$type": "color",
-    "$description": "Base color for the brand palette.",
     "$value": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.8431,
-        0.3686,
-        0.3843
+        0.534,
+        0.141,
+        21.05
       ],
-      "hex": "#D75E62",
+      "hex": "#b04448",
+      "alpha": 1
+    }
+  },
+  "base.palette.brand.700": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "oklch",
+      "components": [
+        0.438,
+        0.116,
+        21.11
+      ],
+      "hex": "#863235",
+      "alpha": 1
+    }
+  },
+  "base.palette.brand.800": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "oklch",
+      "components": [
+        0.337,
+        0.09,
+        21.33
+      ],
+      "hex": "#5d2022",
+      "alpha": 1
+    }
+  },
+  "base.palette.brand.900": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "oklch",
+      "components": [
+        0.24,
+        0.064,
+        20.35
+      ],
+      "hex": "#381012",
+      "alpha": 1
+    }
+  },
+  "base.palette.brand.950": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "oklch",
+      "components": [
+        0.195,
+        0.052,
+        21.39
+      ],
+      "hex": "#28090a",
       "alpha": 1
     }
   },
   "base.palette.danger.50": {
     "$type": "color",
-    "$description": "Color red-50",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -383,13 +445,13 @@
       ],
       "hex": "#fef2f2"
     },
+    "$description": "Color red-50",
     "$extensions": {
       "org.enfantterrible.order": 102
     }
   },
   "base.palette.danger.100": {
     "$type": "color",
-    "$description": "Color red-100",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -400,13 +462,13 @@
       ],
       "hex": "#ffe2e2"
     },
+    "$description": "Color red-100",
     "$extensions": {
       "org.enfantterrible.order": 103
     }
   },
   "base.palette.danger.200": {
     "$type": "color",
-    "$description": "Color red-200",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -417,13 +479,13 @@
       ],
       "hex": "#ffc9c9"
     },
+    "$description": "Color red-200",
     "$extensions": {
       "org.enfantterrible.order": 104
     }
   },
   "base.palette.danger.300": {
     "$type": "color",
-    "$description": "Color red-300",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -434,13 +496,13 @@
       ],
       "hex": "#ffa2a2"
     },
+    "$description": "Color red-300",
     "$extensions": {
       "org.enfantterrible.order": 105
     }
   },
   "base.palette.danger.400": {
     "$type": "color",
-    "$description": "Color red-400",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -451,13 +513,13 @@
       ],
       "hex": "#ff6467"
     },
+    "$description": "Color red-400",
     "$extensions": {
       "org.enfantterrible.order": 106
     }
   },
   "base.palette.danger.500": {
     "$type": "color",
-    "$description": "Color red-500",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -468,13 +530,13 @@
       ],
       "hex": "#fb2c36"
     },
+    "$description": "Color red-500",
     "$extensions": {
       "org.enfantterrible.order": 107
     }
   },
   "base.palette.danger.600": {
     "$type": "color",
-    "$description": "Color red-600",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -485,13 +547,13 @@
       ],
       "hex": "#e7000b"
     },
+    "$description": "Color red-600",
     "$extensions": {
       "org.enfantterrible.order": 108
     }
   },
   "base.palette.danger.700": {
     "$type": "color",
-    "$description": "Color red-700",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -502,13 +564,13 @@
       ],
       "hex": "#c10007"
     },
+    "$description": "Color red-700",
     "$extensions": {
       "org.enfantterrible.order": 109
     }
   },
   "base.palette.danger.800": {
     "$type": "color",
-    "$description": "Color red-800",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -519,13 +581,13 @@
       ],
       "hex": "#9f0712"
     },
+    "$description": "Color red-800",
     "$extensions": {
       "org.enfantterrible.order": 110
     }
   },
   "base.palette.danger.900": {
     "$type": "color",
-    "$description": "Color red-900",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -536,13 +598,13 @@
       ],
       "hex": "#82181a"
     },
+    "$description": "Color red-900",
     "$extensions": {
       "org.enfantterrible.order": 111
     }
   },
   "base.palette.danger.950": {
     "$type": "color",
-    "$description": "Color red-950",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -553,13 +615,13 @@
       ],
       "hex": "#460809"
     },
+    "$description": "Color red-950",
     "$extensions": {
       "org.enfantterrible.order": 112
     }
   },
   "base.palette.info.50": {
     "$type": "color",
-    "$description": "Color blue-50",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -570,13 +632,13 @@
       ],
       "hex": "#eff6ff"
     },
+    "$description": "Color blue-50",
     "$extensions": {
       "org.enfantterrible.order": 212
     }
   },
   "base.palette.info.100": {
     "$type": "color",
-    "$description": "Color blue-100",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -587,13 +649,13 @@
       ],
       "hex": "#dbeafe"
     },
+    "$description": "Color blue-100",
     "$extensions": {
       "org.enfantterrible.order": 213
     }
   },
   "base.palette.info.200": {
     "$type": "color",
-    "$description": "Color blue-200",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -604,13 +666,13 @@
       ],
       "hex": "#bedbff"
     },
+    "$description": "Color blue-200",
     "$extensions": {
       "org.enfantterrible.order": 214
     }
   },
   "base.palette.info.300": {
     "$type": "color",
-    "$description": "Color blue-300",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -621,13 +683,13 @@
       ],
       "hex": "#8ec5ff"
     },
+    "$description": "Color blue-300",
     "$extensions": {
       "org.enfantterrible.order": 215
     }
   },
   "base.palette.info.400": {
     "$type": "color",
-    "$description": "Color blue-400",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -638,13 +700,13 @@
       ],
       "hex": "#51a2ff"
     },
+    "$description": "Color blue-400",
     "$extensions": {
       "org.enfantterrible.order": 216
     }
   },
   "base.palette.info.500": {
     "$type": "color",
-    "$description": "Color blue-500",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -655,13 +717,13 @@
       ],
       "hex": "#2b7fff"
     },
+    "$description": "Color blue-500",
     "$extensions": {
       "org.enfantterrible.order": 217
     }
   },
   "base.palette.info.600": {
     "$type": "color",
-    "$description": "Color blue-600",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -672,13 +734,13 @@
       ],
       "hex": "#155dfc"
     },
+    "$description": "Color blue-600",
     "$extensions": {
       "org.enfantterrible.order": 218
     }
   },
   "base.palette.info.700": {
     "$type": "color",
-    "$description": "Color blue-700",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -689,13 +751,13 @@
       ],
       "hex": "#1447e6"
     },
+    "$description": "Color blue-700",
     "$extensions": {
       "org.enfantterrible.order": 219
     }
   },
   "base.palette.info.800": {
     "$type": "color",
-    "$description": "Color blue-800",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -706,13 +768,13 @@
       ],
       "hex": "#193cb8"
     },
+    "$description": "Color blue-800",
     "$extensions": {
       "org.enfantterrible.order": 220
     }
   },
   "base.palette.info.900": {
     "$type": "color",
-    "$description": "Color blue-900",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -723,13 +785,13 @@
       ],
       "hex": "#1c398e"
     },
+    "$description": "Color blue-900",
     "$extensions": {
       "org.enfantterrible.order": 221
     }
   },
   "base.palette.info.950": {
     "$type": "color",
-    "$description": "Color blue-950",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -740,13 +802,13 @@
       ],
       "hex": "#162456"
     },
+    "$description": "Color blue-950",
     "$extensions": {
       "org.enfantterrible.order": 222
     }
   },
   "base.palette.neutral.50": {
     "$type": "color",
-    "$description": "Color stone-50",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -757,13 +819,13 @@
       ],
       "hex": "#fafaf9"
     },
+    "$description": "Color stone-50",
     "$extensions": {
       "org.enfantterrible.order": 47
     }
   },
   "base.palette.neutral.100": {
     "$type": "color",
-    "$description": "Color stone-100",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -774,13 +836,13 @@
       ],
       "hex": "#f5f5f4"
     },
+    "$description": "Color stone-100",
     "$extensions": {
       "org.enfantterrible.order": 48
     }
   },
   "base.palette.neutral.200": {
     "$type": "color",
-    "$description": "Color stone-200",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -791,13 +853,13 @@
       ],
       "hex": "#e7e5e4"
     },
+    "$description": "Color stone-200",
     "$extensions": {
       "org.enfantterrible.order": 49
     }
   },
   "base.palette.neutral.300": {
     "$type": "color",
-    "$description": "Color stone-300",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -808,13 +870,13 @@
       ],
       "hex": "#d6d3d1"
     },
+    "$description": "Color stone-300",
     "$extensions": {
       "org.enfantterrible.order": 50
     }
   },
   "base.palette.neutral.400": {
     "$type": "color",
-    "$description": "Color stone-400",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -825,13 +887,13 @@
       ],
       "hex": "#a6a09b"
     },
+    "$description": "Color stone-400",
     "$extensions": {
       "org.enfantterrible.order": 51
     }
   },
   "base.palette.neutral.500": {
     "$type": "color",
-    "$description": "Color stone-500",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -842,13 +904,13 @@
       ],
       "hex": "#79716b"
     },
+    "$description": "Color stone-500",
     "$extensions": {
       "org.enfantterrible.order": 52
     }
   },
   "base.palette.neutral.600": {
     "$type": "color",
-    "$description": "Color stone-600",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -859,13 +921,13 @@
       ],
       "hex": "#57534d"
     },
+    "$description": "Color stone-600",
     "$extensions": {
       "org.enfantterrible.order": 53
     }
   },
   "base.palette.neutral.700": {
     "$type": "color",
-    "$description": "Color stone-700",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -876,13 +938,13 @@
       ],
       "hex": "#44403b"
     },
+    "$description": "Color stone-700",
     "$extensions": {
       "org.enfantterrible.order": 54
     }
   },
   "base.palette.neutral.800": {
     "$type": "color",
-    "$description": "Color stone-800",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -893,13 +955,13 @@
       ],
       "hex": "#292524"
     },
+    "$description": "Color stone-800",
     "$extensions": {
       "org.enfantterrible.order": 55
     }
   },
   "base.palette.neutral.900": {
     "$type": "color",
-    "$description": "Color stone-900",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -910,13 +972,13 @@
       ],
       "hex": "#1c1917"
     },
+    "$description": "Color stone-900",
     "$extensions": {
       "org.enfantterrible.order": 56
     }
   },
   "base.palette.neutral.950": {
     "$type": "color",
-    "$description": "Color stone-950",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -927,13 +989,13 @@
       ],
       "hex": "#0c0a09"
     },
+    "$description": "Color stone-950",
     "$extensions": {
       "org.enfantterrible.order": 57
     }
   },
   "base.palette.overlay.default": {
     "$type": "color",
-    "$description": "Backdrop scrim for modals and overlays.",
     "$value": {
       "colorSpace": "oklch",
       "components": [
@@ -943,11 +1005,11 @@
       ],
       "hex": "#1c1917",
       "alpha": 0.4
-    }
+    },
+    "$description": "Backdrop scrim for modals and overlays."
   },
   "base.palette.primary.50": {
     "$type": "color",
-    "$description": "Color fuchsia-50",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -958,13 +1020,13 @@
       ],
       "hex": "#fdf4ff"
     },
+    "$description": "Color fuchsia-50",
     "$extensions": {
       "org.enfantterrible.order": 256
     }
   },
   "base.palette.primary.100": {
     "$type": "color",
-    "$description": "Color fuchsia-100",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -975,13 +1037,13 @@
       ],
       "hex": "#fae8ff"
     },
+    "$description": "Color fuchsia-100",
     "$extensions": {
       "org.enfantterrible.order": 257
     }
   },
   "base.palette.primary.200": {
     "$type": "color",
-    "$description": "Color fuchsia-200",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -992,13 +1054,13 @@
       ],
       "hex": "#f6cfff"
     },
+    "$description": "Color fuchsia-200",
     "$extensions": {
       "org.enfantterrible.order": 258
     }
   },
   "base.palette.primary.300": {
     "$type": "color",
-    "$description": "Color fuchsia-300",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1009,13 +1071,13 @@
       ],
       "hex": "#f4a8ff"
     },
+    "$description": "Color fuchsia-300",
     "$extensions": {
       "org.enfantterrible.order": 259
     }
   },
   "base.palette.primary.400": {
     "$type": "color",
-    "$description": "Color fuchsia-400",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1026,13 +1088,13 @@
       ],
       "hex": "#ed6aff"
     },
+    "$description": "Color fuchsia-400",
     "$extensions": {
       "org.enfantterrible.order": 260
     }
   },
   "base.palette.primary.500": {
     "$type": "color",
-    "$description": "Color fuchsia-500",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1043,13 +1105,13 @@
       ],
       "hex": "#e12afb"
     },
+    "$description": "Color fuchsia-500",
     "$extensions": {
       "org.enfantterrible.order": 261
     }
   },
   "base.palette.primary.600": {
     "$type": "color",
-    "$description": "Color fuchsia-600",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1060,13 +1122,13 @@
       ],
       "hex": "#c800de"
     },
+    "$description": "Color fuchsia-600",
     "$extensions": {
       "org.enfantterrible.order": 262
     }
   },
   "base.palette.primary.700": {
     "$type": "color",
-    "$description": "Color fuchsia-700",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1077,13 +1139,13 @@
       ],
       "hex": "#a800b7"
     },
+    "$description": "Color fuchsia-700",
     "$extensions": {
       "org.enfantterrible.order": 263
     }
   },
   "base.palette.primary.800": {
     "$type": "color",
-    "$description": "Color fuchsia-800",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1094,13 +1156,13 @@
       ],
       "hex": "#8a0194"
     },
+    "$description": "Color fuchsia-800",
     "$extensions": {
       "org.enfantterrible.order": 264
     }
   },
   "base.palette.primary.900": {
     "$type": "color",
-    "$description": "Color fuchsia-900",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1111,13 +1173,13 @@
       ],
       "hex": "#721378"
     },
+    "$description": "Color fuchsia-900",
     "$extensions": {
       "org.enfantterrible.order": 265
     }
   },
   "base.palette.primary.950": {
     "$type": "color",
-    "$description": "Color fuchsia-950",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1128,13 +1190,13 @@
       ],
       "hex": "#4b004f"
     },
+    "$description": "Color fuchsia-950",
     "$extensions": {
       "org.enfantterrible.order": 266
     }
   },
   "base.palette.success.50": {
     "$type": "color",
-    "$description": "Color green-50",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1145,13 +1207,13 @@
       ],
       "hex": "#f0fdf4"
     },
+    "$description": "Color green-50",
     "$extensions": {
       "org.enfantterrible.order": 157
     }
   },
   "base.palette.success.100": {
     "$type": "color",
-    "$description": "Color green-100",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1162,13 +1224,13 @@
       ],
       "hex": "#dcfce7"
     },
+    "$description": "Color green-100",
     "$extensions": {
       "org.enfantterrible.order": 158
     }
   },
   "base.palette.success.200": {
     "$type": "color",
-    "$description": "Color green-200",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1179,13 +1241,13 @@
       ],
       "hex": "#b9f8cf"
     },
+    "$description": "Color green-200",
     "$extensions": {
       "org.enfantterrible.order": 159
     }
   },
   "base.palette.success.300": {
     "$type": "color",
-    "$description": "Color green-300",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1196,13 +1258,13 @@
       ],
       "hex": "#7bf1a8"
     },
+    "$description": "Color green-300",
     "$extensions": {
       "org.enfantterrible.order": 160
     }
   },
   "base.palette.success.400": {
     "$type": "color",
-    "$description": "Color green-400",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1213,13 +1275,13 @@
       ],
       "hex": "#05df72"
     },
+    "$description": "Color green-400",
     "$extensions": {
       "org.enfantterrible.order": 161
     }
   },
   "base.palette.success.500": {
     "$type": "color",
-    "$description": "Color green-500",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1230,13 +1292,13 @@
       ],
       "hex": "#00c950"
     },
+    "$description": "Color green-500",
     "$extensions": {
       "org.enfantterrible.order": 162
     }
   },
   "base.palette.success.600": {
     "$type": "color",
-    "$description": "Color green-600",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1247,13 +1309,13 @@
       ],
       "hex": "#00a63e"
     },
+    "$description": "Color green-600",
     "$extensions": {
       "org.enfantterrible.order": 163
     }
   },
   "base.palette.success.700": {
     "$type": "color",
-    "$description": "Color green-700",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1264,13 +1326,13 @@
       ],
       "hex": "#008236"
     },
+    "$description": "Color green-700",
     "$extensions": {
       "org.enfantterrible.order": 164
     }
   },
   "base.palette.success.800": {
     "$type": "color",
-    "$description": "Color green-800",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1281,13 +1343,13 @@
       ],
       "hex": "#016630"
     },
+    "$description": "Color green-800",
     "$extensions": {
       "org.enfantterrible.order": 165
     }
   },
   "base.palette.success.900": {
     "$type": "color",
-    "$description": "Color green-900",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1298,13 +1360,13 @@
       ],
       "hex": "#0d542b"
     },
+    "$description": "Color green-900",
     "$extensions": {
       "org.enfantterrible.order": 166
     }
   },
   "base.palette.success.950": {
     "$type": "color",
-    "$description": "Color green-950",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1315,6 +1377,7 @@
       ],
       "hex": "#032e15"
     },
+    "$description": "Color green-950",
     "$extensions": {
       "org.enfantterrible.order": 167
     }
@@ -1334,7 +1397,6 @@
   },
   "base.palette.warning.50": {
     "$type": "color",
-    "$description": "Color yellow-50",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1345,13 +1407,13 @@
       ],
       "hex": "#fefce8"
     },
+    "$description": "Color yellow-50",
     "$extensions": {
       "org.enfantterrible.order": 135
     }
   },
   "base.palette.warning.100": {
     "$type": "color",
-    "$description": "Color yellow-100",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1362,13 +1424,13 @@
       ],
       "hex": "#fef9c2"
     },
+    "$description": "Color yellow-100",
     "$extensions": {
       "org.enfantterrible.order": 136
     }
   },
   "base.palette.warning.200": {
     "$type": "color",
-    "$description": "Color yellow-200",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1379,13 +1441,13 @@
       ],
       "hex": "#fff085"
     },
+    "$description": "Color yellow-200",
     "$extensions": {
       "org.enfantterrible.order": 137
     }
   },
   "base.palette.warning.300": {
     "$type": "color",
-    "$description": "Color yellow-300",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1396,13 +1458,13 @@
       ],
       "hex": "#ffdf20"
     },
+    "$description": "Color yellow-300",
     "$extensions": {
       "org.enfantterrible.order": 138
     }
   },
   "base.palette.warning.400": {
     "$type": "color",
-    "$description": "Color yellow-400",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1413,13 +1475,13 @@
       ],
       "hex": "#fdc700"
     },
+    "$description": "Color yellow-400",
     "$extensions": {
       "org.enfantterrible.order": 139
     }
   },
   "base.palette.warning.500": {
     "$type": "color",
-    "$description": "Color yellow-500",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1430,13 +1492,13 @@
       ],
       "hex": "#f0b100"
     },
+    "$description": "Color yellow-500",
     "$extensions": {
       "org.enfantterrible.order": 140
     }
   },
   "base.palette.warning.600": {
     "$type": "color",
-    "$description": "Color yellow-600",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1447,13 +1509,13 @@
       ],
       "hex": "#d08700"
     },
+    "$description": "Color yellow-600",
     "$extensions": {
       "org.enfantterrible.order": 141
     }
   },
   "base.palette.warning.700": {
     "$type": "color",
-    "$description": "Color yellow-700",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1464,13 +1526,13 @@
       ],
       "hex": "#a65f00"
     },
+    "$description": "Color yellow-700",
     "$extensions": {
       "org.enfantterrible.order": 142
     }
   },
   "base.palette.warning.800": {
     "$type": "color",
-    "$description": "Color yellow-800",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1481,13 +1543,13 @@
       ],
       "hex": "#894b00"
     },
+    "$description": "Color yellow-800",
     "$extensions": {
       "org.enfantterrible.order": 143
     }
   },
   "base.palette.warning.900": {
     "$type": "color",
-    "$description": "Color yellow-900",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1498,13 +1560,13 @@
       ],
       "hex": "#733e0a"
     },
+    "$description": "Color yellow-900",
     "$extensions": {
       "org.enfantterrible.order": 144
     }
   },
   "base.palette.warning.950": {
     "$type": "color",
-    "$description": "Color yellow-950",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -1515,6 +1577,7 @@
       ],
       "hex": "#432004"
     },
+    "$description": "Color yellow-950",
     "$extensions": {
       "org.enfantterrible.order": 145
     }
@@ -1534,55 +1597,55 @@
   },
   "base.screens.1": {
     "$type": "dimension",
-    "$description": "Screens scale - 40rem",
     "$value": {
       "unit": "rem",
       "value": 40
     },
+    "$description": "Screens scale - 40rem",
     "$extensions": {
       "org.enfantterrible.order": 0
     }
   },
   "base.screens.2": {
     "$type": "dimension",
-    "$description": "Screens scale - 48rem",
     "$value": {
       "unit": "rem",
       "value": 48
     },
+    "$description": "Screens scale - 48rem",
     "$extensions": {
       "org.enfantterrible.order": 1
     }
   },
   "base.screens.3": {
     "$type": "dimension",
-    "$description": "Screens scale - 64rem",
     "$value": {
       "unit": "rem",
       "value": 64
     },
+    "$description": "Screens scale - 64rem",
     "$extensions": {
       "org.enfantterrible.order": 2
     }
   },
   "base.screens.4": {
     "$type": "dimension",
-    "$description": "Screens scale - 80rem",
     "$value": {
       "unit": "rem",
       "value": 80
     },
+    "$description": "Screens scale - 80rem",
     "$extensions": {
       "org.enfantterrible.order": 3
     }
   },
   "base.screens.5": {
     "$type": "dimension",
-    "$description": "Screens scale - 96rem",
     "$value": {
       "unit": "rem",
       "value": 96
     },
+    "$description": "Screens scale - 96rem",
     "$extensions": {
       "org.enfantterrible.order": 4
     }
@@ -2254,747 +2317,747 @@
   },
   "base.space.0": {
     "$type": "dimension",
-    "$description": "Space scale - 0rem",
     "$value": {
       "unit": "rem",
       "value": 0
     },
+    "$description": "Space scale - 0rem",
     "$extensions": {
       "org.enfantterrible.order": 0
     }
   },
   "base.space.0p5": {
     "$type": "dimension",
-    "$description": "Space scale - 0.125rem",
     "$value": {
       "unit": "rem",
       "value": 0.125
     },
+    "$description": "Space scale - 0.125rem",
     "$extensions": {
       "org.enfantterrible.order": 2
     }
   },
   "base.space.1": {
     "$type": "dimension",
-    "$description": "Space scale - 0.25rem",
     "$value": {
       "unit": "rem",
       "value": 0.25
     },
+    "$description": "Space scale - 0.25rem",
     "$extensions": {
       "org.enfantterrible.order": 3
     }
   },
   "base.space.1p5": {
     "$type": "dimension",
-    "$description": "Space scale - 0.375rem",
     "$value": {
       "unit": "rem",
       "value": 0.375
     },
+    "$description": "Space scale - 0.375rem",
     "$extensions": {
       "org.enfantterrible.order": 4
     }
   },
   "base.space.2": {
     "$type": "dimension",
-    "$description": "Space scale - 0.5rem",
     "$value": {
       "unit": "rem",
       "value": 0.5
     },
+    "$description": "Space scale - 0.5rem",
     "$extensions": {
       "org.enfantterrible.order": 5
     }
   },
   "base.space.2p5": {
     "$type": "dimension",
-    "$description": "Space scale - 0.625rem",
     "$value": {
       "unit": "rem",
       "value": 0.625
     },
+    "$description": "Space scale - 0.625rem",
     "$extensions": {
       "org.enfantterrible.order": 6
     }
   },
   "base.space.3": {
     "$type": "dimension",
-    "$description": "Space scale - 0.75rem",
     "$value": {
       "unit": "rem",
       "value": 0.75
     },
+    "$description": "Space scale - 0.75rem",
     "$extensions": {
       "org.enfantterrible.order": 7
     }
   },
   "base.space.3p5": {
     "$type": "dimension",
-    "$description": "Space scale - 0.875rem",
     "$value": {
       "unit": "rem",
       "value": 0.875
     },
+    "$description": "Space scale - 0.875rem",
     "$extensions": {
       "org.enfantterrible.order": 8
     }
   },
   "base.space.4": {
     "$type": "dimension",
-    "$description": "Space scale - 1rem",
     "$value": {
       "unit": "rem",
       "value": 1
     },
+    "$description": "Space scale - 1rem",
     "$extensions": {
       "org.enfantterrible.order": 9
     }
   },
   "base.space.5": {
     "$type": "dimension",
-    "$description": "Space scale - 1.25rem",
     "$value": {
       "unit": "rem",
       "value": 1.25
     },
+    "$description": "Space scale - 1.25rem",
     "$extensions": {
       "org.enfantterrible.order": 10
     }
   },
   "base.space.6": {
     "$type": "dimension",
-    "$description": "Space scale - 1.5rem",
     "$value": {
       "unit": "rem",
       "value": 1.5
     },
+    "$description": "Space scale - 1.5rem",
     "$extensions": {
       "org.enfantterrible.order": 11
     }
   },
   "base.space.7": {
     "$type": "dimension",
-    "$description": "Space scale - 1.75rem",
     "$value": {
       "unit": "rem",
       "value": 1.75
     },
+    "$description": "Space scale - 1.75rem",
     "$extensions": {
       "org.enfantterrible.order": 12
     }
   },
   "base.space.8": {
     "$type": "dimension",
-    "$description": "Space scale - 2rem",
     "$value": {
       "unit": "rem",
       "value": 2
     },
+    "$description": "Space scale - 2rem",
     "$extensions": {
       "org.enfantterrible.order": 13
     }
   },
   "base.space.9": {
     "$type": "dimension",
-    "$description": "Space scale - 2.25rem",
     "$value": {
       "unit": "rem",
       "value": 2.25
     },
+    "$description": "Space scale - 2.25rem",
     "$extensions": {
       "org.enfantterrible.order": 14
     }
   },
   "base.space.10": {
     "$type": "dimension",
-    "$description": "Space scale - 2.5rem",
     "$value": {
       "unit": "rem",
       "value": 2.5
     },
+    "$description": "Space scale - 2.5rem",
     "$extensions": {
       "org.enfantterrible.order": 15
     }
   },
   "base.space.11": {
     "$type": "dimension",
-    "$description": "Space scale - 2.75rem",
     "$value": {
       "unit": "rem",
       "value": 2.75
     },
+    "$description": "Space scale - 2.75rem",
     "$extensions": {
       "org.enfantterrible.order": 16
     }
   },
   "base.space.12": {
     "$type": "dimension",
-    "$description": "Space scale - 3rem",
     "$value": {
       "unit": "rem",
       "value": 3
     },
+    "$description": "Space scale - 3rem",
     "$extensions": {
       "org.enfantterrible.order": 17
     }
   },
   "base.space.14": {
     "$type": "dimension",
-    "$description": "Space scale - 3.5rem",
     "$value": {
       "unit": "rem",
       "value": 3.5
     },
+    "$description": "Space scale - 3.5rem",
     "$extensions": {
       "org.enfantterrible.order": 18
     }
   },
   "base.space.16": {
     "$type": "dimension",
-    "$description": "Space scale - 4rem",
     "$value": {
       "unit": "rem",
       "value": 4
     },
+    "$description": "Space scale - 4rem",
     "$extensions": {
       "org.enfantterrible.order": 19
     }
   },
   "base.space.20": {
     "$type": "dimension",
-    "$description": "Space scale - 5rem",
     "$value": {
       "unit": "rem",
       "value": 5
     },
+    "$description": "Space scale - 5rem",
     "$extensions": {
       "org.enfantterrible.order": 20
     }
   },
   "base.space.24": {
     "$type": "dimension",
-    "$description": "Space scale - 6rem",
     "$value": {
       "unit": "rem",
       "value": 6
     },
+    "$description": "Space scale - 6rem",
     "$extensions": {
       "org.enfantterrible.order": 21
     }
   },
   "base.space.28": {
     "$type": "dimension",
-    "$description": "Space scale - 7rem",
     "$value": {
       "unit": "rem",
       "value": 7
     },
+    "$description": "Space scale - 7rem",
     "$extensions": {
       "org.enfantterrible.order": 22
     }
   },
   "base.space.32": {
     "$type": "dimension",
-    "$description": "Space scale - 8rem",
     "$value": {
       "unit": "rem",
       "value": 8
     },
+    "$description": "Space scale - 8rem",
     "$extensions": {
       "org.enfantterrible.order": 23
     }
   },
   "base.space.36": {
     "$type": "dimension",
-    "$description": "Space scale - 9rem",
     "$value": {
       "unit": "rem",
       "value": 9
     },
+    "$description": "Space scale - 9rem",
     "$extensions": {
       "org.enfantterrible.order": 24
     }
   },
   "base.space.40": {
     "$type": "dimension",
-    "$description": "Space scale - 10rem",
     "$value": {
       "unit": "rem",
       "value": 10
     },
+    "$description": "Space scale - 10rem",
     "$extensions": {
       "org.enfantterrible.order": 25
     }
   },
   "base.space.44": {
     "$type": "dimension",
-    "$description": "Space scale - 11rem",
     "$value": {
       "unit": "rem",
       "value": 11
     },
+    "$description": "Space scale - 11rem",
     "$extensions": {
       "org.enfantterrible.order": 26
     }
   },
   "base.space.48": {
     "$type": "dimension",
-    "$description": "Space scale - 12rem",
     "$value": {
       "unit": "rem",
       "value": 12
     },
+    "$description": "Space scale - 12rem",
     "$extensions": {
       "org.enfantterrible.order": 27
     }
   },
   "base.space.52": {
     "$type": "dimension",
-    "$description": "Space scale - 13rem",
     "$value": {
       "unit": "rem",
       "value": 13
     },
+    "$description": "Space scale - 13rem",
     "$extensions": {
       "org.enfantterrible.order": 28
     }
   },
   "base.space.56": {
     "$type": "dimension",
-    "$description": "Space scale - 14rem",
     "$value": {
       "unit": "rem",
       "value": 14
     },
+    "$description": "Space scale - 14rem",
     "$extensions": {
       "org.enfantterrible.order": 29
     }
   },
   "base.space.60": {
     "$type": "dimension",
-    "$description": "Space scale - 15rem",
     "$value": {
       "unit": "rem",
       "value": 15
     },
+    "$description": "Space scale - 15rem",
     "$extensions": {
       "org.enfantterrible.order": 30
     }
   },
   "base.space.64": {
     "$type": "dimension",
-    "$description": "Space scale - 16rem",
     "$value": {
       "unit": "rem",
       "value": 16
     },
+    "$description": "Space scale - 16rem",
     "$extensions": {
       "org.enfantterrible.order": 31
     }
   },
   "base.space.72": {
     "$type": "dimension",
-    "$description": "Space scale - 18rem",
     "$value": {
       "unit": "rem",
       "value": 18
     },
+    "$description": "Space scale - 18rem",
     "$extensions": {
       "org.enfantterrible.order": 32
     }
   },
   "base.space.80": {
     "$type": "dimension",
-    "$description": "Space scale - 20rem",
     "$value": {
       "unit": "rem",
       "value": 20
     },
+    "$description": "Space scale - 20rem",
     "$extensions": {
       "org.enfantterrible.order": 33
     }
   },
   "base.space.96": {
     "$type": "dimension",
-    "$description": "Space scale - 24rem",
     "$value": {
       "unit": "rem",
       "value": 24
     },
+    "$description": "Space scale - 24rem",
     "$extensions": {
       "org.enfantterrible.order": 34
     }
   },
   "base.space.px-1": {
     "$type": "dimension",
-    "$description": "Space scale - 1px",
     "$value": {
       "unit": "px",
       "value": 1
     },
+    "$description": "Space scale - 1px",
     "$extensions": {
       "org.enfantterrible.order": 1
     }
   },
   "base.text.font.body": {
     "$type": "fontFamily",
-    "$description": "Variable font - wght, opsz axes - body and UI",
     "$value": [
       "Inter"
-    ]
+    ],
+    "$description": "Variable font - wght, opsz axes - body and UI"
   },
   "base.text.font.heading": {
     "$type": "fontFamily",
-    "$description": "Variable font - wght, wdth axes - headings",
     "$value": [
       "Anybody"
-    ]
+    ],
+    "$description": "Variable font - wght, wdth axes - headings"
   },
   "base.text.letter-spacing.0": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - 0rem",
     "$value": {
       "unit": "rem",
       "value": 0
     },
+    "$description": "Letter-spacing scale - 0rem",
     "$extensions": {
       "org.enfantterrible.order": 5
     }
   },
   "base.text.letter-spacing.1": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - 0.01rem",
     "$value": {
       "unit": "rem",
       "value": 0.01
     },
+    "$description": "Letter-spacing scale - 0.01rem",
     "$extensions": {
       "org.enfantterrible.order": 6
     }
   },
   "base.text.letter-spacing.1b": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - -0.01rem",
     "$value": {
       "unit": "rem",
       "value": -0.01
     },
+    "$description": "Letter-spacing scale - -0.01rem",
     "$extensions": {
       "org.enfantterrible.order": 4
     }
   },
   "base.text.letter-spacing.2": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - 0.02rem",
     "$value": {
       "unit": "rem",
       "value": 0.02
     },
+    "$description": "Letter-spacing scale - 0.02rem",
     "$extensions": {
       "org.enfantterrible.order": 7
     }
   },
   "base.text.letter-spacing.2b": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - -0.02rem",
     "$value": {
       "unit": "rem",
       "value": -0.02
     },
+    "$description": "Letter-spacing scale - -0.02rem",
     "$extensions": {
       "org.enfantterrible.order": 3
     }
   },
   "base.text.letter-spacing.3": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - 0.03rem",
     "$value": {
       "unit": "rem",
       "value": 0.03
     },
+    "$description": "Letter-spacing scale - 0.03rem",
     "$extensions": {
       "org.enfantterrible.order": 8
     }
   },
   "base.text.letter-spacing.3b": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - -0.03rem",
     "$value": {
       "unit": "rem",
       "value": -0.03
     },
+    "$description": "Letter-spacing scale - -0.03rem",
     "$extensions": {
       "org.enfantterrible.order": 2
     }
   },
   "base.text.letter-spacing.4": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - 0.04rem",
     "$value": {
       "unit": "rem",
       "value": 0.04
     },
+    "$description": "Letter-spacing scale - 0.04rem",
     "$extensions": {
       "org.enfantterrible.order": 9
     }
   },
   "base.text.letter-spacing.4b": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - -0.04rem",
     "$value": {
       "unit": "rem",
       "value": -0.04
     },
+    "$description": "Letter-spacing scale - -0.04rem",
     "$extensions": {
       "org.enfantterrible.order": 1
     }
   },
   "base.text.letter-spacing.5": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - 0.05rem",
     "$value": {
       "unit": "rem",
       "value": 0.05
     },
+    "$description": "Letter-spacing scale - 0.05rem",
     "$extensions": {
       "org.enfantterrible.order": 10
     }
   },
   "base.text.letter-spacing.5b": {
     "$type": "dimension",
-    "$description": "Letter-spacing scale - -0.05rem",
     "$value": {
       "unit": "rem",
       "value": -0.05
     },
+    "$description": "Letter-spacing scale - -0.05rem",
     "$extensions": {
       "org.enfantterrible.order": 0
     }
   },
   "base.text.line-height.1": {
     "$type": "number",
-    "$description": "Line-height 1",
     "$value": 1.1,
+    "$description": "Line-height 1",
     "$extensions": {
       "org.enfantterrible.order": 0
     }
   },
   "base.text.line-height.2": {
     "$type": "number",
-    "$description": "Line-height 2",
     "$value": 1.2,
+    "$description": "Line-height 2",
     "$extensions": {
       "org.enfantterrible.order": 1
     }
   },
   "base.text.line-height.3": {
     "$type": "number",
-    "$description": "Line-height 3",
     "$value": 1.3,
+    "$description": "Line-height 3",
     "$extensions": {
       "org.enfantterrible.order": 2
     }
   },
   "base.text.line-height.4": {
     "$type": "number",
-    "$description": "Line-height 4",
     "$value": 1.4,
+    "$description": "Line-height 4",
     "$extensions": {
       "org.enfantterrible.order": 3
     }
   },
   "base.text.line-height.5": {
     "$type": "number",
-    "$description": "Line-height 5",
     "$value": 1.5,
+    "$description": "Line-height 5",
     "$extensions": {
       "org.enfantterrible.order": 4
     }
   },
   "base.text.line-height.6": {
     "$type": "number",
-    "$description": "Line-height 6",
     "$value": 1.6,
+    "$description": "Line-height 6",
     "$extensions": {
       "org.enfantterrible.order": 5
     }
   },
   "base.text.line-height.7": {
     "$type": "number",
-    "$description": "Line-height 7",
     "$value": 1.7,
+    "$description": "Line-height 7",
     "$extensions": {
       "org.enfantterrible.order": 6
     }
   },
   "base.text.size.1": {
     "$type": "dimension",
-    "$description": "Font-size scale - 1rem",
     "$value": {
       "unit": "rem",
       "value": 1
     },
+    "$description": "Font-size scale - 1rem",
     "$extensions": {
       "org.enfantterrible.order": 1
     }
   },
   "base.text.size.1b": {
     "$type": "dimension",
-    "$description": "Font-size scale - 0.833rem",
     "$value": {
       "unit": "rem",
       "value": 0.833
     },
+    "$description": "Font-size scale - 0.833rem",
     "$extensions": {
       "org.enfantterrible.order": 0
     }
   },
   "base.text.size.2": {
     "$type": "dimension",
-    "$description": "Font-size scale - 1.2rem",
     "$value": {
       "unit": "rem",
       "value": 1.2
     },
+    "$description": "Font-size scale - 1.2rem",
     "$extensions": {
       "org.enfantterrible.order": 2
     }
   },
   "base.text.size.3": {
     "$type": "dimension",
-    "$description": "Font-size scale - 1.44rem",
     "$value": {
       "unit": "rem",
       "value": 1.44
     },
+    "$description": "Font-size scale - 1.44rem",
     "$extensions": {
       "org.enfantterrible.order": 3
     }
   },
   "base.text.size.4": {
     "$type": "dimension",
-    "$description": "Font-size scale - 1.728rem",
     "$value": {
       "unit": "rem",
       "value": 1.728
     },
+    "$description": "Font-size scale - 1.728rem",
     "$extensions": {
       "org.enfantterrible.order": 4
     }
   },
   "base.text.size.5": {
     "$type": "dimension",
-    "$description": "Font-size scale - 2.074rem",
     "$value": {
       "unit": "rem",
       "value": 2.074
     },
+    "$description": "Font-size scale - 2.074rem",
     "$extensions": {
       "org.enfantterrible.order": 5
     }
   },
   "base.text.size.6": {
     "$type": "dimension",
-    "$description": "Font-size scale - 2.488rem",
     "$value": {
       "unit": "rem",
       "value": 2.488
     },
+    "$description": "Font-size scale - 2.488rem",
     "$extensions": {
       "org.enfantterrible.order": 6
     }
   },
   "base.text.size.7": {
     "$type": "dimension",
-    "$description": "Font-size scale - 2.986rem",
     "$value": {
       "unit": "rem",
       "value": 2.986
     },
+    "$description": "Font-size scale - 2.986rem",
     "$extensions": {
       "org.enfantterrible.order": 7
     }
   },
   "base.text.size.8": {
     "$type": "dimension",
-    "$description": "Font-size scale - 3.583rem",
     "$value": {
       "unit": "rem",
       "value": 3.583
     },
+    "$description": "Font-size scale - 3.583rem",
     "$extensions": {
       "org.enfantterrible.order": 8
     }
   },
   "base.text.weight.100": {
     "$type": "fontWeight",
-    "$description": "Font-weight 100",
     "$value": 100,
+    "$description": "Font-weight 100",
     "$extensions": {
       "org.enfantterrible.order": 0
     }
   },
   "base.text.weight.200": {
     "$type": "fontWeight",
-    "$description": "Font-weight 200",
     "$value": 200,
+    "$description": "Font-weight 200",
     "$extensions": {
       "org.enfantterrible.order": 1
     }
   },
   "base.text.weight.300": {
     "$type": "fontWeight",
-    "$description": "Font-weight 300",
     "$value": 300,
+    "$description": "Font-weight 300",
     "$extensions": {
       "org.enfantterrible.order": 2
     }
   },
   "base.text.weight.400": {
     "$type": "fontWeight",
-    "$description": "Font-weight 400",
     "$value": 400,
+    "$description": "Font-weight 400",
     "$extensions": {
       "org.enfantterrible.order": 3
     }
   },
   "base.text.weight.500": {
     "$type": "fontWeight",
-    "$description": "Font-weight 500",
     "$value": 500,
+    "$description": "Font-weight 500",
     "$extensions": {
       "org.enfantterrible.order": 4
     }
   },
   "base.text.weight.600": {
     "$type": "fontWeight",
-    "$description": "Font-weight 600",
     "$value": 600,
+    "$description": "Font-weight 600",
     "$extensions": {
       "org.enfantterrible.order": 5
     }
   },
   "base.text.weight.700": {
     "$type": "fontWeight",
-    "$description": "Font-weight 700",
     "$value": 700,
+    "$description": "Font-weight 700",
     "$extensions": {
       "org.enfantterrible.order": 6
     }
   },
   "base.text.weight.800": {
     "$type": "fontWeight",
-    "$description": "Font-weight 800",
     "$value": 800,
+    "$description": "Font-weight 800",
     "$extensions": {
       "org.enfantterrible.order": 7
     }
   },
   "base.text.weight.900": {
     "$type": "fontWeight",
-    "$description": "Font-weight 900",
     "$value": 900,
+    "$description": "Font-weight 900",
     "$extensions": {
       "org.enfantterrible.order": 8
     }
@@ -3106,13 +3169,13 @@
   "semantics.background.brand.strong.default": {
     "$type": "color",
     "$value": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.8431,
-        0.3686,
-        0.3843
+        0.776,
+        0.075,
+        16.85
       ],
-      "hex": "#D75E62",
+      "hex": "#e2a3a5",
       "alpha": 1
     }
   },
@@ -3756,13 +3819,13 @@
   "semantics.border.color.brand": {
     "$type": "color",
     "$value": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.8431,
-        0.3686,
-        0.3843
+        0.776,
+        0.075,
+        16.85
       ],
-      "hex": "#D75E62",
+      "hex": "#e2a3a5",
       "alpha": 1
     }
   },
@@ -3859,7 +3922,6 @@
   },
   "semantics.elevation.1": {
     "$type": "shadow",
-    "$description": "Default application background.",
     "$value": [
       {
         "color": {
@@ -4006,11 +4068,11 @@
         },
         "inset": false
       }
-    ]
+    ],
+    "$description": "Default application background."
   },
   "semantics.elevation.2": {
     "$type": "shadow",
-    "$description": "Default for cards, sheets, and menus.",
     "$value": [
       {
         "color": {
@@ -4157,11 +4219,11 @@
         },
         "inset": false
       }
-    ]
+    ],
+    "$description": "Default for cards, sheets, and menus."
   },
   "semantics.elevation.3": {
     "$type": "shadow",
-    "$description": "Default for popovers and tooltips.",
     "$value": [
       {
         "color": {
@@ -4308,11 +4370,11 @@
         },
         "inset": false
       }
-    ]
+    ],
+    "$description": "Default for popovers and tooltips."
   },
   "semantics.elevation.4": {
     "$type": "shadow",
-    "$description": "Default for modals, dialogs, and overlays.",
     "$value": [
       {
         "color": {
@@ -4459,11 +4521,11 @@
         },
         "inset": false
       }
-    ]
+    ],
+    "$description": "Default for modals, dialogs, and overlays."
   },
   "semantics.surface.base": {
     "$type": "color",
-    "$description": "Default application background.",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -4473,11 +4535,11 @@
         106.424
       ],
       "hex": "#f5f5f4"
-    }
+    },
+    "$description": "Default application background."
   },
   "semantics.surface.inverse": {
     "$type": "color",
-    "$description": "Inverse surface for dark sections.",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -4487,11 +4549,11 @@
         58.071
       ],
       "hex": "#79716b"
-    }
+    },
+    "$description": "Inverse surface for dark sections."
   },
   "semantics.surface.overlay": {
     "$type": "color",
-    "$description": "Backdrop scrim for modals and overlays.",
     "$value": {
       "colorSpace": "oklch",
       "components": [
@@ -4501,11 +4563,11 @@
       ],
       "hex": "#1c1917",
       "alpha": 0.4
-    }
+    },
+    "$description": "Backdrop scrim for modals and overlays."
   },
   "semantics.surface.raised": {
     "$type": "color",
-    "$description": "Foreground containers: cards, modals, dropdowns.",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -4515,7 +4577,8 @@
         48.717
       ],
       "hex": "#e7e5e4"
-    }
+    },
+    "$description": "Foreground containers: cards, modals, dropdowns."
   },
   "semantics.text.color.base": {
     "$type": "color",
@@ -4610,7 +4673,6 @@
   },
   "semantics.text.color.on-color.disabled": {
     "$type": "color",
-    "$description": "For disabled state on colored backgrounds.",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -4620,11 +4682,11 @@
         48.717
       ],
       "hex": "#e7e5e4"
-    }
+    },
+    "$description": "For disabled state on colored backgrounds."
   },
   "semantics.text.color.on-color.strong": {
     "$type": "color",
-    "$description": "For strong backgrounds: primary, warning.",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -4634,11 +4696,11 @@
         58.071
       ],
       "hex": "#79716b"
-    }
+    },
+    "$description": "For strong backgrounds: primary, warning."
   },
   "semantics.text.color.on-color.weak": {
     "$type": "color",
-    "$description": "For strong backgrounds: brand, success, danger, info.",
     "$value": {
       "alpha": 1,
       "colorSpace": "oklch",
@@ -4648,7 +4710,8 @@
         106.424
       ],
       "hex": "#f5f5f4"
-    }
+    },
+    "$description": "For strong backgrounds: brand, success, danger, info."
   },
   "semantics.text.color.status.danger": {
     "$type": "color",
@@ -4704,7 +4767,6 @@
   },
   "semantics.typography.body.max": {
     "$type": "typography",
-    "$description": "21px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4719,11 +4781,11 @@
         "unit": "rem",
         "value": 0
       }
-    }
+    },
+    "$description": "21px - desktop"
   },
   "semantics.typography.body.min": {
     "$type": "typography",
-    "$description": "18px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4738,11 +4800,11 @@
         "unit": "rem",
         "value": 0
       }
-    }
+    },
+    "$description": "18px - mobile"
   },
   "semantics.typography.caption.max": {
     "$type": "typography",
-    "$description": "18px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4757,11 +4819,11 @@
         "unit": "rem",
         "value": 0
       }
-    }
+    },
+    "$description": "18px - desktop"
   },
   "semantics.typography.caption.min": {
     "$type": "typography",
-    "$description": "15px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4776,11 +4838,11 @@
         "unit": "rem",
         "value": 0.01
       }
-    }
+    },
+    "$description": "15px - mobile"
   },
   "semantics.typography.display.max": {
     "$type": "typography",
-    "$description": "61px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4795,11 +4857,11 @@
         "unit": "rem",
         "value": -0.05
       }
-    }
+    },
+    "$description": "61px - desktop"
   },
   "semantics.typography.display.min": {
     "$type": "typography",
-    "$description": "51px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4814,11 +4876,11 @@
         "unit": "rem",
         "value": -0.04
       }
-    }
+    },
+    "$description": "51px - mobile"
   },
   "semantics.typography.heading-1.max": {
     "$type": "typography",
-    "$description": "51px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4833,11 +4895,11 @@
         "unit": "rem",
         "value": -0.05
       }
-    }
+    },
+    "$description": "51px - desktop"
   },
   "semantics.typography.heading-1.min": {
     "$type": "typography",
-    "$description": "43px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4852,11 +4914,11 @@
         "unit": "rem",
         "value": -0.04
       }
-    }
+    },
+    "$description": "43px - mobile"
   },
   "semantics.typography.heading-2.max": {
     "$type": "typography",
-    "$description": "43px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4871,11 +4933,11 @@
         "unit": "rem",
         "value": -0.04
       }
-    }
+    },
+    "$description": "43px - desktop"
   },
   "semantics.typography.heading-2.min": {
     "$type": "typography",
-    "$description": "36px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4890,11 +4952,11 @@
         "unit": "rem",
         "value": -0.03
       }
-    }
+    },
+    "$description": "36px - mobile"
   },
   "semantics.typography.heading-3.max": {
     "$type": "typography",
-    "$description": "36px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4909,11 +4971,11 @@
         "unit": "rem",
         "value": -0.03
       }
-    }
+    },
+    "$description": "36px - desktop"
   },
   "semantics.typography.heading-3.min": {
     "$type": "typography",
-    "$description": "30px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4928,11 +4990,11 @@
         "unit": "rem",
         "value": -0.02
       }
-    }
+    },
+    "$description": "30px - mobile"
   },
   "semantics.typography.heading-4.max": {
     "$type": "typography",
-    "$description": "30px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4947,11 +5009,11 @@
         "unit": "rem",
         "value": -0.02
       }
-    }
+    },
+    "$description": "30px - desktop"
   },
   "semantics.typography.heading-4.min": {
     "$type": "typography",
-    "$description": "25px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4966,11 +5028,11 @@
         "unit": "rem",
         "value": -0.01
       }
-    }
+    },
+    "$description": "25px - mobile"
   },
   "semantics.typography.heading-5.max": {
     "$type": "typography",
-    "$description": "25px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -4985,11 +5047,11 @@
         "unit": "rem",
         "value": -0.01
       }
-    }
+    },
+    "$description": "25px - desktop"
   },
   "semantics.typography.heading-5.min": {
     "$type": "typography",
-    "$description": "21px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -5004,11 +5066,11 @@
         "unit": "rem",
         "value": 0
       }
-    }
+    },
+    "$description": "21px - mobile"
   },
   "semantics.typography.heading-6.max": {
     "$type": "typography",
-    "$description": "21px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -5023,11 +5085,11 @@
         "unit": "rem",
         "value": -0.01
       }
-    }
+    },
+    "$description": "21px - desktop"
   },
   "semantics.typography.heading-6.min": {
     "$type": "typography",
-    "$description": "18px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -5042,11 +5104,11 @@
         "unit": "rem",
         "value": 0
       }
-    }
+    },
+    "$description": "18px - mobile"
   },
   "semantics.typography.label.max": {
     "$type": "typography",
-    "$description": "18px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -5061,11 +5123,11 @@
         "unit": "rem",
         "value": 0
       }
-    }
+    },
+    "$description": "18px - desktop"
   },
   "semantics.typography.label.min": {
     "$type": "typography",
-    "$description": "15px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -5080,11 +5142,11 @@
         "unit": "rem",
         "value": 0.01
       }
-    }
+    },
+    "$description": "15px - mobile"
   },
   "semantics.typography.lead.max": {
     "$type": "typography",
-    "$description": "25px - desktop",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -5099,11 +5161,11 @@
         "unit": "rem",
         "value": 0
       }
-    }
+    },
+    "$description": "25px - desktop"
   },
   "semantics.typography.lead.min": {
     "$type": "typography",
-    "$description": "21px - mobile",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -5118,11 +5180,11 @@
         "unit": "rem",
         "value": 0
       }
-    }
+    },
+    "$description": "21px - mobile"
   },
   "semantics.typography.ui": {
     "$type": "typography",
-    "$description": "18px - fixed",
     "$value": {
       "fontSize": {
         "unit": "rem",
@@ -5137,6 +5199,7 @@
         "unit": "rem",
         "value": 0
       }
-    }
+    },
+    "$description": "18px - fixed"
   }
 }
