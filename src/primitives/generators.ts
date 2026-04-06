@@ -54,7 +54,6 @@ function generateSteps<T extends TokenType>(params: StepsParams<T>, core: CoreCo
         
         // Clamp the step itself to remove potential noise from uniqueSorted or previous math
         const key = String(step);
-        console.log(`Generating step: ${key}`);
 
         if (base && typeof base === "object" && "unit" in base) {
             const calculatedValue = cleanNumber(step * base.value);
