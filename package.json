@@ -5,7 +5,7 @@
   "scripts": {
     "primitives": "tsx src/primitives/index.ts",
     "primitives:watch": "tsx --watch src/primitives/index.ts",
-    "primitives:validate": "tz check build/tokens.primitives.json"
+    "primitives:validate": "tz check layers/tokens.primitives.json"
   },
   "devDependencies": {
     "@terrazzo/cli": "^2.0.0",
