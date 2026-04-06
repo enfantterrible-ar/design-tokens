@@ -7,28 +7,39 @@ export const filterPrimitivesFromJS = (): Plugin => ({
   async build(args: BuildHookOptions) {
     let finalCount = 0;
 
-    // 1. The Proxy Resolver
     const proxiedResolver: typeof args.resolver = {
       ...args.resolver,
       apply: (input) => {
         const resolvedTokens = args.resolver.apply(input);
 
-        // 2. Filter logic
         const filtered = Object.fromEntries(
-          Object.entries(resolvedTokens).filter(([id]) => !id.startsWith("primitives."))
+          Object.entries(resolvedTokens)
+            .filter(([id]) => !id.startsWith("primitives."))
+            .map(([id, token]) => {
+              // Get the raw token from the AST
+              const rawToken = args.tokens[id];
+              const enrichedToken = { ...token };
+              
+              // Stitch metadata back if it exists
+              if (rawToken?.$description) {
+                enrichedToken.$description = rawToken.$description;
+              }
+              if (rawToken?.$extensions) {
+                enrichedToken.$extensions = rawToken.$extensions;
+              }
+              
+              return [id, enrichedToken];
+            })
         );
 
-        // Update our counter
         finalCount = Object.keys(filtered).length;
-        
         return filtered;
       },
     };
 
-    // 3. Initialize the official plugin
     const jsInstance = js({
-      filename: "tokens.ts",
-      properties: ["$value", "$type", "jsonID"],
+      filename: "tokens.js",
+      properties: ["$value", "$type", "$description", "$extensions"], // Keep this here
     });
 
     if (jsInstance.build) {
@@ -37,11 +48,9 @@ export const filterPrimitivesFromJS = (): Plugin => ({
         resolver: proxiedResolver
       });
 
-      // 4. Corrected Logger Path
-      // It lives in args.context.logger
       args.context.logger.info({
-        group: 'plugin', // Required by LogEntry
-        label: 'filter-js', // Optional, helps identify the message
+        group: 'plugin',
+        label: 'filter-js',
         message: `tokens.js built with ${finalCount} public tokens (primitives excluded)`
       });
 
