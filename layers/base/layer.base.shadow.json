@@ -5,41 +5,41 @@
 				"$type": "color",
 				"010": {
 					"$value": {
-					"colorSpace": { "$ref": "#/primitives/color/stone-900/$value/colorSpace" },
-					"components": { "$ref": "#/primitives/color/stone-900/$value/components" },
-					"hex": { "$ref": "#/primitives/color/stone-900/$value/hex" },
+					"colorSpace": { "$ref": "#/primitives/color/stone/900/$value/colorSpace" },
+					"components": { "$ref": "#/primitives/color/stone/900/$value/components" },
+					"hex": { "$ref": "#/primitives/color/stone/900/$value/hex" },
 					"alpha": 0.1
 					}
 				},
 				"002": {
 					"$value": {
-					"colorSpace": { "$ref": "#/primitives/color/stone-900/$value/colorSpace" },
-					"components": { "$ref": "#/primitives/color/stone-900/$value/components" },
-					"hex": { "$ref": "#/primitives/color/stone-900/$value/hex" },
+					"colorSpace": { "$ref": "#/primitives/color/stone/900/$value/colorSpace" },
+					"components": { "$ref": "#/primitives/color/stone/900/$value/components" },
+					"hex": { "$ref": "#/primitives/color/stone/900/$value/hex" },
 					"alpha": 0.02
 					}
 				},
 				"004": {
 					"$value": {
-					"colorSpace": { "$ref": "#/primitives/color/stone-900/$value/colorSpace" },
-					"components": { "$ref": "#/primitives/color/stone-900/$value/components" },
-					"hex": { "$ref": "#/primitives/color/stone-900/$value/hex" },
+					"colorSpace": { "$ref": "#/primitives/color/stone/900/$value/colorSpace" },
+					"components": { "$ref": "#/primitives/color/stone/900/$value/components" },
+					"hex": { "$ref": "#/primitives/color/stone/900/$value/hex" },
 					"alpha": 0.04
 					}
 				},
 				"006": {
 					"$value": {
-					"colorSpace": { "$ref": "#/primitives/color/stone-900/$value/colorSpace" },
-					"components": { "$ref": "#/primitives/color/stone-900/$value/components" },
-					"hex": { "$ref": "#/primitives/color/stone-900/$value/hex" },
+					"colorSpace": { "$ref": "#/primitives/color/stone/900/$value/colorSpace" },
+					"components": { "$ref": "#/primitives/color/stone/900/$value/components" },
+					"hex": { "$ref": "#/primitives/color/stone/900/$value/hex" },
 					"alpha": 0.06
 					}
 				},
 				"008": {
 					"$value": {
-					"colorSpace": { "$ref": "#/primitives/color/stone-900/$value/colorSpace" },
-					"components": { "$ref": "#/primitives/color/stone-900/$value/components" },
-					"hex": { "$ref": "#/primitives/color/stone-900/$value/hex" },
+					"colorSpace": { "$ref": "#/primitives/color/stone/900/$value/colorSpace" },
+					"components": { "$ref": "#/primitives/color/stone/900/$value/components" },
+					"hex": { "$ref": "#/primitives/color/stone/900/$value/hex" },
 					"alpha": 0.08
 					}
 				}

@@ -1,76 +1,137 @@
-{ 
+{
   "base": {
     "palette": {
       "brand": {
-        "base": {
+        "50": {
           "$type": "color",
-          "$value": "{base.palette.brand.300}",
-          "$description": "Base color for the brand palette."
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.967,
+              0.009,
+              17.51
+            ],
+            "hex": "#faf2f2"
+          }
         },
         "100": {
           "$type": "color",
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "oklch",
             "components": [
-              0.9059,
-              0.7098,
-              0.7137
+              0.925,
+              0.021,
+              17.62
             ],
-            "hex": "#E7B5B6",
-            "alpha": 1
+            "hex": "#f4e1e1"
           }
         },
         "200": {
           "$type": "color",
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "oklch",
             "components": [
-              0.8706,
-              0.5529,
-              0.5608
+              0.85,
+              0.047,
+              16.5
             ],
-            "hex": "#DE8D8F",
-            "alpha": 1
+            "hex": "#ebc2c3"
           }
         },
         "300": {
-          "$description": "Base color for the brand palette.",
           "$type": "color",
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "oklch",
             "components": [
-              0.8431,
-              0.3686,
-              0.3843
+              0.776,
+              0.075,
+              16.85
             ],
-            "hex": "#D75E62",
-            "alpha": 1
+            "hex": "#e2a3a5"
           }
         },
         "400": {
           "$type": "color",
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "oklch",
             "components": [
-              0.7216,
-              0.2784,
-              0.2941
+              0.703,
+              0.111,
+              18.86
             ],
-            "hex": "#B8474B",
-            "alpha": 1
+            "hex": "#dc8284"
           }
         },
         "500": {
           "$type": "color",
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "oklch",
             "components": [
-              0.5843,
-              0.2196,
-              0.2314
+              0.634,
+              0.153,
+              20.5
             ],
-            "hex": "#95383B",
-            "alpha": 1
+            "hex": "#d75e62"
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.534,
+              0.141,
+              21.05
+            ],
+            "hex": "#b04448"
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.438,
+              0.116,
+              21.11
+            ],
+            "hex": "#863235"
+          }
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.337,
+              0.09,
+              21.33
+            ],
+            "hex": "#5d2022"
+          }
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.24,
+              0.064,
+              20.35
+            ],
+            "hex": "#381012"
+          }
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.195,
+              0.052,
+              21.39
+            ],
+            "hex": "#28090a"
           }
         }
       },
@@ -87,205 +148,40 @@
         "$value": "{primitives.color.transparent}"
       },
       "primary": {
-        "base": {
-          "$type": "color",
-          "$value": "{base.palette.primary.300}",
-          "$description": "Base color for the primary palette."
-        },
-        "100": {
-          "$type": "color",
-          "$value": "{primitives.color.cyan-50}"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "{primitives.color.cyan-200}"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "{primitives.color.cyan-500}",
-          "$description": "Action and interactive primary. CTA color. Distinct from brand."
-        },
-        "400": {
-          "$type": "color",
-          "$value": "{primitives.color.cyan-700}"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "{primitives.color.cyan-900}"
-        }
+        "$extends": "{primitives.color.fuchsia}"
       },
       "accent": {
-        "base": {
-          "$type": "color",
-          "$value": "{base.palette.accent.300}",
-          "$description": "Base color for the accent palette."
-        },
-        "100": {
-          "$type": "color",
-          "$value": "{primitives.color.violet-50}"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "{primitives.color.violet-200}"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "{primitives.color.violet-500}",
-          "$description": "Decorative accent. Emphasis, illustration, data visualization."
-        },
-        "400": {
-          "$type": "color",
-          "$value": "{primitives.color.violet-700}"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "{primitives.color.violet-900}"
-        }
+        "$extends": "{primitives.color.pink}"
       },
       "neutral": {
-        "base": {
-          "$type": "color",
-          "$value": "{base.palette.neutral.300}",
-          "$description": "Base color for the neutral palette."
-        },
-        "100": {
-          "$type": "color",
-          "$value": "{primitives.color.stone-50}"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "{primitives.color.stone-200}"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "{primitives.color.stone-500}"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "{primitives.color.stone-700}"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "{primitives.color.stone-900}"
-        }
+        "$extends": "{primitives.color.stone}"
       },
       "success": {
-        "base": {
-          "$type": "color",
-          "$value": "{base.palette.success.300}",
-          "$description": "Base color for the success palette."
-        },
-        "100": {
-          "$type": "color",
-          "$value": "{primitives.color.emerald-50}"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "{primitives.color.emerald-200}"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "{primitives.color.emerald-500}"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "{primitives.color.emerald-700}"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "{primitives.color.emerald-900}"
-        }
+        "$extends": "{primitives.color.green}"
       },
       "warning": {
-        "base": {
-          "$type": "color",
-          "$value": "{base.palette.warning.300}",
-          "$description": "Base color for the warning palette."
-        },
-        "100": {
-          "$type": "color",
-          "$value": "{primitives.color.amber-50}"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "{primitives.color.amber-200}"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "{primitives.color.amber-500}"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "{primitives.color.amber-700}"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "{primitives.color.amber-900}"
-        }
+        "$extends": "{primitives.color.yellow}"
       },
       "danger": {
-        "base": {
-          "$type": "color",
-          "$value": "{base.palette.danger.300}",
-          "$description": "Base color for the danger palette."
-        },
-        "100": {
-          "$type": "color",
-          "$value": "{primitives.color.red-50}"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "{primitives.color.red-200}"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "{primitives.color.red-500}"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "{primitives.color.red-700}"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "{primitives.color.red-900}"
-        }
+        "$extends": "{primitives.color.red}"
       },
       "info": {
-        "base": {
-          "$type": "color",
-          "$value": "{base.palette.info.300}",
-          "$description": "Base color for the info palette."
-        },
-        "100": {
-          "$type": "color",
-          "$value": "{primitives.color.purple-50}"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "{primitives.color.purple-200}"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "{primitives.color.purple-500}",
-          "$description": "Default for links and focus ring."
-        },
-        "400": {
-          "$type": "color",
-          "$value": "{primitives.color.purple-700}"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "{primitives.color.purple-900}"
-        }
+        "$extends": "{primitives.color.blue}"
       },
       "overlay": {
         "default": {
           "$description": "Backdrop scrim for modals and overlays.",
           "$type": "color",
           "$value": {
-            "colorSpace": { "$ref": "#/primitives/color/stone-900/$value/colorSpace" },
-            "components": { "$ref": "#/primitives/color/stone-900/$value/components" },
-            "hex": { "$ref": "#/primitives/color/stone-900/$value/hex" },
+            "colorSpace": {
+              "$ref": "#/primitives/color/stone/900/$value/colorSpace"
+            },
+            "components": {
+              "$ref": "#/primitives/color/stone/900/$value/components"
+            },
+            "hex": {
+              "$ref": "#/primitives/color/stone/900/$value/hex"
+            },
             "alpha": 0.4
           }
         }
