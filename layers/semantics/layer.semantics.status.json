@@ -1,0 +1,56 @@
+{
+	"semantics": {
+		"color": {
+			"status": {
+				"danger": {
+					"strong": {
+						"background": { "$type": "color", "$value": "{base.palette.danger.800}" },
+						"text":       { "$type": "color", "$value": "{semantics.color.on.danger.strong}" },
+						"stroke":     { "$type": "color", "$value": "{semantics.color.border.danger.strong}" }
+					},
+					"weak": {
+						"background": { "$type": "color", "$value": "{base.palette.danger.200}" },
+						"text":       { "$type": "color", "$value": "{base.palette.danger.800}" },
+						"stroke":     { "$type": "color", "$value": "{semantics.color.border.danger.weak}" }
+					}
+				},
+				"success": {
+					"strong": {
+						"background": { "$type": "color", "$value": "{base.palette.success.800}" },
+						"text":       { "$type": "color", "$value": "{semantics.color.on.success.strong}" },
+						"stroke":     { "$type": "color", "$value": "{semantics.color.border.success.strong}" }
+					},
+					"weak": {
+						"background": { "$type": "color", "$value": "{base.palette.success.200}" },
+						"text":       { "$type": "color", "$value": "{base.palette.success.800}" },
+						"stroke":     { "$type": "color", "$value": "{semantics.color.border.success.weak}" }
+					}
+				},
+				"warning": {
+					"strong": {
+						"background": { "$type": "color", "$value": "{base.palette.warning.800}" },
+						"text":       { "$type": "color", "$value": "{semantics.color.on.warning.strong}" },
+						"stroke":     { "$type": "color", "$value": "{semantics.color.border.warning.strong}" }
+					},
+					"weak": {
+						"background": { "$type": "color", "$value": "{base.palette.warning.200}" },
+						"text":       { "$type": "color", "$value": "{base.palette.warning.800}" },
+						"stroke":     { "$type": "color", "$value": "{semantics.color.border.warning.weak}" }
+					}
+				},
+				"info": {
+					"strong": {
+						"background": { "$type": "color", "$value": "{base.palette.info.800}" },
+						"text":       { "$type": "color", "$value": "{semantics.color.on.info.strong}" },
+						"stroke":     { "$type": "color", "$value": "{semantics.color.border.info.strong}" }
+					},
+					"weak": {
+						"background": { "$type": "color", "$value": "{base.palette.info.200}" },
+						"text":       { "$type": "color", "$value": "{base.palette.info.800}" },
+						"stroke":     { "$type": "color", "$value": "{semantics.color.border.info.weak}" }
+					}
+				}
+			}
+		}
+	}
+}

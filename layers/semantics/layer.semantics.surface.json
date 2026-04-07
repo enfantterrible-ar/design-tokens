@@ -1,26 +1,13 @@
 {
-  "semantics": {
-    "surface": {
-      "base": {
-        "$type": "color",
-        "$value": "{base.palette.neutral.100}",
-        "$description": "Default application background."
-      },
-      "raised": {
-        "$type": "color",
-        "$value": "{base.palette.neutral.200}",
-        "$description": "Foreground containers: cards, modals, dropdowns."
-      },
-      "overlay": {
-        "$description": "Backdrop scrim for modals and overlays.",
-        "$type": "color",
-        "$value": "{base.palette.overlay.default}"
-      },
-      "inverse": {
-        "$type": "color",
-        "$value": "{base.palette.neutral.500}",
-        "$description": "Inverse surface for dark sections."
-      }
-    }
-  }
+	"semantics": {
+		"color": {
+			"surface": {
+				"base":    { "$type": "color", "$value": "{base.palette.neutral.50}" },
+				"subtle":  { "$type": "color", "$value": "{base.palette.neutral.100}" },
+				"raised":  { "$type": "color", "$value": "{base.palette.neutral.200}" },
+				"overlay": { "$type": "color", "$value": "{base.palette.overlay.default}" },
+				"inverse": { "$type": "color", "$value": "{base.palette.neutral.950}" }
+			}
+		}
+	}
 }

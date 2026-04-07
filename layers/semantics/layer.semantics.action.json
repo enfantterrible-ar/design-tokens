@@ -1,0 +1,52 @@
+{
+	"semantics": {
+		"color": {
+			"action": {
+				"primary": {
+					"strong": {
+						"background": {
+							"default":    { "$type": "color", "$value": "{base.palette.primary.800}" },
+							"hover":   { "$type": "color", "$value": "{base.palette.primary.900}" },
+							"active":  { "$type": "color", "$value": "{base.palette.primary.950}" },
+							"disabled":{ "$type": "color", "$value": "{base.palette.primary.200}" }
+						},
+						"text":   { "$type": "color", "$value": "{semantics.color.on.primary.strong}" },
+						"stroke": { "$type": "color", "$value": "{semantics.color.border.primary.strong}" }
+					},
+					"weak": {
+						"background": {
+							"default":    { "$type": "color", "$value": "{base.palette.primary.100}" },
+							"hover":   { "$type": "color", "$value": "{base.palette.primary.200}" },
+							"active":  { "$type": "color", "$value": "{base.palette.primary.300}" },
+							"disabled":{ "$type": "color", "$value": "{base.palette.neutral.100}" }
+						},
+						"text":   { "$type": "color", "$value": "{semantics.color.on.primary.weak}" },
+						"stroke": { "$type": "color", "$value": "{semantics.color.border.primary.weak}" }
+					}
+				},
+				"accent": {
+					"strong": {
+						"background": {
+							"default":    { "$type": "color", "$value": "{base.palette.accent.800}" },
+							"hover":   { "$type": "color", "$value": "{base.palette.accent.900}" },
+							"active":  { "$type": "color", "$value": "{base.palette.accent.950}" },
+							"disabled":{ "$type": "color", "$value": "{base.palette.accent.200}" }
+						},
+						"text":   { "$type": "color", "$value": "{semantics.color.on.accent.strong}" },
+						"stroke": { "$type": "color", "$value": "{semantics.color.border.accent.strong}" }
+					},
+					"weak": {
+						"background": {
+							"default":    { "$type": "color", "$value": "{base.palette.accent.100}" },
+							"hover":   { "$type": "color", "$value": "{base.palette.accent.200}" },
+							"active":  { "$type": "color", "$value": "{base.palette.accent.300}" },
+							"disabled":{ "$type": "color", "$value": "{base.palette.neutral.100}" }
+						},
+						"text":   { "$type": "color", "$value": "{semantics.color.on.accent.weak}" },
+						"stroke": { "$type": "color", "$value": "{semantics.color.border.accent.weak}" }
+					}
+				}
+			}
+		}
+	}
+}

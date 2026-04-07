@@ -1,38 +1,13 @@
 {
   	"semantics": {
-		"text": {
-			"color": {
-				"base":    { "$type": "color", "$value": "{base.palette.neutral.500}" },
-				"muted":  { "$type": "color", "$value": "{base.palette.neutral.300}" },
-				"inverse": { "$type": "color", "$value": "{base.palette.neutral.100}" },
-				"icon":    { "$type": "color", "$value": "{base.palette.neutral.500}" },
-				"on-color": {
-				"weak": {
-					"$type": "color",
-					"$value": "{base.palette.neutral.100}",
-					"$description": "For strong backgrounds: brand, success, danger, info."
-				},
-				"strong": {
-					"$type": "color",
-					"$value": "{base.palette.neutral.500}",
-					"$description": "For strong backgrounds: primary, warning."
-				},
-				"disabled": {
-					"$type": "color",
-					"$value": "{base.palette.neutral.200}",
-					"$description": "For disabled state on colored backgrounds."
-				}
-				},
-				"status": {
-				"success": { "$type": "color", "$value": "{base.palette.success.400}" },
-				"warning": { "$type": "color", "$value": "{base.palette.warning.400}" },
-				"danger":  { "$type": "color", "$value": "{base.palette.danger.400}" },
-				"info":    { "$type": "color", "$value": "{base.palette.info.400}" }
-				},
+		"color": {
+			"text": {
+				"default": { "$type": "color", "$value": "{base.palette.neutral.950}" },
+				"subtle":  { "$type": "color", "$value": "{base.palette.neutral.500}" },
+				"inverse": { "$type": "color", "$value": "{base.palette.neutral.50}" },
 				"link": {
-				"default": { "$type": "color", "$value": "{base.palette.info.300}" },
-				"hover":   { "$type": "color", "$value": "{base.palette.info.400}" },
-				"visited": { "$type": "color", "$value": "{base.palette.accent.300}" }
+					"default":  { "$type": "color", "$value": "{base.palette.primary.800}" },
+					"hover": { "$type": "color", "$value": "{base.palette.primary.900}" }
 				}
 			}
 		}

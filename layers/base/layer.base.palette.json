@@ -137,11 +137,11 @@
       },
       "black": {
         "$type": "color",
-        "$value": "{primitives.color.black}"
+        "$value": "{base.palette.neutral.950}"
       },
       "white": {
         "$type": "color",
-        "$value": "{primitives.color.white}"
+        "$value": "{base.palette.neutral.50}"
       },
       "transparent": {
         "$type": "color",

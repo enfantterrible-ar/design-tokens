@@ -1,19 +1,40 @@
 {
-  	"semantics": {
-		"border": {
-			"color": {
+	"semantics": {
+		"color": {
+			"border": {
 				"neutral": {
-				"weak": { "$type": "color", "$value": "{base.palette.neutral.200}" },
-				"strong": { "$type": "color", "$value": "{base.palette.neutral.300}" }
+					"weak":   { "$type": "color", "$value": "{base.palette.neutral.300}" },
+					"strong": { "$type": "color", "$value": "{base.palette.neutral.800}" }
 				},
-				"brand":   { "$type": "color", "$value": "{base.palette.brand.300}" },
-				"primary": { "$type": "color", "$value": "{base.palette.primary.300}" },
-				"accent":  { "$type": "color", "$value": "{base.palette.accent.300}" },
-				"success": { "$type": "color", "$value": "{base.palette.success.300}" },
-				"warning": { "$type": "color", "$value": "{base.palette.warning.300}" },
-				"danger":  { "$type": "color", "$value": "{base.palette.danger.300}" },
-				"info":    { "$type": "color", "$value": "{base.palette.info.300}" }
+				"brand": {
+					"weak":   { "$type": "color", "$value": "{base.palette.brand.300}" },
+					"strong": { "$type": "color", "$value": "{base.palette.brand.500}" }
+				},
+				"primary": {
+					"weak":   { "$type": "color", "$value": "{base.palette.primary.300}" },
+					"strong": { "$type": "color", "$value": "{base.palette.primary.800}" }
+				},
+				"accent": {
+					"weak":   { "$type": "color", "$value": "{base.palette.accent.300}" },
+					"strong": { "$type": "color", "$value": "{base.palette.accent.800}" }
+				},
+				"success": {
+					"weak":   { "$type": "color", "$value": "{base.palette.success.300}" },
+					"strong": { "$type": "color", "$value": "{base.palette.success.800}" }
+				},
+				"warning": {
+					"weak":   { "$type": "color", "$value": "{base.palette.warning.300}" },
+					"strong": { "$type": "color", "$value": "{base.palette.warning.800}" }
+				},
+				"danger": {
+					"weak":   { "$type": "color", "$value": "{base.palette.danger.300}" },
+					"strong": { "$type": "color", "$value": "{base.palette.danger.800}" }
+				},
+				"info": {
+					"weak":   { "$type": "color", "$value": "{base.palette.info.300}" },
+					"strong": { "$type": "color", "$value": "{base.palette.info.800}" }
+				}
 			}
 		}
-  	}
+	}
 }

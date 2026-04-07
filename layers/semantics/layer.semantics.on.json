@@ -1,0 +1,32 @@
+{
+  	"semantics": {
+		"color": {
+			"on": {
+				"primary": {
+					"strong": { "$type": "color", "$value": "{semantics.color.text.inverse}" },
+					"weak":   { "$type": "color", "$value": "{base.palette.primary.800}" }
+				},
+				"accent": {
+					"strong": { "$type": "color", "$value": "{semantics.color.text.inverse}" },
+					"weak":   { "$type": "color", "$value": "{base.palette.accent.800}" }
+				},
+				"danger": {
+					"strong": { "$type": "color", "$value": "{semantics.color.text.inverse}" },
+					"weak":   { "$type": "color", "$value": "{base.palette.danger.800}" }
+				},
+				"success": {
+					"strong": { "$type": "color", "$value": "{semantics.color.text.inverse}" },
+					"weak":   { "$type": "color", "$value": "{base.palette.success.800}" }
+				},
+				"warning": {
+					"strong": { "$type": "color", "$value": "{base.palette.warning.950}" },
+					"weak":   { "$type": "color", "$value": "{base.palette.warning.900}" }
+				},
+				"info": {
+					"strong": { "$type": "color", "$value": "{semantics.color.text.inverse}" },
+					"weak":   { "$type": "color", "$value": "{base.palette.info.800}" }
+				}
+			}
+		}
+  	}
+}

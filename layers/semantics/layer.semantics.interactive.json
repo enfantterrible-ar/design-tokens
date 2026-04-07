@@ -1,0 +1,11 @@
+{
+	"semantics": {
+		"color": {
+			"interaction": {
+				"focus": {
+					"default": { "$type": "color", "$value": "{base.palette.primary.500}" }
+				}
+			}
+		}
+	}
+}

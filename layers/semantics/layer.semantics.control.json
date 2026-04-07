@@ -1,0 +1,22 @@
+{
+	"semantics": {
+		"color": {
+			"control": {
+				"neutral": {
+					"background": {
+						"default":  { "$type": "color", "$value": "{base.palette.neutral.100}" },
+						"hover": { "$type": "color", "$value": "{base.palette.neutral.200}" }
+					},
+					"text": {
+						"default":        { "$type": "color", "$value": "{semantics.color.text.default}" },
+						"placeholder": { "$type": "color", "$value": "{semantics.color.text.subtle}" }
+					},
+					"stroke": {
+						"default":    { "$type": "color", "$value": "{semantics.color.border.neutral.weak}" },
+						"invalid": { "$type": "color", "$value": "{semantics.color.status.danger.strong.stroke}" }
+					}
+				}
+			}
+		}
+	}
+}

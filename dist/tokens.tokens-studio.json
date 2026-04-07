@@ -142,7 +142,7 @@
     },
     "palette.black": {
       "$type": "color",
-      "$value": "#000000"
+      "$value": "#0c0a09"
     },
     "palette.brand.50": {
       "$type": "color",
@@ -727,7 +727,7 @@
     },
     "palette.white": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "#fafaf9"
     },
     "screens.1": {
       "$type": "dimension",
@@ -1549,269 +1549,377 @@
     }
   },
   "semantics": {
-    "background.accent.strong.active": {
+    "color.action.accent.strong.background.active": {
       "$type": "color",
       "$value": "#510424"
     },
-    "background.accent.strong.default": {
+    "color.action.accent.strong.background.default": {
       "$type": "color",
       "$value": "#a3004c"
     },
-    "background.accent.strong.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.accent.strong.hover": {
-      "$type": "color",
-      "$value": "#861043"
-    },
-    "background.accent.weak.active": {
-      "$type": "color",
-      "$value": "#fb64b6"
-    },
-    "background.accent.weak.default": {
+    "color.action.accent.strong.background.disabled": {
       "$type": "color",
       "$value": "#fccee8"
     },
-    "background.accent.weak.disabled": {
+    "color.action.accent.strong.background.hover": {
+      "$type": "color",
+      "$value": "#861043"
+    },
+    "color.action.accent.strong.stroke": {
+      "$type": "color",
+      "$value": "#a3004c"
+    },
+    "color.action.accent.strong.text": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.action.accent.weak.background.active": {
+      "$type": "color",
+      "$value": "#fda5d5"
+    },
+    "color.action.accent.weak.background.default": {
+      "$type": "color",
+      "$value": "#fce7f3"
+    },
+    "color.action.accent.weak.background.disabled": {
       "$type": "color",
       "$value": "#f5f5f4"
     },
-    "background.accent.weak.hover": {
+    "color.action.accent.weak.background.hover": {
+      "$type": "color",
+      "$value": "#fccee8"
+    },
+    "color.action.accent.weak.stroke": {
       "$type": "color",
       "$value": "#fda5d5"
     },
-    "background.brand.strong.default": {
+    "color.action.accent.weak.text": {
       "$type": "color",
-      "$value": "#e2a3a5"
+      "$value": "#a3004c"
     },
-    "background.danger.strong.active": {
-      "$type": "color",
-      "$value": "#460809"
-    },
-    "background.danger.strong.default": {
-      "$type": "color",
-      "$value": "#9f0712"
-    },
-    "background.danger.strong.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.danger.strong.hover": {
-      "$type": "color",
-      "$value": "#82181a"
-    },
-    "background.danger.weak.active": {
-      "$type": "color",
-      "$value": "#ff6467"
-    },
-    "background.danger.weak.default": {
-      "$type": "color",
-      "$value": "#ffc9c9"
-    },
-    "background.danger.weak.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.danger.weak.hover": {
-      "$type": "color",
-      "$value": "#ffa2a2"
-    },
-    "background.info.strong.active": {
-      "$type": "color",
-      "$value": "#162456"
-    },
-    "background.info.strong.default": {
-      "$type": "color",
-      "$value": "#193cb8"
-    },
-    "background.info.strong.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.info.strong.hover": {
-      "$type": "color",
-      "$value": "#1c398e"
-    },
-    "background.info.weak.active": {
-      "$type": "color",
-      "$value": "#51a2ff"
-    },
-    "background.info.weak.default": {
-      "$type": "color",
-      "$value": "#bedbff"
-    },
-    "background.info.weak.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.info.weak.hover": {
-      "$type": "color",
-      "$value": "#8ec5ff"
-    },
-    "background.neutral.strong.active": {
-      "$type": "color",
-      "$value": "#44403b"
-    },
-    "background.neutral.strong.default": {
-      "$type": "color",
-      "$value": "#57534d"
-    },
-    "background.neutral.strong.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.neutral.strong.hover": {
-      "$type": "color",
-      "$value": "#292524"
-    },
-    "background.neutral.weak.active": {
-      "$type": "color",
-      "$value": "#a6a09b"
-    },
-    "background.neutral.weak.default": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.neutral.weak.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.neutral.weak.hover": {
-      "$type": "color",
-      "$value": "#d6d3d1"
-    },
-    "background.primary.strong.active": {
+    "color.action.primary.strong.background.active": {
       "$type": "color",
       "$value": "#4b004f"
     },
-    "background.primary.strong.default": {
+    "color.action.primary.strong.background.default": {
       "$type": "color",
       "$value": "#8a0194"
     },
-    "background.primary.strong.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.primary.strong.hover": {
-      "$type": "color",
-      "$value": "#721378"
-    },
-    "background.primary.weak.active": {
-      "$type": "color",
-      "$value": "#ed6aff"
-    },
-    "background.primary.weak.default": {
+    "color.action.primary.strong.background.disabled": {
       "$type": "color",
       "$value": "#f6cfff"
     },
-    "background.primary.weak.disabled": {
+    "color.action.primary.strong.background.hover": {
       "$type": "color",
-      "$value": "#e7e5e4"
+      "$value": "#721378"
     },
-    "background.primary.weak.hover": {
+    "color.action.primary.strong.stroke": {
+      "$type": "color",
+      "$value": "#8a0194"
+    },
+    "color.action.primary.strong.text": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.action.primary.weak.background.active": {
       "$type": "color",
       "$value": "#f4a8ff"
     },
-    "background.success.strong.active": {
+    "color.action.primary.weak.background.default": {
       "$type": "color",
-      "$value": "#032e15"
+      "$value": "#fae8ff"
     },
-    "background.success.strong.default": {
+    "color.action.primary.weak.background.disabled": {
       "$type": "color",
-      "$value": "#016630"
+      "$value": "#f5f5f4"
     },
-    "background.success.strong.disabled": {
+    "color.action.primary.weak.background.hover": {
       "$type": "color",
-      "$value": "#e7e5e4"
+      "$value": "#f6cfff"
     },
-    "background.success.strong.hover": {
+    "color.action.primary.weak.stroke": {
       "$type": "color",
-      "$value": "#0d542b"
+      "$value": "#f4a8ff"
     },
-    "background.success.weak.active": {
+    "color.action.primary.weak.text": {
       "$type": "color",
-      "$value": "#05df72"
+      "$value": "#8a0194"
     },
-    "background.success.weak.default": {
+    "color.border.accent.strong": {
       "$type": "color",
-      "$value": "#b9f8cf"
+      "$value": "#a3004c"
     },
-    "background.success.weak.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.success.weak.hover": {
-      "$type": "color",
-      "$value": "#7bf1a8"
-    },
-    "background.warning.strong.active": {
-      "$type": "color",
-      "$value": "#461901"
-    },
-    "background.warning.strong.default": {
-      "$type": "color",
-      "$value": "#973c00"
-    },
-    "background.warning.strong.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.warning.strong.hover": {
-      "$type": "color",
-      "$value": "#7b3306"
-    },
-    "background.warning.weak.active": {
-      "$type": "color",
-      "$value": "#ffb900"
-    },
-    "background.warning.weak.default": {
-      "$type": "color",
-      "$value": "#fee685"
-    },
-    "background.warning.weak.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4"
-    },
-    "background.warning.weak.hover": {
-      "$type": "color",
-      "$value": "#ffd230"
-    },
-    "border.color.accent": {
+    "color.border.accent.weak": {
       "$type": "color",
       "$value": "#fda5d5"
     },
-    "border.color.brand": {
+    "color.border.brand.strong": {
+      "$type": "color",
+      "$value": "#d75e62"
+    },
+    "color.border.brand.weak": {
       "$type": "color",
       "$value": "#e2a3a5"
     },
-    "border.color.danger": {
+    "color.border.danger.strong": {
+      "$type": "color",
+      "$value": "#9f0712"
+    },
+    "color.border.danger.weak": {
       "$type": "color",
       "$value": "#ffa2a2"
     },
-    "border.color.info": {
+    "color.border.info.strong": {
+      "$type": "color",
+      "$value": "#193cb8"
+    },
+    "color.border.info.weak": {
       "$type": "color",
       "$value": "#8ec5ff"
     },
-    "border.color.neutral.strong": {
+    "color.border.neutral.strong": {
+      "$type": "color",
+      "$value": "#292524"
+    },
+    "color.border.neutral.weak": {
       "$type": "color",
       "$value": "#d6d3d1"
     },
-    "border.color.neutral.weak": {
+    "color.border.primary.strong": {
       "$type": "color",
-      "$value": "#e7e5e4"
+      "$value": "#8a0194"
     },
-    "border.color.primary": {
+    "color.border.primary.weak": {
       "$type": "color",
       "$value": "#f4a8ff"
     },
-    "border.color.success": {
+    "color.border.success.strong": {
+      "$type": "color",
+      "$value": "#016630"
+    },
+    "color.border.success.weak": {
       "$type": "color",
       "$value": "#7bf1a8"
     },
-    "border.color.warning": {
+    "color.border.warning.strong": {
+      "$type": "color",
+      "$value": "#973c00"
+    },
+    "color.border.warning.weak": {
       "$type": "color",
       "$value": "#ffd230"
+    },
+    "color.control.neutral.background.default": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "color.control.neutral.background.hover": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "color.control.neutral.stroke.default": {
+      "$type": "color",
+      "$value": "#d6d3d1"
+    },
+    "color.control.neutral.stroke.invalid": {
+      "$type": "color",
+      "$value": "#9f0712"
+    },
+    "color.control.neutral.text.default": {
+      "$type": "color",
+      "$value": "#0c0a09"
+    },
+    "color.control.neutral.text.placeholder": {
+      "$type": "color",
+      "$value": "#79716b"
+    },
+    "color.interaction.focus.default": {
+      "$type": "color",
+      "$value": "#e12afb"
+    },
+    "color.on.accent.strong": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.on.accent.weak": {
+      "$type": "color",
+      "$value": "#a3004c"
+    },
+    "color.on.danger.strong": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.on.danger.weak": {
+      "$type": "color",
+      "$value": "#9f0712"
+    },
+    "color.on.info.strong": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.on.info.weak": {
+      "$type": "color",
+      "$value": "#193cb8"
+    },
+    "color.on.primary.strong": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.on.primary.weak": {
+      "$type": "color",
+      "$value": "#8a0194"
+    },
+    "color.on.success.strong": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.on.success.weak": {
+      "$type": "color",
+      "$value": "#016630"
+    },
+    "color.on.warning.strong": {
+      "$type": "color",
+      "$value": "#461901"
+    },
+    "color.on.warning.weak": {
+      "$type": "color",
+      "$value": "#7b3306"
+    },
+    "color.status.danger.strong.background": {
+      "$type": "color",
+      "$value": "#9f0712"
+    },
+    "color.status.danger.strong.stroke": {
+      "$type": "color",
+      "$value": "#9f0712"
+    },
+    "color.status.danger.strong.text": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.status.danger.weak.background": {
+      "$type": "color",
+      "$value": "#ffc9c9"
+    },
+    "color.status.danger.weak.stroke": {
+      "$type": "color",
+      "$value": "#ffa2a2"
+    },
+    "color.status.danger.weak.text": {
+      "$type": "color",
+      "$value": "#9f0712"
+    },
+    "color.status.info.strong.background": {
+      "$type": "color",
+      "$value": "#193cb8"
+    },
+    "color.status.info.strong.stroke": {
+      "$type": "color",
+      "$value": "#193cb8"
+    },
+    "color.status.info.strong.text": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.status.info.weak.background": {
+      "$type": "color",
+      "$value": "#bedbff"
+    },
+    "color.status.info.weak.stroke": {
+      "$type": "color",
+      "$value": "#8ec5ff"
+    },
+    "color.status.info.weak.text": {
+      "$type": "color",
+      "$value": "#193cb8"
+    },
+    "color.status.success.strong.background": {
+      "$type": "color",
+      "$value": "#016630"
+    },
+    "color.status.success.strong.stroke": {
+      "$type": "color",
+      "$value": "#016630"
+    },
+    "color.status.success.strong.text": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.status.success.weak.background": {
+      "$type": "color",
+      "$value": "#b9f8cf"
+    },
+    "color.status.success.weak.stroke": {
+      "$type": "color",
+      "$value": "#7bf1a8"
+    },
+    "color.status.success.weak.text": {
+      "$type": "color",
+      "$value": "#016630"
+    },
+    "color.status.warning.strong.background": {
+      "$type": "color",
+      "$value": "#973c00"
+    },
+    "color.status.warning.strong.stroke": {
+      "$type": "color",
+      "$value": "#973c00"
+    },
+    "color.status.warning.strong.text": {
+      "$type": "color",
+      "$value": "#461901"
+    },
+    "color.status.warning.weak.background": {
+      "$type": "color",
+      "$value": "#fee685"
+    },
+    "color.status.warning.weak.stroke": {
+      "$type": "color",
+      "$value": "#ffd230"
+    },
+    "color.status.warning.weak.text": {
+      "$type": "color",
+      "$value": "#973c00"
+    },
+    "color.surface.base": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.surface.inverse": {
+      "$type": "color",
+      "$value": "#0c0a09"
+    },
+    "color.surface.overlay": {
+      "$type": "color",
+      "$value": "rgba(28, 25, 23, 0.4)"
+    },
+    "color.surface.raised": {
+      "$type": "color",
+      "$value": "#e7e5e4"
+    },
+    "color.surface.subtle": {
+      "$type": "color",
+      "$value": "#f5f5f4"
+    },
+    "color.text.default": {
+      "$type": "color",
+      "$value": "#0c0a09"
+    },
+    "color.text.inverse": {
+      "$type": "color",
+      "$value": "#fafaf9"
+    },
+    "color.text.link.default": {
+      "$type": "color",
+      "$value": "#8a0194"
+    },
+    "color.text.link.hover": {
+      "$type": "color",
+      "$value": "#721378"
+    },
+    "color.text.subtle": {
+      "$type": "color",
+      "$value": "#79716b"
     },
     "elevation.1": {
       "$type": "boxShadow",
@@ -1996,85 +2104,6 @@
         }
       ],
       "$description": "Default for modals, dialogs, and overlays."
-    },
-    "surface.base": {
-      "$type": "color",
-      "$value": "#f5f5f4",
-      "$description": "Default application background."
-    },
-    "surface.inverse": {
-      "$type": "color",
-      "$value": "#79716b",
-      "$description": "Inverse surface for dark sections."
-    },
-    "surface.overlay": {
-      "$type": "color",
-      "$value": "rgba(28, 25, 23, 0.4)",
-      "$description": "Backdrop scrim for modals and overlays."
-    },
-    "surface.raised": {
-      "$type": "color",
-      "$value": "#e7e5e4",
-      "$description": "Foreground containers: cards, modals, dropdowns."
-    },
-    "text.color.base": {
-      "$type": "color",
-      "$value": "#79716b"
-    },
-    "text.color.icon": {
-      "$type": "color",
-      "$value": "#79716b"
-    },
-    "text.color.inverse": {
-      "$type": "color",
-      "$value": "#f5f5f4"
-    },
-    "text.color.link.default": {
-      "$type": "color",
-      "$value": "#8ec5ff"
-    },
-    "text.color.link.hover": {
-      "$type": "color",
-      "$value": "#51a2ff"
-    },
-    "text.color.link.visited": {
-      "$type": "color",
-      "$value": "#fda5d5"
-    },
-    "text.color.muted": {
-      "$type": "color",
-      "$value": "#d6d3d1"
-    },
-    "text.color.on-color.disabled": {
-      "$type": "color",
-      "$value": "#e7e5e4",
-      "$description": "For disabled state on colored backgrounds."
-    },
-    "text.color.on-color.strong": {
-      "$type": "color",
-      "$value": "#79716b",
-      "$description": "For strong backgrounds: primary, warning."
-    },
-    "text.color.on-color.weak": {
-      "$type": "color",
-      "$value": "#f5f5f4",
-      "$description": "For strong backgrounds: brand, success, danger, info."
-    },
-    "text.color.status.danger": {
-      "$type": "color",
-      "$value": "#ff6467"
-    },
-    "text.color.status.info": {
-      "$type": "color",
-      "$value": "#51a2ff"
-    },
-    "text.color.status.success": {
-      "$type": "color",
-      "$value": "#05df72"
-    },
-    "text.color.status.warning": {
-      "$type": "color",
-      "$value": "#ffb900"
     },
     "typography.body.max": {
       "$type": "typography",
